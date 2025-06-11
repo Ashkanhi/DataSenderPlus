@@ -1,0 +1,1 @@
+{"MetaData":"7AB99EEC-33F9-4904-8655-B8A89F966079-3","ShopCode":"SH143","Quantity":1,"TotalPrice":4510000.000000,"Amount":4374700.000000,"InvoiceStatus":"1","DateX":"2021-12-23","InvoiceDetails":[{"BrandCode":"TO143","GroupType":"1","ProductGroupCode":"a","Quantity":1,"TotalPrice":4510000.000000,"Amount":4374700.000000}]}
