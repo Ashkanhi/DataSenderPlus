@@ -358,7 +358,7 @@
                 <Separator Background= "WhiteSmoke"/>
 
                 <StatusBarItem Margin="0,-10,0,0" Width="100"  Height="30" >
-                    <Label Content="نسخه 2.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
+                    <Label Content="نسخه 4.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
                 </StatusBarItem>
 
 

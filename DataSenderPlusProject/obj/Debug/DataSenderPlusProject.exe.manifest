@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataSenderPlusProject.exe" size="273912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataSenderPlusProject.exe" size="275456">
       <assemblyIdentity name="DataSenderPlusProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VSFPNch6/K7Ri+BfGnsDsE9sEMfT/ZU80gf7MTkgykE=</dsig:DigestValue>
+        <dsig:DigestValue>htvznDF0Z177CQQjN7nkSjc+4x+RmlMEm5g4UqiVTqw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
