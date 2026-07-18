@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading; // اضافه شده برای مدیریت Mutex
 using System.Threading.Tasks;
@@ -52,6 +53,9 @@ namespace DataSenderPlusProject
 
         public MainWindow()
         {
+
+       //    this.Closing += MainWindow_Closing;
+
             // کنترل اجرای تنها یک نسخه از برنامه
             bool createdNew;
             _mutex = new Mutex(true, "DataSenderPlus_Unique_App_ID_123456", out createdNew);
@@ -70,9 +74,17 @@ namespace DataSenderPlusProject
             timer.Start();
 
             PersianDate_Lbl.Content = dp.PersianDate();
-            CheckServiceMode();
+
+
+            
         }
 
+        private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = true;
+
+            this.Hide();
+        }
         void TimerTick_DateNow(object sender, EventArgs e)
         {
             DateTime_Lbl.Content = DateTime.Now.ToLongTimeString();
@@ -89,52 +101,97 @@ namespace DataSenderPlusProject
 
             return cn;
         }
-        public void F_UploadFtp_Ts1()
+        private FtpConfigurationModel GetFtpConfiguration(int configId, SqlConnection cn)
+        {
+            string query = @"
+    SELECT
+        ServerAddress,
+        UserName,
+        Password,
+        FileName,
+        IntervalValue,
+        SendFlag,
+        FolderPath
+    FROM FtpConfiguration
+    WHERE ConfigID = @ConfigID";
+
+            SqlCommand cmd = new SqlCommand(query, cn);
+
+            cmd.Parameters.AddWithValue("@ConfigID", configId);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+                FtpConfigurationModel config = new FtpConfigurationModel();
+
+                config.ServerAddress = reader["ServerAddress"].ToString();
+                config.UserName = reader["UserName"].ToString();
+                config.Password = reader["Password"].ToString();
+                config.FileName = reader["FileName"].ToString();
+                config.IntervalValue = Convert.ToInt32(reader["IntervalValue"]);
+                config.SendFlag = Convert.ToInt32(reader["SendFlag"]);
+                config.FolderPath = reader["FolderPath"].ToString();
+
+                reader.Close();
+
+                return config;
+            }
+
+            reader.Close();
+
+            return null;
+        }
+
+        public void F_UploadFtp(int configId)
         {
             try
             {
-                Logger.Info("F_UploadFtp_Ts1 Started.");
+                Logger.Info($"F_UploadFtp Started.  ConfigID={configId}");
 
                 SqlConnection cn = GetConnection();
-              
 
                 Logger.Info("Database connection opened.");
 
-                string Q_ProcedureName = " SELECT  ProcedureName    FROM SenderType WHERE TypeID  = 1 ";
-                string Q_ServerAddress = " SELECT  ServerAddress    FROM FtpConfiguration WHERE ConfigID = 1 ";
-                string Q_UserName = " SELECT  UserName         FROM FtpConfiguration WHERE ConfigID = 1  ";
-                string Q_Password = " SELECT  Password         FROM FtpConfiguration WHERE ConfigID = 1  ";
-                string Q_FileName = " SELECT  FileName         FROM FtpConfiguration WHERE ConfigID = 1  ";
-                string Q_TimerInterval = " SELECT  IntervalValue    FROM FtpConfiguration WHERE ConfigID = 1  ";
-                string Q_SendFlag = " SELECT  SendFlag    FROM FtpConfiguration WHERE ConfigID = 1  ";
-                string Q_ّFilePatch = " SELECT FolderPath FROM FtpConfiguration WHERE ConfigID = 1  ";
+                // دریافت تنظیمات FTP
+                FtpConfigurationModel config = GetFtpConfiguration(configId, cn);
+
+                if (config == null)
+                {
+                    throw new Exception("FTP Configuration not found.");
+                }
+
+                Logger.Info($"FTP Configuration Loaded. File : {config.FileName}");
+
+                // دریافت نام Stored Procedure
+                string Q_ProcedureName =
+                    "SELECT ProcedureName FROM SenderType WHERE TypeID = @TypeID ";
 
                 SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
-                SqlCommand GetServerAddress_cmd = new SqlCommand(Q_ServerAddress, cn);
-                SqlCommand GetUserName_cmd = new SqlCommand(Q_UserName, cn);
-                SqlCommand GetPassword_cmd = new SqlCommand(Q_Password, cn);
-                SqlCommand GetFileName_cmd = new SqlCommand(Q_FileName, cn);
-                SqlCommand TimerInterval_cmd = new SqlCommand(Q_TimerInterval, cn);
-                SqlCommand GetSendFlag_cmd = new SqlCommand(Q_SendFlag, cn);
-                SqlCommand GetFilePatch_cmd = new SqlCommand(Q_ّFilePatch, cn);
+
+                GetProcedureName_cmd.Parameters.AddWithValue("@TypeID", configId);
 
                 var vProcedureName = GetProcedureName_cmd.ExecuteScalar();
-                var vServerAddress = GetServerAddress_cmd.ExecuteScalar();
-                var vUserName = GetUserName_cmd.ExecuteScalar();
-                var vPassword = GetPassword_cmd.ExecuteScalar();
-                var vFileName = GetFileName_cmd.ExecuteScalar();
-                var vTimerInterval = TimerInterval_cmd.ExecuteScalar();
-                var vSendFlag = GetSendFlag_cmd.ExecuteScalar();
-                var FilePatch = GetFilePatch_cmd.ExecuteScalar();
 
-                Logger.Info("Configuration loaded successfully.");
+                if (vProcedureName == null)
+                {
+                    throw new Exception("Procedure Name not found.");
+                }
 
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , UploadTime ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 1, 'The Update Was Completed Successfully.' ) ";
+                // ثبت لاگ در دیتابیس
+                string Q_LogRecord =
+                    @"INSERT INTO LogRegisteration
+              (ConfigID, UploadTime, StatusID, Comment)
+              VALUES (@ConfigID, GETDATE(), 1,
+              'The Update Was Completed Successfully.')";
+
                 SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 1);
+                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", configId);
                 LogRecord_cmd.ExecuteNonQuery();
 
+                // اجرای Stored Procedure
                 DataTable dtable = new DataTable();
+
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = cn;
                 cmd.CommandText = vProcedureName.ToString();
@@ -145,325 +202,110 @@ namespace DataSenderPlusProject
 
                 Logger.Info($"Stored Procedure executed successfully. Rows Count : {dtable.Rows.Count}");
 
-                var JsonOutput = J.F_CreateJasonFile(dtable).ToString();
+                // تبدیل به Json
+                string JsonOutput = J.F_CreateJasonFile(dtable).ToString();
 
                 cn.Close();
 
                 Logger.Info("Database connection closed.");
 
+                // تعیین مسیر فایل
                 string basePath;
 
-                if (string.IsNullOrWhiteSpace(FilePatch.ToString()))
+                if (string.IsNullOrWhiteSpace(config.FolderPath))
                 {
                     basePath = System.IO.Path.GetDirectoryName(
-                        System.Reflection.Assembly.GetExecutingAssembly().Location);
+                        Assembly.GetExecutingAssembly().Location);
                 }
                 else
                 {
-                    basePath = FilePatch.ToString();
+                    basePath = config.FolderPath;
                 }
 
+                // ذخیره فایل Json
                 File.WriteAllText(
-                    basePath + "\\ExportFile\\" + vFileName + ".json",
+                   System.IO.Path.Combine(basePath, "ExportFile", config.FileName + ".json"),
                     JsonOutput);
 
-                Logger.Info($"Json file created successfully. File Name : {vFileName}.json");
+                Logger.Info($"Json file created successfully. File Name : {config.FileName}.json");
 
-                if (Convert.ToInt32(vSendFlag) == 1)
+                // ارسال به FTP
+                if (config.SendFlag == 1)
                 {
                     Logger.Info("FTP upload started.");
 
                     J.F_SendFile2Ftp(
-                        vServerAddress.ToString(),
-                        vUserName.ToString(),
-                        vPassword.ToString(),
-                        vFileName.ToString());
+                        config.ServerAddress,
+                        config.UserName,
+                        config.Password,
+                        config.FileName);
 
                     if (J.ErrorMessage == null)
                     {
                         Logger.Info("FTP upload completed successfully.");
-                        Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
+
+                        Log_Type_1_lbl.Content =
+                            "Ok" + " _ " +
+                            dp.PersianDate() + " _ " +
+                            DateTime.Now.ToShortTimeString();
                     }
                     else
                     {
                         Logger.Warning($"FTP upload failed. {J.ErrorMessage}");
+
                         Log_Type_1_lbl.Content = J.ErrorMessage;
                     }
                 }
 
                 Logger.Info("F_UploadFtp_Ts1 Finished.");
 
-                Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
+                Log_Type_1_lbl.Content =
+                    "Ok" + " _ " +
+                    dp.PersianDate() + " _ " +
+                    DateTime.Now.ToShortTimeString();
             }
             catch (Exception Error)
             {
                 Logger.Error(Error.ToString());
 
-                Log_Type_1_lbl.Content = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
+                Log_Type_1_lbl.Content =
+                    "Err" + " _ " +
+                    dp.PersianDate() + " _ " +
+                    DateTime.Now.ToShortTimeString();
 
-                SqlConnection cn = GetConnection();
+                try
+                {
+                    SqlConnection cn = GetConnection();
 
-                string CorrectError = Error.ToString().Replace("'", "''");
+                    string CorrectError = Error.ToString().Replace("'", "''");
 
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 1, N' " + CorrectError + "' ) ";
+                    string Q_LogRecord =
+                        @"INSERT INTO LogRegisteration
+                  (ConfigID, LogDate, StatusID, Comment)
+                  VALUES (@ConfigID, GETDATE(), 1, N'" + CorrectError + "')";
 
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 1);
-                LogRecord_cmd.ExecuteNonQuery();
+                    SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
 
-                cn.Close();
+                    LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 1);
+
+                    LogRecord_cmd.ExecuteNonQuery();
+
+                    cn.Close();
+                }
+                catch
+                {
+                    // اگر دیتابیس در دسترس نبود،
+                    // حداقل لاگ فایل ثبت شده است.
+                }
             }
         }
-        public void F_UploadFtp_Ts2()
-        {
-            try
-            {
-                SqlConnection cn = GetConnection();
-                string Q_ProcedureName = " SELECT  ProcedureName    FROM SenderType WHERE TypeID  = 2 ";
-                string Q_ServerAddress = " SELECT  ServerAddress    FROM FtpConfiguration WHERE ConfigID = 2 ";
-                string Q_UserName = " SELECT  UserName         FROM FtpConfiguration WHERE ConfigID = 2  ";
-                string Q_Password = " SELECT  Password         FROM FtpConfiguration WHERE ConfigID = 2  ";
-                string Q_FileName = " SELECT  FileName         FROM FtpConfiguration WHERE ConfigID = 2  ";
-                string Q_TimerInterval = " SELECT  IntervalValue    FROM FtpConfiguration WHERE ConfigID = 2  ";
-                SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
-                SqlCommand GetServerAddress_cmd = new SqlCommand(Q_ServerAddress, cn);
-                SqlCommand GetUserName_cmd = new SqlCommand(Q_UserName, cn);
-                SqlCommand GetPassword_cmd = new SqlCommand(Q_Password, cn);
-                SqlCommand GetFileName_cmd = new SqlCommand(Q_FileName, cn);
-                SqlCommand TimerInterval_cmd = new SqlCommand(Q_TimerInterval, cn);
-                var Type_2_vProcedureName = GetProcedureName_cmd.ExecuteScalar();
-                var Type_2_vServerAddress = GetServerAddress_cmd.ExecuteScalar();
-                var Type_2_vUserName = GetUserName_cmd.ExecuteScalar();
-                var Type_2_vPassword = GetPassword_cmd.ExecuteScalar();
-                var Type_2_vFileName = GetFileName_cmd.ExecuteScalar();
-                var Type_2_vTimerInterval = TimerInterval_cmd.ExecuteScalar();
+    
 
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , UploadTime ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 2, 'The Update Was Completed Successfully.' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 2);
-                LogRecord_cmd.ExecuteNonQuery();
-
-                DataTable dtable = new DataTable();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cn;
-                cmd.CommandText = Type_2_vProcedureName.ToString();
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataAdapter adp = new SqlDataAdapter(cmd);
-                adp.Fill(dtable);
-
-                var JsonOutput = J.F_CreateJasonFile(dtable).ToString();
-                cn.Close();
-                File.WriteAllText(@System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\" + Type_2_vFileName + ".json", JsonOutput);
-                J.F_SendFile2Ftp(Type_2_vServerAddress.ToString(), Type_2_vUserName.ToString(), Type_2_vPassword.ToString(), Type_2_vFileName.ToString());
-                if (J.ErrorMessage == null)
-                    T2_Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                else
-                    T2_Log_Type_1_lbl.Content = J.ErrorMessage;
-            }
-            catch (Exception Error)
-            {
-                T2_Log_Type_1_lbl.Content = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                string cs = J.GetConnectionString();
-                SqlConnection cn = new SqlConnection(cs);
-                cn.Open();
-                string CorrectError = Error.ToString().Replace("'", "''");
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 2, N' " + CorrectError + "' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 2);
-                LogRecord_cmd.ExecuteNonQuery();
-                cn.Close();
-            }
-        }
-
-        public void F_UploadFtp_Ts3()
-        {
-            try
-            {
-                SqlConnection cn = GetConnection();
-
-                string Q_ProcedureName = " SELECT  ProcedureName    FROM SenderType WHERE TypeID  = 3 ";
-                string Q_ServerAddress = " SELECT  ServerAddress    FROM FtpConfiguration WHERE ConfigID = 3 ";
-                string Q_UserName = " SELECT  UserName         FROM FtpConfiguration WHERE ConfigID = 3  ";
-                string Q_Password = " SELECT  Password         FROM FtpConfiguration WHERE ConfigID = 3  ";
-                string Q_FileName = " SELECT  FileName         FROM FtpConfiguration WHERE ConfigID = 3  ";
-                string Q_TimerInterval = " SELECT  IntervalValue    FROM FtpConfiguration WHERE ConfigID = 3  ";
-                SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
-                SqlCommand GetServerAddress_cmd = new SqlCommand(Q_ServerAddress, cn);
-                SqlCommand GetUserName_cmd = new SqlCommand(Q_UserName, cn);
-                SqlCommand GetPassword_cmd = new SqlCommand(Q_Password, cn);
-                SqlCommand GetFileName_cmd = new SqlCommand(Q_FileName, cn);
-                SqlCommand TimerInterval_cmd = new SqlCommand(Q_TimerInterval, cn);
-                var Type_3_vProcedureName = GetProcedureName_cmd.ExecuteScalar();
-                var Type_3_vServerAddress = GetServerAddress_cmd.ExecuteScalar();
-                var Type_3_vUserName = GetUserName_cmd.ExecuteScalar();
-                var Type_3_vPassword = GetPassword_cmd.ExecuteScalar();
-                var Type_3_vFileName = GetFileName_cmd.ExecuteScalar();
-                var Type_3_vTimerInterval = TimerInterval_cmd.ExecuteScalar();
-
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , UploadTime ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 3, 'The Update Was Completed Successfully.' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 3);
-                LogRecord_cmd.ExecuteNonQuery();
-
-                DataTable dtable = new DataTable();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cn;
-                cmd.CommandText = Type_3_vProcedureName.ToString();
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataAdapter adp = new SqlDataAdapter(cmd);
-                adp.Fill(dtable);
-
-                var JsonOutput = J.F_CreateJasonFile(dtable).ToString();
-                cn.Close();
-                File.WriteAllText(@System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\" + Type_3_vFileName + ".json", JsonOutput);
-                J.F_SendFile2Ftp(Type_3_vServerAddress.ToString(), Type_3_vUserName.ToString(), Type_3_vPassword.ToString(), Type_3_vFileName.ToString());
-                if (J.ErrorMessage == null)
-                    T3_Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                else
-                    T3_Log_Type_1_lbl.Content = J.ErrorMessage;
-            }
-            catch (Exception Error)
-            {
-                T3_Log_Type_1_lbl.Content = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                string cs = J.GetConnectionString();
-                SqlConnection cn = new SqlConnection(cs);
-                cn.Open();
-                string CorrectError = Error.ToString().Replace("'", "''");
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 3, N' " + CorrectError + "' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 3);
-                LogRecord_cmd.ExecuteNonQuery();
-                cn.Close();
-            }
-        }
-
-        public void F_UploadFtp_Ts4()
-        {
-            try
-            {
-                SqlConnection cn = GetConnection();
-                string Q_ProcedureName = " SELECT  ProcedureName    FROM SenderType WHERE TypeID  = 4 ";
-                string Q_ServerAddress = " SELECT  ServerAddress    FROM FtpConfiguration WHERE ConfigID = 4 ";
-                string Q_UserName = " SELECT  UserName         FROM FtpConfiguration WHERE ConfigID = 4  ";
-                string Q_Password = " SELECT  Password         FROM FtpConfiguration WHERE ConfigID = 4  ";
-                string Q_FileName = " SELECT  FileName         FROM FtpConfiguration WHERE ConfigID = 4  ";
-                string Q_TimerInterval = " SELECT  IntervalValue    FROM FtpConfiguration WHERE ConfigID = 4  ";
-                SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
-                SqlCommand GetServerAddress_cmd = new SqlCommand(Q_ServerAddress, cn);
-                SqlCommand GetUserName_cmd = new SqlCommand(Q_UserName, cn);
-                SqlCommand GetPassword_cmd = new SqlCommand(Q_Password, cn);
-                SqlCommand GetFileName_cmd = new SqlCommand(Q_FileName, cn);
-                SqlCommand TimerInterval_cmd = new SqlCommand(Q_TimerInterval, cn);
-                var Type_4_vProcedureName = GetProcedureName_cmd.ExecuteScalar();
-                var Type_4_vServerAddress = GetServerAddress_cmd.ExecuteScalar();
-                var Type_4_vUserName = GetUserName_cmd.ExecuteScalar();
-                var Type_4_vPassword = GetPassword_cmd.ExecuteScalar();
-                var Type_4_vFileName = GetFileName_cmd.ExecuteScalar();
-                var Type_4_vTimerInterval = TimerInterval_cmd.ExecuteScalar();
-
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , UploadTime ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 1 , 'The Update Was Completed Successfully.' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 4);
-                LogRecord_cmd.ExecuteNonQuery();
-
-                DataTable dtable = new DataTable();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cn;
-                cmd.CommandText = Type_4_vProcedureName.ToString();
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataAdapter adp = new SqlDataAdapter(cmd);
-                adp.Fill(dtable);
-
-                var JsonOutput = J.F_CreateJasonFile(dtable).ToString();
-                cn.Close();
-                File.WriteAllText(@System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\" + Type_4_vFileName + ".json", JsonOutput);
-                J.F_SendFile2Ftp(Type_4_vServerAddress.ToString(), Type_4_vUserName.ToString(), Type_4_vPassword.ToString(), Type_4_vFileName.ToString());
-                if (J.ErrorMessage == null)
-                    T4_Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                else
-                    T4_Log_Type_1_lbl.Content = J.ErrorMessage;
-            }
-            catch (Exception Error)
-            {
-                T4_Log_Type_1_lbl.Content = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                string cs = J.GetConnectionString();
-                SqlConnection cn = new SqlConnection(cs);
-                cn.Open();
-                string CorrectError = Error.ToString().Replace("'", "''");
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 4 , N' " + CorrectError + "' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 4);
-                LogRecord_cmd.ExecuteNonQuery();
-                cn.Close();
-            }
-        }
-
-        public void F_UploadFtp_Ts5()
-        {
-            try
-            {
-                SqlConnection cn = GetConnection();
-                string Q_ProcedureName = " SELECT  ProcedureName    FROM SenderType WHERE TypeID  = 5 ";
-                string Q_ServerAddress = " SELECT  ServerAddress    FROM FtpConfiguration WHERE ConfigID = 5 ";
-                string Q_UserName = " SELECT  UserName         FROM FtpConfiguration WHERE ConfigID = 5  ";
-                string Q_Password = " SELECT  Password         FROM FtpConfiguration WHERE ConfigID = 5  ";
-                string Q_FileName = " SELECT  FileName         FROM FtpConfiguration WHERE ConfigID = 5  ";
-                string Q_TimerInterval = " SELECT  IntervalValue    FROM FtpConfiguration WHERE ConfigID = 5  ";
-                SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
-                SqlCommand GetServerAddress_cmd = new SqlCommand(Q_ServerAddress, cn);
-                SqlCommand GetUserName_cmd = new SqlCommand(Q_UserName, cn);
-                SqlCommand GetPassword_cmd = new SqlCommand(Q_Password, cn);
-                SqlCommand GetFileName_cmd = new SqlCommand(Q_FileName, cn);
-                SqlCommand TimerInterval_cmd = new SqlCommand(Q_TimerInterval, cn);
-                var Type_5_vProcedureName = GetProcedureName_cmd.ExecuteScalar();
-                var Type_5_vServerAddress = GetServerAddress_cmd.ExecuteScalar();
-                var Type_5_vUserName = GetUserName_cmd.ExecuteScalar();
-                var Type_5_vPassword = GetPassword_cmd.ExecuteScalar();
-                var Type_5_vFileName = GetFileName_cmd.ExecuteScalar();
-                var Type_5_vTimerInterval = TimerInterval_cmd.ExecuteScalar();
-
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , UploadTime ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 1 , 'The Update Was Completed Successfully.' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 5);
-                LogRecord_cmd.ExecuteNonQuery();
-
-                DataTable dtable = new DataTable();
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = cn;
-                cmd.CommandText = Type_5_vProcedureName.ToString();
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlDataAdapter adp = new SqlDataAdapter(cmd);
-                adp.Fill(dtable);
-
-                var JsonOutput = J.F_CreateJasonFile(dtable).ToString();
-                cn.Close();
-                File.WriteAllText(@System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\" + Type_5_vFileName + ".json", JsonOutput);
-                J.F_SendFile2Ftp(Type_5_vServerAddress.ToString(), Type_5_vUserName.ToString(), Type_5_vPassword.ToString(), Type_5_vFileName.ToString());
-                if (J.ErrorMessage == null)
-                    T4_Log_Type_1_lbl.Content = "Ok" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                else
-                    T4_Log_Type_1_lbl.Content = J.ErrorMessage;
-            }
-            catch (Exception Error)
-            {
-                T4_Log_Type_1_lbl.Content = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-                string cs = J.GetConnectionString();
-                SqlConnection cn = new SqlConnection(cs);
-                cn.Open();
-                string CorrectError = Error.ToString().Replace("'", "''");
-                string Q_LogRecord = " INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) VALUES(@ConfigID, GetDate() , 5 , N' " + CorrectError + "' ) ";
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 5);
-                LogRecord_cmd.ExecuteNonQuery();
-                cn.Close();
-            }
-        }
-
-        void TimerTick_UploadFtp(object sender, EventArgs e) { F_UploadFtp_Ts1(); }
-        void TimerTick_UploadFtp_Type_2(object sender, EventArgs e) { F_UploadFtp_Ts2(); }
-        void TimerTick_UploadFtp_Type_3(object sender, EventArgs e) { F_UploadFtp_Ts3(); }
-        void TimerTick_UploadFtp_Type_4(object sender, EventArgs e) { F_UploadFtp_Ts4(); }
-        void TimerTick_UploadFtp_Type_5(object sender, EventArgs e) { F_UploadFtp_Ts5(); }
+        void TimerTick_UploadFtp(object sender, EventArgs e) { F_UploadFtp(1); }
+        void TimerTick_UploadFtp_Type_2(object sender, EventArgs e) { F_UploadFtp(2); }
+        void TimerTick_UploadFtp_Type_3(object sender, EventArgs e) { F_UploadFtp(3); }
+        void TimerTick_UploadFtp_Type_4(object sender, EventArgs e) { F_UploadFtp(4); }
+        void TimerTick_UploadFtp_Type_5(object sender, EventArgs e) { F_UploadFtp(5); }
 
         private void SendData_Btn_Click(object sender, RoutedEventArgs e)
         {
@@ -490,7 +332,7 @@ namespace DataSenderPlusProject
             DataSender_Type_1.Start();
         }
 
-        private void Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp_Ts1(); }
+        private void Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(1); }
 
         private void Panel_Type_Button_MouseRightButtonDown(object sender, MouseButtonEventArgs e) { }
 
@@ -519,7 +361,7 @@ namespace DataSenderPlusProject
 
         private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e) { }
 
-        private void T2_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp_Ts2(); }
+        private void T2_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(2); }
 
         private void Log_Type_1_lbl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
@@ -531,7 +373,7 @@ namespace DataSenderPlusProject
             Process.Start("explorer.exe", @System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\");
         }
 
-        private void T3_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp_Ts3(); }
+        private void T3_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(3); }
 
         private void T3_SendData_Btn_Click(object sender, RoutedEventArgs e)
         {
@@ -556,7 +398,7 @@ namespace DataSenderPlusProject
             DataSender_Type_3.Start();
         }
 
-        private void T4_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp_Ts4(); }
+        private void T4_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(4); }
 
         private void T4_SendData_Btn_Click(object sender, RoutedEventArgs e)
         {
@@ -581,89 +423,13 @@ namespace DataSenderPlusProject
             DataSender_Type_4.Start();
         }
 
-        private void T5_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp_Ts4(); }
+        private void T5_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(5); }
 
-        public void CheckServiceMode()
-        {
-            string cs = J.GetConnectionString();
-            SqlConnection cn = new SqlConnection(cs);
-            cn.Open();
-            SqlCommand GetInterval_Type_1_cmd = new SqlCommand(" SELECT IntervalValue  FROM FtpConfiguration WHERE ConfigID  = 1 ", cn);
-            SqlCommand GetInterval_Type_2_cmd = new SqlCommand(" SELECT IntervalValue  FROM FtpConfiguration WHERE ConfigID  = 2 ", cn);
-            SqlCommand GetInterval_Type_3_cmd = new SqlCommand(" SELECT IntervalValue  FROM FtpConfiguration WHERE ConfigID  = 3 ", cn);
-            SqlCommand GetInterval_Type_4_cmd = new SqlCommand(" SELECT IntervalValue  FROM FtpConfiguration WHERE ConfigID  = 4 ", cn);
-            SqlCommand GetInterval_Type_5_cmd = new SqlCommand(" SELECT IntervalValue  FROM FtpConfiguration WHERE ConfigID  = 5 ", cn);
-            var vInterval_Type_1 = GetInterval_Type_1_cmd.ExecuteScalar();
-            var vInterval_Type_2 = GetInterval_Type_2_cmd.ExecuteScalar();
-            var vInterval_Type_3 = GetInterval_Type_3_cmd.ExecuteScalar();
-            var vInterval_Type_4 = GetInterval_Type_4_cmd.ExecuteScalar();
-            var vInterval_Type_5 = GetInterval_Type_5_cmd.ExecuteScalar();
-            SqlCommand ServiceMode_Cmd = new SqlCommand(" SELECT ServiceMode   FROM SystemConfiguration ", cn);
-            var vServiceMode = ServiceMode_Cmd.ExecuteScalar();
-            bool bvServiceMode = Convert.ToBoolean(vServiceMode);
-            SqlCommand Type_1_ServiceMode_Cmd = new SqlCommand(" SELECT AccessFlag  FROM [dbo].[SenderType] WHERE TypeID  = 1 ", cn);
-            SqlCommand Type_2_ServiceMode_Cmd = new SqlCommand(" SELECT AccessFlag  FROM [dbo].[SenderType] WHERE TypeID  = 2 ", cn);
-            SqlCommand Type_3_ServiceMode_Cmd = new SqlCommand(" SELECT AccessFlag  FROM [dbo].[SenderType] WHERE TypeID  = 3 ", cn);
-            SqlCommand Type_4_ServiceMode_Cmd = new SqlCommand(" SELECT AccessFlag  FROM [dbo].[SenderType] WHERE TypeID  = 4 ", cn);
-            SqlCommand Type_5_ServiceMode_Cmd = new SqlCommand(" SELECT AccessFlag  FROM [dbo].[SenderType] WHERE TypeID  = 5 ", cn);
-            var v_Type_1_ServiceMode = Type_1_ServiceMode_Cmd.ExecuteScalar();
-            var v_Type_2_ServiceMode = Type_2_ServiceMode_Cmd.ExecuteScalar();
-            var v_Type_3_ServiceMode = Type_3_ServiceMode_Cmd.ExecuteScalar();
-            var v_Type_4_ServiceMode = Type_4_ServiceMode_Cmd.ExecuteScalar();
-            var v_Type_5_ServiceMode = Type_5_ServiceMode_Cmd.ExecuteScalar();
-            bool bv_Type_1_ServiceMode = Convert.ToBoolean(v_Type_1_ServiceMode);
-            bool bv_Type_2_ServiceMode = Convert.ToBoolean(v_Type_2_ServiceMode);
-            bool bv_Type_3_ServiceMode = Convert.ToBoolean(v_Type_3_ServiceMode);
-            bool bv_Type_4_ServiceMode = Convert.ToBoolean(v_Type_4_ServiceMode);
-            bool bv_Type_5_ServiceMode = Convert.ToBoolean(v_Type_5_ServiceMode);
-            if (bvServiceMode)
-            {
-                if (bv_Type_1_ServiceMode)
-                {
-                    TimeForShow = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_1));
-                    Show_timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
-                    {
-                        Timer_Type_1_lbl.Content = TimeForShow.ToString("c");
-                        if (TimeForShow == TimeSpan.Zero)
-                            TimeForShow = TimeForShow.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_1) * 60));
-                        else
-                            TimeForShow = TimeForShow.Add(TimeSpan.FromSeconds(-1));
-                    }, Application.Current.Dispatcher);
-                    Show_timer.Start();
-                    DataSender_Type_1.Interval = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_1));
-                    DataSender_Type_1.Tick += TimerTick_UploadFtp;
-                    DataSender_Type_1.Start();
-                }
-                if (bv_Type_2_ServiceMode)
-                {
-                    DataSender_Type_2.Interval = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_2));
-                    DataSender_Type_2.Tick += TimerTick_UploadFtp;
-                    DataSender_Type_2.Start();
-                }
-                if (bv_Type_3_ServiceMode)
-                {
-                    DataSender_Type_3.Interval = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_3));
-                    DataSender_Type_3.Tick += TimerTick_UploadFtp;
-                    DataSender_Type_3.Start();
-                }
-                if (bv_Type_4_ServiceMode)
-                {
-                    DataSender_Type_4.Interval = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_4));
-                    DataSender_Type_4.Tick += TimerTick_UploadFtp;
-                    DataSender_Type_4.Start();
-                }
-                if (bv_Type_5_ServiceMode)
-                {
-                    DataSender_Type_5.Interval = TimeSpan.FromMinutes(Convert.ToDouble(vInterval_Type_5));
-                    DataSender_Type_5.Tick += TimerTick_UploadFtp;
-                    DataSender_Type_5.Start();
-                }
-            }
-        }
+        
 
         private void Title_Type_6_lbl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            CheckServiceMode();
+            
         }
     }
 }

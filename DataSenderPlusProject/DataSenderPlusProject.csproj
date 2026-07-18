@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Models\C_JasonFile.cs" />
     <Compile Include="Models\DataSenderPlus.cs" />
+    <Compile Include="Models\FtpConfigurationModel.cs" />
     <Compile Include="Models\FtpSenderCs.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

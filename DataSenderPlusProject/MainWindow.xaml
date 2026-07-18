@@ -76,13 +76,18 @@
                        Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
                         Margin="-1,5,0,10" Width="324" Height="40"
                         Background="DodgerBlue" MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
+                        
+                        
 
+                        
+                        
                         <Button   x:Name="SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
                      Background ="LightBlue"   FontSize="14"  
                      FlowDirection="RightToLeft" 
                      Height="25" Width="90" 
-                     Margin="210,8,0,0" Click="SendData_Btn_Click"
+                     Margin="210,8,0,0" Click="SendData_Btn_Click" RenderTransformOrigin="-0.682,0.637"
              />
+
 
                         <Button   x:Name="Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
                    Background ="LightBlue"  FontSize="14"  
@@ -92,6 +97,7 @@
                         
            
            />
+                        
 
                     </WrapPanel>
 
@@ -338,9 +344,9 @@
             </TabItem>
 
         </TabControl>
-        
-        
-        
+
+
+
         <DockPanel  Grid.Row="7"  Grid.Column="0" Grid.ColumnSpan="12" FlowDirection="RightToLeft" Margin="0,10,0,8"  >
             <StatusBar  Background="Lavender" FlowDirection="RightToLeft"  Margin="0,0,0,-7" Height="20"   >
 
@@ -358,7 +364,7 @@
                 <Separator Background= "WhiteSmoke"/>
 
                 <StatusBarItem Margin="0,-10,0,0" Width="100"  Height="30" >
-                    <Label Content="نسخه 4.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
+                    <Label Content="نسخه 7.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
                 </StatusBarItem>
 
 
