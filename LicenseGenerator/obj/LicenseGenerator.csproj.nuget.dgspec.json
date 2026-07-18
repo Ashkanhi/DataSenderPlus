@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DataSenderPlus\\LicenseGenerator\\LicenseGenerator.csproj": {}
+  },
+  "projects": {
+    "E:\\DataSenderPlus\\LicenseGenerator\\LicenseGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DataSenderPlus\\LicenseGenerator\\LicenseGenerator.csproj",
+        "projectName": "LicenseGenerator",
+        "projectPath": "E:\\DataSenderPlus\\LicenseGenerator\\LicenseGenerator.csproj",
+        "packagesPath": "C:\\Users\\Ashkan-PC\\.nuget\\packages\\",
+        "outputPath": "E:\\DataSenderPlus\\LicenseGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "g:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ashkan-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\sharing-vm\\Temp\\Technical\\Packages": {},
+          "g:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "https://mirror-nuget.runflare.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

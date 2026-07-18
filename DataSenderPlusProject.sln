@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSenderPlusProject", "DataSenderPlusProject\DataSenderPlusProject.csproj", "{90A11400-B5F1-4DC4-A223-5565553A42BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseGenerator", "LicenseGenerator\LicenseGenerator.csproj", "{824508FD-2250-4CCD-AB7B-0EA439419449}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{90A11400-B5F1-4DC4-A223-5565553A42BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A11400-B5F1-4DC4-A223-5565553A42BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A11400-B5F1-4DC4-A223-5565553A42BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824508FD-2250-4CCD-AB7B-0EA439419449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824508FD-2250-4CCD-AB7B-0EA439419449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824508FD-2250-4CCD-AB7B-0EA439419449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824508FD-2250-4CCD-AB7B-0EA439419449}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

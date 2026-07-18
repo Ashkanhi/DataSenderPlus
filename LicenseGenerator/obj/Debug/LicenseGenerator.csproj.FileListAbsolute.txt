@@ -1,0 +1,17 @@
+E:\DataSenderPlus\LicenseGenerator\bin\Debug\LicenseGenerator.exe.config
+E:\DataSenderPlus\LicenseGenerator\bin\Debug\LicenseGenerator.exe
+E:\DataSenderPlus\LicenseGenerator\bin\Debug\LicenseGenerator.pdb
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.csproj.AssemblyReference.cache
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\MainWindow.g.cs
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\App.g.cs
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator_MarkupCompile.cache
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator_MarkupCompile.lref
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\MainWindow.baml
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.g.resources
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.Properties.Resources.resources
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.csproj.GenerateResource.cache
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.csproj.CoreCompileInputs.cache
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.exe
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseGenerator.pdb
+E:\DataSenderPlus\LicenseGenerator\bin\Debug\Newtonsoft.Json.dll
+E:\DataSenderPlus\LicenseGenerator\obj\Debug\LicenseG.97897944.Up2Date

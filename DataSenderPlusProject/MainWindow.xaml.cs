@@ -1,4 +1,5 @@
 ﻿using DataSenderPlusProject.Models;
+using DataSenderPlusProject.Security;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -53,8 +54,63 @@ namespace DataSenderPlusProject
 
         public MainWindow()
         {
+            LicenseManager manager = new LicenseManager();
 
-       //    this.Closing += MainWindow_Closing;
+            LicenseModel license = manager.LoadLicense();
+
+            if (license == null)
+            {
+
+
+                HardwareInfo hardware = new HardwareInfo();
+
+                ActivationWindow window =
+                    new ActivationWindow(hardware.GetHardwareFingerprint());
+
+                window.ShowDialog();
+ 
+            }
+            else
+            {
+                MessageBox.Show(license.ExpireDate.ToString());
+            }
+            /* LicenseManager manager = new LicenseManager();
+
+           LicenseModel license = manager.LoadLicense();
+
+           MessageBox.Show(license.ExpireDate.ToString());
+
+
+           LicenseManager manager = new LicenseManager();
+
+           LicenseModel model = new LicenseModel();
+
+           HardwareInfo hardware = new HardwareInfo();
+
+           model.HardwareFingerprint = hardware.GetHardwareFingerprint();
+
+           model.ExpireDate = DateTime.Now.AddDays(30);
+
+           model.LastCheckDate = DateTime.Now;
+
+           model.IsActive = true;
+
+           manager.SaveLicense(model);
+
+
+           LicenseManager manager = new LicenseManager();
+
+           MessageBox.Show(manager.LicenseExists().ToString());
+
+           HardwareInfo hardware = new HardwareInfo();
+
+           string fp = hardware.GetHardwareFingerprint();
+
+           MessageBox.Show(fp  ) ; 
+           */
+
+
+            //    this.Closing += MainWindow_Closing;
 
             // کنترل اجرای تنها یک نسخه از برنامه
             bool createdNew;

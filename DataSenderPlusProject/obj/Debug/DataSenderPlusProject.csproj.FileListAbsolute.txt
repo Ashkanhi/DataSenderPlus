@@ -42,3 +42,5 @@ E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\DataSenderPlusProject.csproj.C
 E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\DataSenderPlusProject.exe.manifest
 E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\DataSenderPlusProject.application
 E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\DataSend.974F8BD8.Up2Date
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\ActivationWindow.baml
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\ActivationWindow.g.cs

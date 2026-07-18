@@ -26,14 +26,14 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
-            <RowDefinition Height="0.15*" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="31.755" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
 
         </Grid.RowDefinitions>
 
@@ -76,11 +76,11 @@
                        Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
                         Margin="-1,5,0,10" Width="324" Height="40"
                         Background="DodgerBlue" MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
-                        
-                        
 
-                        
-                        
+
+
+
+
                         <Button   x:Name="SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
                      Background ="LightBlue"   FontSize="14"  
                      FlowDirection="RightToLeft" 
@@ -97,7 +97,7 @@
                         
            
            />
-                        
+
 
                     </WrapPanel>
 
@@ -364,7 +364,7 @@
                 <Separator Background= "WhiteSmoke"/>
 
                 <StatusBarItem Margin="0,-10,0,0" Width="100"  Height="30" >
-                    <Label Content="نسخه 7.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
+                    <Label Content="نسخه 8.0.0.0"  FontSize="12"   DockPanel.Dock="Left"  />
                 </StatusBarItem>
 
 
