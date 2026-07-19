@@ -1,12 +1,20 @@
-﻿<Window x:Name="Main_Wind" x:Class="DataSenderPlusProject.MainWindow"
+﻿<Window x:Name="Main_Wind"
+        x:Class="DataSenderPlusProject.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataSenderPlusProject"
-        mc:Ignorable="d" 
-        Title="DataSenderPlus" Height="270" Width="400"  FlowDirection="RightToLeft"
-        Background="WhiteSmoke" ResizeMode="CanMinimize"  >
+        mc:Ignorable="d"
+        Title="DataSender Plus"
+        Height="320"
+        Width="430"
+        MinHeight="320"
+        MinWidth="430"
+        WindowStartupLocation="CenterScreen"
+        FlowDirection="RightToLeft"
+        Background="#F5F7FA"
+        ResizeMode="CanMinimize">
     <Grid x:Name="Main_Pnl">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*" />
@@ -38,77 +46,146 @@
         </Grid.RowDefinitions>
 
 
-        <TabControl  Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="11" Margin="0,0,17,28" Grid.RowSpan="8" SelectionChanged="TabControl_SelectionChanged"
-                     Height="210"
-                     >
+        <TabControl Grid.Column="1"
+            Grid.Row="0"
+            Grid.ColumnSpan="11"
+            Grid.RowSpan="8"
+            Margin="5"
+            Padding="5"
+            Background="White"
+            BorderBrush="#D0D7DE"
+            BorderThickness="1"
+            SelectionChanged="TabControl_SelectionChanged">
 
-            <TabItem Header="فایل ارسالی اول" FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem Header="فایل ارسالی اول" FontFamily="B Nazanin">
 
+                <Grid Margin="10">
 
-                <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
-                     Margin="6,0,11,0" Width="350"  Height="182" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
 
+                    <!-- Header -->
+                    <Border Grid.Row="0"
+                Background="#1976D2"
+                BorderBrush="#1976D2"
+                BorderThickness="1"
+                CornerRadius="8">
 
-                    <WrapPanel Name="Panel_Type_1"  
-                       Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="4" 
-                        Margin="-1,9,0,10" Width="324"
-                        Background="DodgerBlue"   >
+                        <Grid Margin="10,0">
 
-                        <Label x:Name="Title_Type_6_lbl"  Content="  1- اطلاعـات پـایه کـالا" FontFamily="B Nazanin" 
-            FontSize="14"   FlowDirection="RightToLeft"
-                   Margin="-4,10,0,0" Height="40" Width="140" MouseDoubleClick="Title_Type_6_lbl_MouseDoubleClick"
-                   />
-                        <Label  Name="Timer_Type_1_lbl"  Content="00:00:00" FontFamily="B Nazanin" 
-            FontSize="25"   FlowDirection="RightToLeft"
-            Margin="5,0,0,0" Height="35" Width="91"                 
-                   />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="170"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
 
+                            <Label x:Name="Title_Type_6_lbl"
+                       Grid.Column="0"
+                       Content="1- اطلاعات پایه کالا"
+                       FontFamily="B Nazanin"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Background="Transparent"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Right"
+                       MouseDoubleClick="Title_Type_6_lbl_MouseDoubleClick"/>
 
-                    </WrapPanel>
-                    <Label  x:Name="Log_Type_1_lbl"  Content="can read log from here .." FontFamily="B Nazanin" 
-            FontSize="10"   FlowDirection="LeftToRight"
-            Height="47" Width="315" MouseDoubleClick="Log_Type_1_lbl_MouseDoubleClick"
-                            BorderThickness="1" BorderBrush="Black"
-                            Margin="0,-5,0,0"
-                   />
+                            <Label x:Name="Timer_Type_1_lbl"
+                       Grid.Column="1"
+                       Content="00:00:00"
+                       FontFamily="B Nazanin"
+                       FontSize="22"
+                       Foreground="White"
+                       Background="Transparent"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
 
-                    <WrapPanel Name="Panel_Type_Button"  
-                       Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
-                        Margin="-1,5,0,10" Width="324" Height="40"
-                        Background="DodgerBlue" MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
+                        </Grid>
 
+                    </Border>
 
+                    <!-- Log -->
+                    <Border Grid.Row="1"
+                Margin="0,10,0,0"
+                CornerRadius="8"
+                BorderBrush="#B0BEC5"
+                BorderThickness="1"
+                Background="White">
 
+                        <Label x:Name="Log_Type_1_lbl"
+                   Content="can read log from here .."
+                   FontFamily="Consolas"
+                   FontSize="10"
+                   FlowDirection="LeftToRight"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Padding="8"
+                   VerticalContentAlignment="Center"
+                   MouseDoubleClick="Log_Type_1_lbl_MouseDoubleClick"/>
 
+                    </Border>
 
-                        <Button   x:Name="SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
-                     Background ="LightBlue"   FontSize="14"  
-                     FlowDirection="RightToLeft" 
-                     Height="25" Width="90" 
-                     Margin="210,8,0,0" Click="SendData_Btn_Click" RenderTransformOrigin="-0.682,0.637"
-             />
+                    <!-- Buttons -->
+                    <Border Grid.Row="2"
+                Margin="0,10,0,0"
+                Background="#1976D2"
+                CornerRadius="8"
+                BorderBrush="#1976D2"
+                BorderThickness="1">
 
+                        <Grid Name="Panel_Type_Button"
+                  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown">
 
-                        <Button   x:Name="Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
-                   Background ="LightBlue"  FontSize="14"  
-                  FlowDirection="RightToLeft" 
-                       Height="25" Width="90"   
-                      Margin="20,-25,0,10" Click="Create_Btn_Click"
-                        
-           
-           />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
 
+                            <Button x:Name="SendData_Btn"
+                        Grid.Column="1"
+                        Width="95"
+                        Height="30"
+                        Content="شروع"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#1976D2"
+                        BorderBrush="#1976D2"
+                        Cursor="Hand"
+                        Click="SendData_Btn_Click"/>
 
-                    </WrapPanel>
+                            <Button x:Name="Create_Btn"
+                        Grid.Column="3"
+                        Width="95"
+                        Height="30"
+                        Content="تست ارتباط"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#1976D2"
+                        BorderBrush="#1976D2"
+                        Cursor="Hand"
+                        Click="Create_Btn_Click"/>
 
+                        </Grid>
 
+                    </Border>
 
+                </Grid>
 
+            </TabItem>
 
-
-                </StackPanel>
-            </TabItem >
-            <TabItem  Header="فایل ارسالی دوم" Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem  Header="فایل ارسالی دوم" 
+                      IsEnabled="False"
+                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
 
                 <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
                      Margin="6,0,11,0" Width="350"  Height="196" >
@@ -170,7 +247,9 @@
 
             </TabItem>
 
-            <TabItem  Header="فایل ارسالی سوم" Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem  Header="فایل ارسالی سوم"
+                      IsEnabled="False"
+                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
 
                 <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
                      Margin="6,0,11,0" Width="350"  Height="196" >
@@ -228,7 +307,9 @@
             </TabItem>
 
 
-            <TabItem  Header="فایل ارسالی چهارم" Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem  Header="فایل ارسالی چهارم" 
+                      IsEnabled="False"
+                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
 
                 <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
                      Margin="6,0,11,0" Width="350"  Height="196" >
@@ -285,7 +366,9 @@
 
 
             </TabItem>
-            <TabItem  Header="فایل ارسالی پنجم" Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem  Header="فایل ارسالی پنجم" 
+                      IsEnabled="False"
+                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
 
                 <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
                      Margin="6,0,11,0" Width="350"  Height="196" >
@@ -347,29 +430,67 @@
 
 
 
-        <DockPanel  Grid.Row="7"  Grid.Column="0" Grid.ColumnSpan="12" FlowDirection="RightToLeft" Margin="0,10,0,8"  >
-            <StatusBar  Background="Lavender" FlowDirection="RightToLeft"  Margin="0,0,0,-7" Height="20"   >
+        <Border Grid.Row="7"
+        Grid.Column="0"
+        Grid.ColumnSpan="12"
+        Margin="5,8,5,5"
+        Height="34"
+        Background="#F8FAFC"
+        BorderBrush="#D6DCE5"
+        BorderThickness="1"
+        CornerRadius="6">
 
 
-                <StatusBarItem   Width="100"  Margin="0,-10,0,0" Height="30"  >
-                    <Label Name="DateTime_Lbl" Content="Time" FontSize="12"  Height="auto"  Width="auto"    />
-                </StatusBarItem  >
+            <StackPanel Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
 
-                <Separator Background= "WhiteSmoke"/>
+                <!-- نسخه -->
+                <TextBlock Text="💻"
+                   FontSize="11"
+                   Margin="0,0,4,0"/>
 
-                <StatusBarItem  Width="100" Margin="0,-10,0,0" Height="30">
-                    <Label Name="PersianDate_Lbl" Content="Date"  FontSize="12"  DockPanel.Dock="Left"  Height="auto"  Width="auto" />
-                </StatusBarItem>
+                <TextBlock Text="نسخه 9.0.0.1"
+                   FontFamily="B Nazanin"
+                   FontSize="11"
+                   FontWeight="Bold"
+                   Foreground="#444"
+                   Margin="0,0,18,0"/>
 
-                <Separator Background= "WhiteSmoke"/>
+                <!-- تاریخ -->
+                <TextBlock Text="📅"
+                   FontSize="13"
+                   Margin="0,0,4,0"/>
 
-                <StatusBarItem Margin="0,-10,0,0" Width="100"  Height="30" >
-                    <Label Content="نسخه 8.0.0.1"  FontSize="12"   DockPanel.Dock="Left"  />
-                </StatusBarItem>
+                <Label x:Name="PersianDate_Lbl"
+               Content="1405/04/28"
+               FontFamily="B Nazanin"
+               FontSize="11"
+               FontWeight="Bold"
+               Background="Transparent"
+               BorderThickness="0"
+               Padding="0"
+               Foreground="#444"
+               Margin="0,0,18,0"/>
 
+                <!-- ساعت -->
+                <TextBlock Text="🕒"
+                   FontSize="11"
+                   Margin="0,0,4,0"/>
 
-            </StatusBar>
-        </DockPanel>
+                <Label x:Name="DateTime_Lbl"
+               Content="15:27:02"
+               FontFamily="B Nazanin"
+               FontSize="13"
+               FontWeight="Bold"
+               Background="Transparent"
+               BorderThickness="0"
+               Padding="0"
+               Foreground="#444"/>
+
+            </StackPanel>
+
+        </Border>
 
     </Grid>
 </Window>
