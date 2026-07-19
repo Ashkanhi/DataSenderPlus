@@ -183,246 +183,512 @@
 
             </TabItem>
 
-            <TabItem  Header="فایل ارسالی دوم" 
-                      IsEnabled="False"
-                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+            <TabItem Header="فایل ارسالی دوم"
+         x:Name="Tab_Type2"
+         IsEnabled="False"
+         FontFamily="B Nazanin">
 
-                <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
-                     Margin="6,0,11,0" Width="350"  Height="196" >
+                <Grid Margin="10">
 
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
 
-                    <WrapPanel Name="T2_Panel_Type_1"  
-                       Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="4" 
-                        Margin="-1,9,0,10" Width="324"
-                        Background="CadetBlue"   >
+                    <!-- Header -->
+                    <Border Grid.Row="0"
+                Background="#0097A7"
+                BorderBrush="#0097A7"
+                BorderThickness="1"
+                CornerRadius="8">
 
-                        <Label x:Name="T2_Title_Type_6_lbl"  Content="2-اطلاعـات کـارت هـدیـه" FontFamily="B Nazanin" 
-                            FontSize="14"   FlowDirection="RightToLeft"
-                   Margin="-2,10,0,0" Height="40" Width="145"
-                   />
-                        <Label  Name="T2_Timer_Type_1_lbl"  Content="00:00:00" FontFamily="B Nazanin" 
-                        FontSize="25"   FlowDirection="RightToLeft"
-                            Margin="5,0,0,0" Height="35" Width="91"                 
-                   />
+                        <Grid Margin="10,0">
 
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="170"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
 
-                    </WrapPanel>
-                    <Label  x:Name="T2_Log_Type_1_lbl"  Content="can read log from here .." FontFamily="B Nazanin" 
-                            FontSize="10"   FlowDirection="LeftToRight"
-                        Height="47" Width="315" MouseDoubleClick="T2_Log_Type_1_lbl_MouseDoubleClick"                 
-                            BorderThickness="1" BorderBrush="Black" Margin="0,-5,0,0"
-                   />
+                            <Label x:Name="T2_Title_Type_6_lbl"
+                       Grid.Column="0"
+                       Content="2- اطلاعات کارت هدیه"
+                       FontFamily="B Nazanin"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Background="Transparent"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Right"/>
 
-                    <WrapPanel Name="T2_Panel_Type_Button"  
-                       Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
-                        Margin="-1,5,0,10" Width="324" Height="40"
-                        Background="CadetBlue" MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
+                            <Label x:Name="T2_Timer_Type_1_lbl"
+                       Grid.Column="1"
+                       Content="00:00:00"
+                       FontFamily="B Nazanin"
+                       FontSize="22"
+                       Foreground="White"
+                       Background="Transparent"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
 
-                        <Button   x:Name="T2_SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
-                     Background ="DarkSeaGreen"   FontSize="14"  
-                     FlowDirection="RightToLeft" 
-                     Height="24" Width="90" 
-                     Margin="210,10,0,0" Click="T2_SendData_Btn_Click" 
-             />
+                        </Grid>
 
-                        <Button   x:Name="T2_Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
-                   Background ="DarkSeaGreen"  FontSize="14"  
-                  FlowDirection="RightToLeft" 
-                       Height="25" Width="90"   
-                      Margin="20,-26,0,10" Click="T2_Create_Btn_Click"  
-                        
-           
-           />
+                    </Border>
 
-                    </WrapPanel>
+                    <!-- Log -->
+                    <Border Grid.Row="1"
+                Margin="0,10,0,0"
+                CornerRadius="8"
+                BorderBrush="#B0BEC5"
+                BorderThickness="1"
+                Background="White">
 
+                        <Label x:Name="T2_Log_Type_1_lbl"
+                   Content="can read log from here .."
+                   FontFamily="Consolas"
+                   FontSize="10"
+                   FlowDirection="LeftToRight"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Padding="8"
+                   VerticalContentAlignment="Center"
+                   MouseDoubleClick="T2_Log_Type_1_lbl_MouseDoubleClick"/>
 
+                    </Border>
 
+                    <!-- Buttons -->
+                    <Border Grid.Row="2"
+                Margin="0,10,0,0"
+                Background="#0097A7"
+                CornerRadius="8"
+                BorderBrush="#0097A7"
+                BorderThickness="1">
 
+                        <Grid Name="T2_Panel_Type_Button"
+                  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown">
 
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
 
-                </StackPanel>
+                            <Button x:Name="T2_SendData_Btn"
+                        Grid.Column="1"
+                        Width="95"
+                        Height="30"
+                        Content="شروع"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#0097A7"
+                        BorderBrush="#0097A7"
+                        Cursor="Hand"
+                        Click="T2_SendData_Btn_Click"/>
 
+                            <Button x:Name="T2_Create_Btn"
+                        Grid.Column="3"
+                        Width="95"
+                        Height="30"
+                        Content="تست ارتباط"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#0097A7"
+                        BorderBrush="#0097A7"
+                        Cursor="Hand"
+                        Click="T2_Create_Btn_Click"/>
 
+                        </Grid>
+
+                    </Border>
+
+                </Grid>
+
+            </TabItem>
+
+            <TabItem Header="فایل ارسالی سوم"
+         x:Name="Tab_Type3"
+         IsEnabled="False"
+         FontFamily="B Nazanin">
+
+                <Grid Margin="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Header -->
+                    <Border Grid.Row="0"
+                Background="#00838F"
+                BorderBrush="#00838F"
+                BorderThickness="1"
+                CornerRadius="8">
+
+                        <Grid Margin="10,0">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="170"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label x:Name="T3_Title_Type_6_lbl"
+                       Grid.Column="0"
+                       Content="3- باشگاه مشتریان"
+                       FontFamily="B Nazanin"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Background="Transparent"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Right"/>
+
+                            <Label x:Name="T3_Timer_Type_1_lbl"
+                       Grid.Column="1"
+                       Content="00:00:00"
+                       FontFamily="B Nazanin"
+                       FontSize="22"
+                       Foreground="White"
+                       Background="Transparent"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
+
+                        </Grid>
+
+                    </Border>
+
+                    <!-- Log -->
+                    <Border Grid.Row="1"
+                Margin="0,10,0,0"
+                CornerRadius="8"
+                BorderBrush="#B0BEC5"
+                BorderThickness="1"
+                Background="White">
+
+                        <Label x:Name="T3_Log_Type_1_lbl"
+                   Content="can read log from here .."
+                   FontFamily="Consolas"
+                   FontSize="10"
+                   FlowDirection="LeftToRight"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Padding="8"
+                   VerticalContentAlignment="Center"/>
+
+                    </Border>
+
+                    <!-- Buttons -->
+                    <Border Grid.Row="2"
+                Margin="0,10,0,0"
+                Background="#00838F"
+                CornerRadius="8"
+                BorderBrush="#00838F"
+                BorderThickness="1">
+
+                        <Grid Name="T3_Panel_Type_Button"
+                  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Button x:Name="T3_SendData_Btn"
+                        Grid.Column="1"
+                        Width="95"
+                        Height="30"
+                        Content="شروع"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#00838F"
+                        BorderBrush="#00838F"
+                        Cursor="Hand"
+                        Click="T3_SendData_Btn_Click"/>
+
+                            <Button x:Name="T3_Create_Btn"
+                        Grid.Column="3"
+                        Width="95"
+                        Height="30"
+                        Content="تست ارتباط"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#00838F"
+                        BorderBrush="#00838F"
+                        Cursor="Hand"
+                        Click="T3_Create_Btn_Click"/>
+
+                        </Grid>
+
+                    </Border>
+
+                </Grid>
 
             </TabItem>
 
-            <TabItem  Header="فایل ارسالی سوم"
-                      IsEnabled="False"
-                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
 
-                <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
-                     Margin="6,0,11,0" Width="350"  Height="196" >
+            <TabItem Header="فایل ارسالی چهارم"
+         x:Name="Tab_Type4"
+         IsEnabled="False"
+         FontFamily="B Nazanin">
 
+                <Grid Margin="10">
 
-                    <WrapPanel Name="T3_Panel_Type_1"  
-                       Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="4" 
-                        Margin="-1,9,0,10" Width="324"
-                        Background="DarkCyan"   >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
 
-                        <Label x:Name="T3_Title_Type_6_lbl"  Content="3-باشـگـاه مشتـریـان" FontFamily="B Nazanin" 
-                            FontSize="14"   FlowDirection="RightToLeft"
-                   Margin="-2,10,0,0" Height="40" Width="140"
-                   />
-                        <Label  Name="T3_Timer_Type_1_lbl"  Content="00:00:00" FontFamily="B Nazanin" 
-                        FontSize="25"   FlowDirection="RightToLeft"
-                            Margin="5,0,0,0" Height="35" Width="91"                 
-                   />
+                    <!-- Header -->
+                    <Border Grid.Row="0"
+                Background="#F57C00"
+                BorderBrush="#F57C00"
+                BorderThickness="1"
+                CornerRadius="8">
 
+                        <Grid Margin="10,0">
 
-                    </WrapPanel>
-                    <Label  x:Name="T3_Log_Type_1_lbl"  Content="can read log from here .." FontFamily="B Nazanin" 
-                        FontSize="10"   FlowDirection="LeftToRight" Margin="0,-5,0,0"
-                        Height="47" Width="315" BorderThickness="1" BorderBrush="Black"
-                   />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="170"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
 
-                    <WrapPanel Name="T3_Panel_Type_Button"  
-                       Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
-                        Margin="-1,5,0,10" Width="324" Height="40"
-                        Background="DarkCyan" MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
+                            <Label x:Name="T4_Title_Type_6_lbl"
+                       Grid.Column="0"
+                       Content="4- اطلاعات دلخواه"
+                       FontFamily="B Nazanin"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Background="Transparent"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Right"/>
 
-                        <Button   x:Name="T3_SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
-                     Background ="LightCyan"   FontSize="14"  
-                     FlowDirection="RightToLeft" 
-                     Height="25" Width="90" 
-                     Margin="210,9,0,0" Click="T3_SendData_Btn_Click" 
-             />
+                            <Label x:Name="T4_Timer_Type_1_lbl"
+                       Grid.Column="1"
+                       Content="00:00:00"
+                       FontFamily="B Nazanin"
+                       FontSize="22"
+                       Foreground="White"
+                       Background="Transparent"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
 
-                        <Button   x:Name="T3_Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
-                   Background ="LightCyan"  FontSize="14"  
-                  FlowDirection="RightToLeft" 
-                       Height="25" Width="90"   
-                      Margin="20,-26,0,10" Click="T3_Create_Btn_Click" 
-                        
-           
-           />
+                        </Grid>
 
-                    </WrapPanel>
+                    </Border>
 
+                    <!-- Log -->
+                    <Border Grid.Row="1"
+                Margin="0,10,0,0"
+                CornerRadius="8"
+                BorderBrush="#B0BEC5"
+                BorderThickness="1"
+                Background="White">
 
-                </StackPanel>
+                        <Label x:Name="T4_Log_Type_1_lbl"
+                   Content="can read log from here .."
+                   FontFamily="Consolas"
+                   FontSize="10"
+                   FlowDirection="LeftToRight"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Padding="8"
+                   VerticalContentAlignment="Center"/>
 
+                    </Border>
 
+                    <!-- Buttons -->
+                    <Border Grid.Row="2"
+                Margin="0,10,0,0"
+                Background="#F57C00"
+                CornerRadius="8"
+                BorderBrush="#F57C00"
+                BorderThickness="1">
+
+                        <Grid Name="T4_Panel_Type_Button"
+                  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <Button x:Name="T4_SendData_Btn"
+                        Grid.Column="1"
+                        Width="95"
+                        Height="30"
+                        Content="شروع"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#F57C00"
+                        BorderBrush="#F57C00"
+                        Cursor="Hand"
+                        Click="T4_SendData_Btn_Click"/>
+
+                            <Button x:Name="T4_Create_Btn"
+                        Grid.Column="3"
+                        Width="95"
+                        Height="30"
+                        Content="تست ارتباط"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#F57C00"
+                        BorderBrush="#F57C00"
+                        Cursor="Hand"
+                        Click="T4_Create_Btn_Click"/>
+
+                        </Grid>
+
+                    </Border>
+
+                </Grid>
 
             </TabItem>
 
+            <TabItem Header="فایل ارسالی پنجم"
+         x:Name="Tab_Type5"
+         IsEnabled="False"
+         FontFamily="B Nazanin">
 
-            <TabItem  Header="فایل ارسالی چهارم" 
-                      IsEnabled="False"
-                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+                <Grid Margin="10">
 
-                <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
-                     Margin="6,0,11,0" Width="350"  Height="196" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
 
+                    <!-- Header -->
+                    <Border Grid.Row="0"
+                Background="#8E24AA"
+                BorderBrush="#8E24AA"
+                BorderThickness="1"
+                CornerRadius="8">
 
-                    <WrapPanel Name="T4_Panel_Type_1"  
-                       Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="4" 
-                        Margin="-1,9,0,10" Width="324"
-                        Background="LightCoral"   >
+                        <Grid Margin="10,0">
 
-                        <Label x:Name="T4_Title_Type_6_lbl"  Content="4-اطلاعـات دلـخـواه" FontFamily="B Nazanin" 
-                            FontSize="14"   FlowDirection="RightToLeft"
-                   Margin="-2,10,0,0" Height="40" Width="140"
-                   />
-                        <Label  Name="T4_Timer_Type_1_lbl"  Content="00:00:00" FontFamily="B Nazanin" 
-                        FontSize="25"   FlowDirection="RightToLeft"
-                            Margin="5,0,0,0" Height="35" Width="91"                 
-                   />
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="170"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
 
+                            <Label x:Name="T5_Title_Type_6_lbl"
+                       Grid.Column="0"
+                       Content="5- اطلاعات دلخواه"
+                       FontFamily="B Nazanin"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Foreground="White"
+                       Background="Transparent"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Right"/>
 
-                    </WrapPanel>
-                    <Label  x:Name="T4_Log_Type_1_lbl"  Content="can read log from here .." FontFamily="B Nazanin" 
-                        FontSize="10"   FlowDirection="LeftToRight"
-                          BorderThickness="1" BorderBrush="Black"
-                        Height="47" Width="315" Margin="0,-5,0,0"
-                   />
+                            <Label x:Name="T5_Timer_Type_1_lbl"
+                       Grid.Column="1"
+                       Content="00:00:00"
+                       FontFamily="B Nazanin"
+                       FontSize="22"
+                       Foreground="White"
+                       Background="Transparent"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
 
-                    <WrapPanel Name="T4_Panel_Type_Button"  
-                       Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
-                        Margin="-1,5,0,10" Width="324" Height="40"
-                        Background="LightCoral"  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
+                        </Grid>
 
-                        <Button   x:Name="T4_SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
-                     Background ="LightCyan"   FontSize="14"  
-                     FlowDirection="RightToLeft" 
-                     Height="25" Width="90" 
-                     Margin="210,9,0,0" Click="T4_SendData_Btn_Click" 
-             />
+                    </Border>
 
-                        <Button   x:Name="T4_Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
-                   Background ="LightCyan"  FontSize="14"  
-                  FlowDirection="RightToLeft" 
-                       Height="25" Width="90"   
-                      Margin="20,-25,0,0" Click="T4_Create_Btn_Click" 
-                        
-           
-           />
+                    <!-- Log -->
+                    <Border Grid.Row="1"
+                Margin="0,10,0,0"
+                CornerRadius="8"
+                BorderBrush="#B0BEC5"
+                BorderThickness="1"
+                Background="White">
 
-                    </WrapPanel>
+                        <Label x:Name="T5_Log_Type_1_lbl"
+                   Content="can read log from here .."
+                   FontFamily="Consolas"
+                   FontSize="10"
+                   FlowDirection="LeftToRight"
+                   Background="Transparent"
+                   BorderThickness="0"
+                   Padding="8"
+                   VerticalContentAlignment="Center"/>
 
+                    </Border>
 
-                </StackPanel>
+                    <!-- Buttons -->
+                    <Border Grid.Row="2"
+                Margin="0,10,0,0"
+                Background="#8E24AA"
+                CornerRadius="8"
+                BorderBrush="#8E24AA"
+                BorderThickness="1">
 
+                        <Grid Name="T5_Panel_Type_Button"
+                  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown">
 
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
 
-            </TabItem>
-            <TabItem  Header="فایل ارسالی پنجم" 
-                      IsEnabled="False"
-                      Margin="1,0,-1,0"  FontFamily="B Nazanin" FontWeight="Bold" >
+                            <Button x:Name="T5_SendData_Btn"
+                        Grid.Column="1"
+                        Width="95"
+                        Height="30"
+                        Content="شروع"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#8E24AA"
+                        BorderBrush="#8E24AA"
+                        Cursor="Hand"/>
 
-                <StackPanel  Grid.Row="1"   Grid.Column="0"  Grid.ColumnSpan="12"  Grid.RowSpan="7" 
-                     Margin="6,0,11,0" Width="350"  Height="196" >
+                            <Button x:Name="T5_Create_Btn"
+                        Grid.Column="3"
+                        Width="95"
+                        Height="30"
+                        Content="تست ارتباط"
+                        FontFamily="B Nazanin"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Background="White"
+                        Foreground="#8E24AA"
+                        BorderBrush="#8E24AA"
+                        Cursor="Hand"
+                        Click="T5_Create_Btn_Click"/>
 
+                        </Grid>
 
-                    <WrapPanel Name="T5_Panel_Type_1"  
-                       Grid.Row="2"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="4" 
-                        Margin="-1,9,0,10" Width="324"
-                        Background="HotPink"   >
+                    </Border>
 
-                        <Label x:Name="T5_Title_Type_6_lbl"  Content="5-اطلاعـات دلـخـواه" FontFamily="B Nazanin" 
-                            FontSize="14"   FlowDirection="RightToLeft"
-                   Margin="-2,10,0,0" Height="40" Width="140"
-                   />
-                        <Label  Name="T5_Timer_Type_1_lbl"  Content="00:00:00" FontFamily="B Nazanin" 
-                        FontSize="25"   FlowDirection="RightToLeft"
-                            Margin="5,0,0,0" Height="35" Width="91"                 
-                   />
-
-
-                    </WrapPanel>
-                    <Label  x:Name="T5_Log_Type_1_lbl"  Content="can read log from here .." FontFamily="B Nazanin" 
-                        FontSize="10"   FlowDirection="LeftToRight"
-                          BorderThickness="1" BorderBrush="Black"
-                        Height="47" Width="315" Margin="0,-5,0,0"
-                   />
-
-                    <WrapPanel Name="T5_Panel_Type_Button"  
-                       Grid.Row="3"  Grid.Column="0" Grid.ColumnSpan="12"  Grid.RowSpan="3" 
-                        Margin="-1,5,0,10" Width="324" Height="40"
-                        Background="HotPink"  MouseRightButtonDown="Panel_Type_Button_MouseRightButtonDown"  >
-
-                        <Button   x:Name="T5_SendData_Btn"  Content="شروع"   FontFamily="B Nazanin"                    
-                     Background ="LightCyan"   FontSize="14"  
-                     FlowDirection="RightToLeft" 
-                     Height="25" Width="90" 
-                     Margin="210,9,0,0" 
-             />
-
-                        <Button   x:Name="T5_Create_Btn"  Content="ایجاد فایل"   FontFamily="B Nazanin"                    
-                   Background ="LightCyan"  FontSize="14"  
-                  FlowDirection="RightToLeft" 
-                       Height="25" Width="90"   
-                      Margin="20,-25,0,0" Click="T5_Create_Btn_Click" 
-                        
-           
-           />
-
-                    </WrapPanel>
-
-
-                </StackPanel>
-
-
+                </Grid>
 
             </TabItem>
 
@@ -450,7 +716,7 @@
                    FontSize="11"
                    Margin="0,0,4,0"/>
 
-                <TextBlock Text="نسخه 9.0.0.1"
+                <TextBlock Text="نسخه 9.0.0.3"
                    FontFamily="B Nazanin"
                    FontSize="11"
                    FontWeight="Bold"
