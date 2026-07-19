@@ -58,22 +58,51 @@ namespace DataSenderPlusProject
 
             LicenseModel license = manager.LoadLicense();
 
+            // فایل لایسنس وجود ندارد
             if (license == null)
             {
-
-
                 HardwareInfo hardware = new HardwareInfo();
 
                 ActivationWindow window =
                     new ActivationWindow(hardware.GetHardwareFingerprint());
 
                 window.ShowDialog();
- 
+
+                Environment.Exit(0);
+                return;
             }
-            else
+
+            // لایسنس غیرفعال است
+            if (!license.IsActive)
             {
-                MessageBox.Show(license.ExpireDate.ToString());
+                MessageBox.Show("License is Disabled.");
+
+                Environment.Exit(0);
+                return;
             }
+
+            // تاریخ لایسنس گذشته است
+            if (license.ExpireDate.Date < DateTime.Today)
+            {
+                MessageBox.Show("License Expired.");
+                //MessageBox.Show("Step 2");
+
+
+                Environment.Exit(0);
+                //MessageBox.Show("Step 3");
+
+                return;
+            }
+
+            //// تعداد روز باقی مانده
+            //int remainDays = (license.ExpireDate.Date - DateTime.Today).Days;
+
+            //MessageBox.Show(
+            //    $"License Expire : {license.ExpireDate:yyyy/MM/dd}\n" +
+            //    $"Remaining Days : {remainDays}");
+
+
+
             /* LicenseManager manager = new LicenseManager();
 
            LicenseModel license = manager.LoadLicense();

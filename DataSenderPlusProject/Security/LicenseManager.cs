@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Newtonsoft.Json;
+ 
 
 namespace DataSenderPlusProject.Security
 {
@@ -33,16 +34,22 @@ namespace DataSenderPlusProject.Security
 
             File.WriteAllText(_licensePath, json);
         }
-        
+
         public LicenseModel LoadLicense()
         {
+            // اگر فایل وجود نداشت
             if (!File.Exists(_licensePath))
             {
                 return null;
             }
 
-            string json = File.ReadAllText(_licensePath);
+            // خواندن متن رمز شده از فایل
+            string encryptText = File.ReadAllText(_licensePath);
 
+            // رمزگشایی
+            string json = CryptoHelper.Decrypt(encryptText);
+
+            // تبدیل Json به مدل
             LicenseModel license =
                 JsonConvert.DeserializeObject<LicenseModel>(json);
 

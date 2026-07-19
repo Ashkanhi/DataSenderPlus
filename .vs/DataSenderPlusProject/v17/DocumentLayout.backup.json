@@ -7,39 +7,31 @@
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|e:\\datasenderplus\\licensegenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\models\\datasenderplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\models\\datasenderplus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|e:\\datasenderplus\\licensegenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\security\\cryptohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\security\\cryptohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\models\\c_jasonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\models\\c_jasonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\activationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\activationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\activationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\activationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|e:\\datasenderplus\\licensegenerator\\models\\cryptohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\models\\cryptohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|e:\\datasenderplus\\licensegenerator\\models\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\models\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\security\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\security\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\security\\licensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\security\\licensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\security\\licensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,7 +39,27 @@
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\models\\ftpconfigurationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\security\\hardwareinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|E:\\DataSenderPlus\\licensegenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|E:\\DataSenderPlus\\licensegenerator\\models\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{824508FD-2250-4CCD-AB7B-0EA439419449}|LicenseGenerator\\LicenseGenerator.csproj|solutionrelative:licensegenerator\\models\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\activationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\activationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\activationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\activationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\security\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\security\\licensemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\security\\hardwareinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\security\\hardwareinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -87,69 +99,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ActivationWindow.xaml.cs",
-              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DataSenderPlusProject\\ActivationWindow.xaml.cs",
-              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml.cs",
-              "RelativeToolTip": "DataSenderPlusProject\\ActivationWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T13:03:27.412Z",
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\App.config",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\App.config",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\App.config",
+              "RelativeToolTip": "DataSenderPlusProject\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-19T06:56:09.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ActivationWindow.xaml",
-              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml",
-              "RelativeDocumentMoniker": "DataSenderPlusProject\\ActivationWindow.xaml",
-              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml",
-              "RelativeToolTip": "DataSenderPlusProject\\ActivationWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-18T13:02:22.101Z",
+              "DocumentIndex": 4,
+              "Title": "C_JasonFile.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\C_JasonFile.cs",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\Models\\C_JasonFile.cs",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\C_JasonFile.cs",
+              "RelativeToolTip": "DataSenderPlusProject\\Models\\C_JasonFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T06:40:26.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "LicenseGenerator\\MainWindow.xaml",
-              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml",
-              "RelativeToolTip": "LicenseGenerator\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-18T12:42:09.928Z",
+              "Title": "DataSenderPlus.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\DataSenderPlus.cs",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\Models\\DataSenderPlus.cs",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\DataSenderPlus.cs",
+              "RelativeToolTip": "DataSenderPlusProject\\Models\\DataSenderPlus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T06:40:11.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LicenseGenerator\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "LicenseGenerator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwBsAAAAJAAAAAAAAAA==",
+              "Title": "CryptoHelper.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\CryptoHelper.cs",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\Security\\CryptoHelper.cs",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\CryptoHelper.cs",
+              "RelativeToolTip": "DataSenderPlusProject\\Security\\CryptoHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T12:42:09.766Z",
+              "WhenOpened": "2026-07-19T06:39:51.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "CryptoHelper.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\CryptoHelper.cs",
+              "RelativeDocumentMoniker": "LicenseGenerator\\Models\\CryptoHelper.cs",
+              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\CryptoHelper.cs",
+              "RelativeToolTip": "LicenseGenerator\\Models\\CryptoHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T06:21:07.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LicenseManager.cs",
               "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\LicenseManager.cs",
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Security\\LicenseManager.cs",
               "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\LicenseManager.cs",
               "RelativeToolTip": "DataSenderPlusProject\\Security\\LicenseManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwDAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T12:10:49.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "LicenseModel.cs",
               "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\LicenseModel.cs",
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Security\\LicenseModel.cs",
@@ -157,8 +184,7 @@
               "RelativeToolTip": "DataSenderPlusProject\\Security\\LicenseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T12:06:56.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T12:06:56.424Z"
             },
             {
               "$type": "Document",
@@ -168,21 +194,9 @@
               "RelativeDocumentMoniker": "DataSenderPlusProject\\MainWindow.xaml.cs",
               "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\MainWindow.xaml.cs",
               "RelativeToolTip": "DataSenderPlusProject\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwEcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T06:26:01.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\App.xaml",
-              "RelativeDocumentMoniker": "DataSenderPlusProject\\App.xaml",
-              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\App.xaml",
-              "RelativeToolTip": "DataSenderPlusProject\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-18T13:05:42.382Z",
               "EditorCaption": ""
             },
             {
@@ -199,20 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LicenseModel.cs",
-              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\LicenseModel.cs",
-              "RelativeDocumentMoniker": "LicenseGenerator\\Models\\LicenseModel.cs",
-              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\LicenseModel.cs",
-              "RelativeToolTip": "LicenseGenerator\\Models\\LicenseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T12:51:26.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "FtpConfigurationModel.cs",
               "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\FtpConfigurationModel.cs",
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Models\\FtpConfigurationModel.cs",
@@ -225,7 +226,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LicenseGenerator\\MainWindow.xaml",
+              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\MainWindow.xaml",
+              "RelativeToolTip": "LicenseGenerator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-18T12:42:09.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActivationWindow.xaml",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\ActivationWindow.xaml",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml",
+              "RelativeToolTip": "DataSenderPlusProject\\ActivationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-18T13:02:22.101Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "ActivationWindow.xaml.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataSenderPlusProject\\ActivationWindow.xaml.cs",
+              "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\ActivationWindow.xaml.cs",
+              "RelativeToolTip": "DataSenderPlusProject\\ActivationWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T13:03:27.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LicenseModel.cs",
+              "DocumentMoniker": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\LicenseModel.cs",
+              "RelativeDocumentMoniker": "LicenseGenerator\\Models\\LicenseModel.cs",
+              "ToolTip": "E:\\DataSenderPlus\\LicenseGenerator\\Models\\LicenseModel.cs",
+              "RelativeToolTip": "LicenseGenerator\\Models\\LicenseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T12:51:26.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HardwareInfo.cs",
               "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Security\\HardwareInfo.cs",
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Security\\HardwareInfo.cs",
@@ -233,12 +282,11 @@
               "RelativeToolTip": "DataSenderPlusProject\\Security\\HardwareInfo.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T11:47:01.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T11:47:01.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Logger.cs",
               "DocumentMoniker": "E:\\DataSenderPlus\\DataSenderPlusProject\\Models\\Logger.cs",
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Models\\Logger.cs",
@@ -246,8 +294,7 @@
               "RelativeToolTip": "DataSenderPlusProject\\Models\\Logger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T06:25:54.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T06:25:54.65Z"
             }
           ]
         }

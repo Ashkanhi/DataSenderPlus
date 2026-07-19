@@ -93,6 +93,7 @@
     <Compile Include="ActivationWindow.xaml.cs">
       <DependentUpon>ActivationWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Security\CryptoHelper.cs" />
     <Compile Include="Security\HardwareInfo.cs" />
     <Compile Include="Security\LicenseManager.cs" />
     <Compile Include="Security\LicenseModel.cs" />

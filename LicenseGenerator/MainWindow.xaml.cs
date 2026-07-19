@@ -31,28 +31,43 @@ namespace LicenseGenerator
 
         private void btnGenerate_Click(object sender, RoutedEventArgs e)
         {
-            LicenseModel license = new LicenseModel();
-
-            license.HardwareFingerprint = txtHardware.Text;
-
+            // اگر تاریخ انتخاب نشده باشد
             if (dpExpireDate.SelectedDate == null)
             {
                 MessageBox.Show("Please select Expire Date.");
                 return;
             }
 
+            // ساخت مدل لایسنس
+            LicenseModel license = new LicenseModel();
+
+            // کد سخت افزاری
+            license.HardwareFingerprint = txtHardware.Text;
+
+            // تاریخ انقضای لایسنس
+            license.ExpireDate = dpExpireDate.SelectedDate.Value;
+
+            // تاریخ آخرین بررسی
             license.LastCheckDate = DateTime.Now;
+
+            // وضعیت فعال بودن لایسنس
             license.IsActive = chkIsActive.IsChecked == true;
 
+            // تبدیل مدل به Json
             string json = JsonConvert.SerializeObject(
                 license,
                 Newtonsoft.Json.Formatting.Indented);
 
+            // رمزنگاری Json
+            string encryptText = CryptoHelper.Encrypt(json);
+
+            // مسیر فایل
             string filePath = System.IO.Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory,
                 "config.cache");
 
-            File.WriteAllText(filePath, json);
+            // ذخیره فایل رمز شده
+            File.WriteAllText(filePath, encryptText);
 
             MessageBox.Show("License Created Successfully.");
         }
