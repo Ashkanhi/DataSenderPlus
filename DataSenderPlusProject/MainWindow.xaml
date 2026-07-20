@@ -729,7 +729,7 @@
                    FontSize="11"
                    Margin="0,0,4,0"/>
 
-                <TextBlock Text="نسخه 9.3.0.1"
+                <TextBlock Text="نسخه 9.3.0.2"
                    FontFamily="B Nazanin"
                    FontSize="11"
                    FontWeight="Bold"
