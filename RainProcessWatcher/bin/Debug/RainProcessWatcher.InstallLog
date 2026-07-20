@@ -1,0 +1,73 @@
+﻿Installing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Committing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Committing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Committing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+Installing service RainProcessWatcher...
+Service RainProcessWatcher has been successfully installed.
+Creating EventLog source RainProcessWatcher in log Application...
+Committing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+Uninstalling assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+Removing EventLog source RainProcessWatcher.
+Service RainProcessWatcher is being removed from the system...
+Service RainProcessWatcher was successfully removed from the system.
+Installing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+Installing service RainProcessWatcher...
+Service RainProcessWatcher has been successfully installed.
+Creating EventLog source RainProcessWatcher in log Application...
+Committing assembly 'E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.InstallLog
+   assemblypath = E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe

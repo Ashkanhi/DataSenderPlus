@@ -160,8 +160,17 @@ namespace DataSenderPlusProject
 
             PersianDate_Lbl.Content = dp.PersianDate();
 
+            if (IsServiceMode())
+            {
+                SendData_Btn_Click(null, null);
 
-            
+                // اگر خواستی بعداً فعال شوند
+                //T2_SendData_Btn_Click(null, null);
+                //T3_SendData_Btn_Click(null, null);
+                //T4_SendData_Btn_Click(null, null);
+                //T5_SendData_Btn_Click(null, null);
+            }
+
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -174,6 +183,7 @@ namespace DataSenderPlusProject
         {
             DateTime_Lbl.Content = DateTime.Now.ToLongTimeString();
         }
+
 
 
         private SqlConnection GetConnection()
@@ -226,6 +236,32 @@ namespace DataSenderPlusProject
             reader.Close();
 
             return null;
+        }
+
+        private bool IsServiceMode()
+        {
+            try
+            {
+                using (SqlConnection cn = GetConnection())
+                {
+                    string query = @"
+                SELECT TOP 1 ServiceMode
+                FROM SystemConfiguration";
+
+                    SqlCommand cmd = new SqlCommand(query, cn);
+
+                    object result = cmd.ExecuteScalar();
+
+                    if (result == null)
+                        return false;
+
+                    return Convert.ToBoolean(result);
+                }
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public void F_UploadFtp(int configId)
@@ -498,7 +534,7 @@ namespace DataSenderPlusProject
             {
                 T4_Timer_Type_1_lbl.Content = TimeForShow_Type_4.ToString("c");
                 if (TimeForShow_Type_4 == TimeSpan.Zero)
-                    TimeForShow_Type_4 = TimeForShow_Type_3.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_4) * 60));
+                    TimeForShow_Type_4 = TimeForShow_Type_4.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_4) * 60));
                 else
                     TimeForShow_Type_4 = TimeForShow_Type_4.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);

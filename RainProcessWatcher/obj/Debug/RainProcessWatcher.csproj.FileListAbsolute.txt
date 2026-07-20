@@ -1,0 +1,9 @@
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.csproj.AssemblyReference.cache
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.csproj.CoreCompileInputs.cache
+E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe.config
+E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.exe
+E:\DataSenderPlus\RainProcessWatcher\bin\Debug\RainProcessWatcher.pdb
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.exe
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.pdb
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.ProjectInstaller.resources
+E:\DataSenderPlus\RainProcessWatcher\obj\Debug\RainProcessWatcher.csproj.GenerateResource.cache

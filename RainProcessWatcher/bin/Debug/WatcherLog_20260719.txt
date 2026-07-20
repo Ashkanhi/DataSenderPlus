@@ -1,0 +1,89 @@
+2026-07-19 16:34:01    ========== Service Started ==========
+2026-07-19 16:34:01    Loading Config...
+2026-07-19 16:34:01    ProcessName : DataSenderPlusProject
+2026-07-19 16:34:01    ExePath : E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-07-19 16:34:01    CheckInterval : 120
+2026-07-19 16:34:01    Timer Started
+2026-07-19 16:34:01    --------------------------------------
+2026-07-19 16:34:01    Checking Process...
+2026-07-19 16:34:01    Running Process Count : 1
+2026-07-19 16:34:01    Process Already Running
+2026-07-19 16:36:01    --------------------------------------
+2026-07-19 16:36:01    Checking Process...
+2026-07-19 16:36:01    Running Process Count : 1
+2026-07-19 16:36:01    Process Already Running
+2026-07-19 16:38:01    --------------------------------------
+2026-07-19 16:38:01    Checking Process...
+2026-07-19 16:38:01    Running Process Count : 0
+2026-07-19 16:38:01    Process Not Running
+2026-07-19 16:38:01    Starting Process...
+2026-07-19 16:38:01    Process Started Successfully
+2026-07-19 16:40:01    --------------------------------------
+2026-07-19 16:40:01    Checking Process...
+2026-07-19 16:40:01    Running Process Count : 1
+2026-07-19 16:40:01    Process Already Running
+2026-07-19 16:42:01    --------------------------------------
+2026-07-19 16:42:01    Checking Process...
+2026-07-19 16:42:01    Running Process Count : 1
+2026-07-19 16:42:01    Process Already Running
+2026-07-19 16:44:01    --------------------------------------
+2026-07-19 16:44:01    Checking Process...
+2026-07-19 16:44:01    Running Process Count : 1
+2026-07-19 16:44:01    Process Already Running
+2026-07-19 16:46:01    --------------------------------------
+2026-07-19 16:46:01    Checking Process...
+2026-07-19 16:46:01    Running Process Count : 1
+2026-07-19 16:46:01    Process Already Running
+2026-07-19 16:48:01    --------------------------------------
+2026-07-19 16:48:01    Checking Process...
+2026-07-19 16:48:01    Running Process Count : 1
+2026-07-19 16:48:01    Process Already Running
+2026-07-19 16:50:01    --------------------------------------
+2026-07-19 16:50:01    Checking Process...
+2026-07-19 16:50:01    Running Process Count : 1
+2026-07-19 16:50:01    Process Already Running
+2026-07-19 16:52:01    --------------------------------------
+2026-07-19 16:52:01    Checking Process...
+2026-07-19 16:52:01    Running Process Count : 1
+2026-07-19 16:52:01    Process Already Running
+2026-07-19 16:54:01    --------------------------------------
+2026-07-19 16:54:01    Checking Process...
+2026-07-19 16:54:01    Running Process Count : 1
+2026-07-19 16:54:01    Process Already Running
+2026-07-19 16:56:01    --------------------------------------
+2026-07-19 16:56:01    Checking Process...
+2026-07-19 16:56:01    Running Process Count : 1
+2026-07-19 16:56:01    Process Already Running
+2026-07-19 16:58:01    --------------------------------------
+2026-07-19 16:58:01    Checking Process...
+2026-07-19 16:58:01    Running Process Count : 1
+2026-07-19 16:58:01    Process Already Running
+2026-07-19 17:00:01    --------------------------------------
+2026-07-19 17:00:01    Checking Process...
+2026-07-19 17:00:01    Running Process Count : 1
+2026-07-19 17:00:01    Process Already Running
+2026-07-19 17:02:01    --------------------------------------
+2026-07-19 17:02:01    Checking Process...
+2026-07-19 17:02:01    Running Process Count : 1
+2026-07-19 17:02:01    Process Already Running
+2026-07-19 17:04:01    --------------------------------------
+2026-07-19 17:04:01    Checking Process...
+2026-07-19 17:04:01    Running Process Count : 1
+2026-07-19 17:04:01    Process Already Running
+2026-07-19 17:06:01    --------------------------------------
+2026-07-19 17:06:01    Checking Process...
+2026-07-19 17:06:01    Running Process Count : 1
+2026-07-19 17:06:01    Process Already Running
+2026-07-19 17:08:01    --------------------------------------
+2026-07-19 17:08:01    Checking Process...
+2026-07-19 17:08:01    Running Process Count : 1
+2026-07-19 17:08:01    Process Already Running
+2026-07-19 17:10:01    --------------------------------------
+2026-07-19 17:10:01    Checking Process...
+2026-07-19 17:10:01    Running Process Count : 1
+2026-07-19 17:10:01    Process Already Running
+2026-07-19 17:12:01    --------------------------------------
+2026-07-19 17:12:01    Checking Process...
+2026-07-19 17:12:01    Running Process Count : 1
+2026-07-19 17:12:01    Process Already Running
+2026-07-19 17:13:05    Service Stopped
