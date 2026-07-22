@@ -1,0 +1,15 @@
+2026-07-22 15:28:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-22 15:28:35 [INFO] Database connection opened.
+2026-07-22 15:28:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-22 15:28:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-22 15:28:35 [INFO] Database connection closed.
+2026-07-22 15:28:35 [ERROR] System.Exception: Output Type Not Supported.
+   at DataSenderPlusProject.Helpers.ExportHelper.Export(DataTable table, Int32 outputType, String fileName, String basePath) in E:\DataSenderPlus\DataSenderPlusProject\Helpers\ExportHelper.cs:line 66
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 349
+2026-07-22 15:32:23 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-22 15:32:23 [INFO] Database connection opened.
+2026-07-22 15:32:23 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-22 15:32:23 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-22 15:32:23 [INFO] Database connection closed.
+2026-07-22 15:32:26 [INFO] Export File Created Successfully.
+2026-07-22 15:32:26 [INFO] F_UploadFtp_Ts1 Finished.

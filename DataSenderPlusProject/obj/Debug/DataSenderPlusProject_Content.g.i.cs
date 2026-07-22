@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("upload-png-hd-image.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("temp/ang.png")]
 
 

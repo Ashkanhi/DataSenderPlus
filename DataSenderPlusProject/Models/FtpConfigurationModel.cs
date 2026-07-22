@@ -21,5 +21,6 @@ namespace DataSenderPlusProject.Models
         public int SendFlag { get; set; }
 
         public string FolderPath { get; set; }
+        public int OutputTypeID { get; set; }
     }
 }

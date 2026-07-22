@@ -1,4 +1,5 @@
-﻿using DataSenderPlusProject.Models;
+﻿using DataSenderPlusProject.Helpers;
+using DataSenderPlusProject.Models;
 using DataSenderPlusProject.Security;
 using System;
 using System.Collections.Generic;
@@ -206,7 +207,9 @@ namespace DataSenderPlusProject
         FileName,
         IntervalValue,
         SendFlag,
-        FolderPath
+        FolderPath,
+        OutPutTypeID
+
     FROM FtpConfiguration
     WHERE ConfigID = @ConfigID";
 
@@ -227,6 +230,7 @@ namespace DataSenderPlusProject
                 config.IntervalValue = Convert.ToInt32(reader["IntervalValue"]);
                 config.SendFlag = Convert.ToInt32(reader["SendFlag"]);
                 config.FolderPath = reader["FolderPath"].ToString();
+                config.OutputTypeID = Convert.ToInt32(reader["OutputTypeID"]);
 
                 reader.Close();
 
@@ -268,6 +272,7 @@ namespace DataSenderPlusProject
         {
             try
             {
+                //throw new Exception("Test SMS");
                 Logger.Info($"F_UploadFtp Started.  ConfigID={configId}");
 
                 SqlConnection cn = GetConnection();
@@ -322,7 +327,33 @@ namespace DataSenderPlusProject
                 adp.Fill(dtable);
 
                 Logger.Info($"Stored Procedure executed successfully. Rows Count : {dtable.Rows.Count}");
+                // اتصال به دیتابیس دیگر لازم نیست
+                cn.Close();
 
+                Logger.Info("Database connection closed.");
+
+                // تعیین مسیر ذخیره فایل
+                string basePath;
+
+                if (string.IsNullOrWhiteSpace(config.FolderPath))
+                {
+                    basePath = System.IO.Path.GetDirectoryName(
+                        Assembly.GetExecutingAssembly().Location);
+                }
+                else
+                {
+                    basePath = config.FolderPath;
+                }
+
+                // ساخت فایل با فرمت انتخاب شده
+                ExportHelper.Export(
+                    dtable,                 // اطلاعات خروجی
+                    config.OutputTypeID,    // نوع خروجی (JSON,CSV,...)
+                    config.FileName,        // نام فایل
+                    basePath);              // مسیر ذخیره
+
+                Logger.Info("Export File Created Successfully.");
+                /*
                 // تبدیل به Json
                 string JsonOutput = J.F_CreateJasonFile(dtable).ToString();
 
@@ -349,17 +380,19 @@ namespace DataSenderPlusProject
                     JsonOutput);
 
                 Logger.Info($"Json file created successfully. File Name : {config.FileName}.json");
+                */
 
                 // ارسال به FTP
                 if (config.SendFlag == 1)
                 {
                     Logger.Info("FTP upload started.");
 
+                    string extension = ExportHelper.GetFileExtension(config.OutputTypeID);
                     J.F_SendFile2Ftp(
                         config.ServerAddress,
                         config.UserName,
                         config.Password,
-                        config.FileName);
+                        config.FileName + extension);
 
                     if (J.ErrorMessage == null)
                     {
@@ -388,6 +421,7 @@ namespace DataSenderPlusProject
             catch (Exception Error)
             {
                 Logger.Error(Error.ToString());
+                SmsHelper.SendError(Error.Message);
 
                 Log_Type_1_lbl.Content =
                     "Err" + " _ " +

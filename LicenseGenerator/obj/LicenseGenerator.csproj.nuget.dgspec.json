@@ -32,7 +32,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "\\\\sharing-vm\\Temp\\Technical\\Packages": {},
           "g:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://mirror-nuget.runflare.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {

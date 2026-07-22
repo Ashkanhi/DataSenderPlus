@@ -459,3 +459,1627 @@ Error Number:911,State:4,Class:16
 2026-07-20 10:32:31 [INFO] Database connection closed.
 2026-07-20 10:32:31 [INFO] Json file created successfully. File Name : TestServiceMode.json
 2026-07-20 10:32:31 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:34:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:34:32 [INFO] Database connection opened.
+2026-07-20 10:34:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:34:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:34:32 [INFO] Database connection closed.
+2026-07-20 10:34:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:34:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:35:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:35:32 [INFO] Database connection opened.
+2026-07-20 10:35:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:35:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:35:32 [INFO] Database connection closed.
+2026-07-20 10:35:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:35:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:36:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:36:32 [INFO] Database connection opened.
+2026-07-20 10:36:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:36:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:36:32 [INFO] Database connection closed.
+2026-07-20 10:36:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:36:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:37:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:37:32 [INFO] Database connection opened.
+2026-07-20 10:37:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:37:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:37:32 [INFO] Database connection closed.
+2026-07-20 10:37:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:37:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:38:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:38:32 [INFO] Database connection opened.
+2026-07-20 10:38:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:38:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:38:32 [INFO] Database connection closed.
+2026-07-20 10:38:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:38:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:39:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:39:32 [INFO] Database connection opened.
+2026-07-20 10:39:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:39:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:39:32 [INFO] Database connection closed.
+2026-07-20 10:39:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:39:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:40:32 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:40:32 [INFO] Database connection opened.
+2026-07-20 10:40:32 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:40:32 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:40:32 [INFO] Database connection closed.
+2026-07-20 10:40:32 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:40:32 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:41:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:41:33 [INFO] Database connection opened.
+2026-07-20 10:41:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:41:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:41:33 [INFO] Database connection closed.
+2026-07-20 10:41:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:41:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:42:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:42:33 [INFO] Database connection opened.
+2026-07-20 10:42:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:42:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:42:33 [INFO] Database connection closed.
+2026-07-20 10:42:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:42:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:43:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:43:33 [INFO] Database connection opened.
+2026-07-20 10:43:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:43:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:43:33 [INFO] Database connection closed.
+2026-07-20 10:43:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:43:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:44:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:44:33 [INFO] Database connection opened.
+2026-07-20 10:44:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:44:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:44:33 [INFO] Database connection closed.
+2026-07-20 10:44:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:44:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:45:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:45:33 [INFO] Database connection opened.
+2026-07-20 10:45:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:45:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:45:33 [INFO] Database connection closed.
+2026-07-20 10:45:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:45:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:46:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:46:33 [INFO] Database connection opened.
+2026-07-20 10:46:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:46:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:46:33 [INFO] Database connection closed.
+2026-07-20 10:46:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:46:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:47:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:47:33 [INFO] Database connection opened.
+2026-07-20 10:47:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:47:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:47:33 [INFO] Database connection closed.
+2026-07-20 10:47:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:47:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:48:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:48:33 [INFO] Database connection opened.
+2026-07-20 10:48:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:48:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:48:33 [INFO] Database connection closed.
+2026-07-20 10:48:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:48:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:49:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:49:33 [INFO] Database connection opened.
+2026-07-20 10:49:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:49:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:49:33 [INFO] Database connection closed.
+2026-07-20 10:49:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:49:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:50:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:50:33 [INFO] Database connection opened.
+2026-07-20 10:50:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:50:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:50:33 [INFO] Database connection closed.
+2026-07-20 10:50:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:50:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:51:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:51:33 [INFO] Database connection opened.
+2026-07-20 10:51:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:51:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:51:33 [INFO] Database connection closed.
+2026-07-20 10:51:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:51:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:52:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:52:33 [INFO] Database connection opened.
+2026-07-20 10:52:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:52:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:52:33 [INFO] Database connection closed.
+2026-07-20 10:52:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:52:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:53:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:53:33 [INFO] Database connection opened.
+2026-07-20 10:53:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:53:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:53:33 [INFO] Database connection closed.
+2026-07-20 10:53:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:53:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:54:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:54:33 [INFO] Database connection opened.
+2026-07-20 10:54:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:54:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:54:33 [INFO] Database connection closed.
+2026-07-20 10:54:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:54:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:55:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:55:33 [INFO] Database connection opened.
+2026-07-20 10:55:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:55:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:55:33 [INFO] Database connection closed.
+2026-07-20 10:55:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:55:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:56:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:56:33 [INFO] Database connection opened.
+2026-07-20 10:56:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:56:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:56:33 [INFO] Database connection closed.
+2026-07-20 10:56:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:56:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:57:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:57:33 [INFO] Database connection opened.
+2026-07-20 10:57:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:57:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:57:33 [INFO] Database connection closed.
+2026-07-20 10:57:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:57:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:58:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:58:33 [INFO] Database connection opened.
+2026-07-20 10:58:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:58:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:58:33 [INFO] Database connection closed.
+2026-07-20 10:58:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:58:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 10:59:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 10:59:33 [INFO] Database connection opened.
+2026-07-20 10:59:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 10:59:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 10:59:33 [INFO] Database connection closed.
+2026-07-20 10:59:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 10:59:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:00:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:00:33 [INFO] Database connection opened.
+2026-07-20 11:00:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:00:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:00:33 [INFO] Database connection closed.
+2026-07-20 11:00:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:00:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:01:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:01:33 [INFO] Database connection opened.
+2026-07-20 11:01:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:01:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:01:33 [INFO] Database connection closed.
+2026-07-20 11:01:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:01:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:02:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:02:33 [INFO] Database connection opened.
+2026-07-20 11:02:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:02:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:02:33 [INFO] Database connection closed.
+2026-07-20 11:02:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:02:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:03:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:03:33 [INFO] Database connection opened.
+2026-07-20 11:03:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:03:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:03:33 [INFO] Database connection closed.
+2026-07-20 11:03:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:03:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:04:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:04:33 [INFO] Database connection opened.
+2026-07-20 11:04:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:04:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:04:33 [INFO] Database connection closed.
+2026-07-20 11:04:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:04:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:05:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:05:33 [INFO] Database connection opened.
+2026-07-20 11:05:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:05:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:05:33 [INFO] Database connection closed.
+2026-07-20 11:05:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:05:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:06:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:06:33 [INFO] Database connection opened.
+2026-07-20 11:06:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:06:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:06:33 [INFO] Database connection closed.
+2026-07-20 11:06:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:06:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:07:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:07:33 [INFO] Database connection opened.
+2026-07-20 11:07:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:07:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:07:33 [INFO] Database connection closed.
+2026-07-20 11:07:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:07:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:08:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:08:33 [INFO] Database connection opened.
+2026-07-20 11:08:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:08:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:08:33 [INFO] Database connection closed.
+2026-07-20 11:08:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:08:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:09:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:09:33 [INFO] Database connection opened.
+2026-07-20 11:09:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:09:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:09:33 [INFO] Database connection closed.
+2026-07-20 11:09:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:09:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:10:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:10:33 [INFO] Database connection opened.
+2026-07-20 11:10:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:10:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:10:33 [INFO] Database connection closed.
+2026-07-20 11:10:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:10:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:11:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:11:33 [INFO] Database connection opened.
+2026-07-20 11:11:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:11:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:11:33 [INFO] Database connection closed.
+2026-07-20 11:11:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:11:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:12:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:12:33 [INFO] Database connection opened.
+2026-07-20 11:12:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:12:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:12:33 [INFO] Database connection closed.
+2026-07-20 11:12:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:12:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:13:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:13:33 [INFO] Database connection opened.
+2026-07-20 11:13:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:13:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:13:33 [INFO] Database connection closed.
+2026-07-20 11:13:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:13:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:13:43 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:13:43 [INFO] Database connection opened.
+2026-07-20 11:13:43 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:13:43 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:13:43 [INFO] Database connection closed.
+2026-07-20 11:13:43 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:13:43 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:14:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:14:33 [INFO] Database connection opened.
+2026-07-20 11:14:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:14:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:14:33 [INFO] Database connection closed.
+2026-07-20 11:14:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:14:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:14:43 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:14:43 [INFO] Database connection opened.
+2026-07-20 11:14:43 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:14:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:14:44 [INFO] Database connection closed.
+2026-07-20 11:14:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:14:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:15:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:15:33 [INFO] Database connection opened.
+2026-07-20 11:15:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:15:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:15:33 [INFO] Database connection closed.
+2026-07-20 11:15:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:15:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:15:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:15:44 [INFO] Database connection opened.
+2026-07-20 11:15:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:15:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:15:44 [INFO] Database connection closed.
+2026-07-20 11:15:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:15:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:16:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:16:33 [INFO] Database connection opened.
+2026-07-20 11:16:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:16:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:16:33 [INFO] Database connection closed.
+2026-07-20 11:16:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:16:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:16:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:16:44 [INFO] Database connection opened.
+2026-07-20 11:16:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:16:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:16:44 [INFO] Database connection closed.
+2026-07-20 11:16:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:16:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:17:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:17:33 [INFO] Database connection opened.
+2026-07-20 11:17:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:17:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:17:33 [INFO] Database connection closed.
+2026-07-20 11:17:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:17:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:17:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:17:44 [INFO] Database connection opened.
+2026-07-20 11:17:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:17:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:17:44 [INFO] Database connection closed.
+2026-07-20 11:17:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:17:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:18:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:18:33 [INFO] Database connection opened.
+2026-07-20 11:18:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:18:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:18:33 [INFO] Database connection closed.
+2026-07-20 11:18:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:18:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:18:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:18:44 [INFO] Database connection opened.
+2026-07-20 11:18:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:18:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:18:44 [INFO] Database connection closed.
+2026-07-20 11:18:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:18:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:19:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:19:33 [INFO] Database connection opened.
+2026-07-20 11:19:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:19:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:19:33 [INFO] Database connection closed.
+2026-07-20 11:19:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:19:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:19:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:19:44 [INFO] Database connection opened.
+2026-07-20 11:19:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:19:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:19:44 [INFO] Database connection closed.
+2026-07-20 11:19:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:19:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:20:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:20:33 [INFO] Database connection opened.
+2026-07-20 11:20:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:20:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:20:33 [INFO] Database connection closed.
+2026-07-20 11:20:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:20:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:20:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:20:44 [INFO] Database connection opened.
+2026-07-20 11:20:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:20:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:20:44 [INFO] Database connection closed.
+2026-07-20 11:20:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:20:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:21:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:21:33 [INFO] Database connection opened.
+2026-07-20 11:21:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:21:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:21:33 [INFO] Database connection closed.
+2026-07-20 11:21:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:21:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:21:44 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:21:44 [INFO] Database connection opened.
+2026-07-20 11:21:44 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:21:44 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:21:44 [INFO] Database connection closed.
+2026-07-20 11:21:44 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:21:44 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:22:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:22:33 [INFO] Database connection opened.
+2026-07-20 11:22:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:22:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:22:33 [INFO] Database connection closed.
+2026-07-20 11:22:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:22:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:23:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:23:33 [INFO] Database connection opened.
+2026-07-20 11:23:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:23:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:23:33 [INFO] Database connection closed.
+2026-07-20 11:23:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:23:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:24:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:24:33 [INFO] Database connection opened.
+2026-07-20 11:24:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:24:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:24:33 [INFO] Database connection closed.
+2026-07-20 11:24:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:24:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:25:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:25:33 [INFO] Database connection opened.
+2026-07-20 11:25:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:25:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:25:33 [INFO] Database connection closed.
+2026-07-20 11:25:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:25:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:26:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:26:33 [INFO] Database connection opened.
+2026-07-20 11:26:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:26:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:26:33 [INFO] Database connection closed.
+2026-07-20 11:26:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:26:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:27:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:27:33 [INFO] Database connection opened.
+2026-07-20 11:27:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:27:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:27:33 [INFO] Database connection closed.
+2026-07-20 11:27:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:27:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:28:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:28:33 [INFO] Database connection opened.
+2026-07-20 11:28:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:28:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:28:33 [INFO] Database connection closed.
+2026-07-20 11:28:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:28:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:29:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:29:33 [INFO] Database connection opened.
+2026-07-20 11:29:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:29:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:29:33 [INFO] Database connection closed.
+2026-07-20 11:29:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:29:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:30:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:30:33 [INFO] Database connection opened.
+2026-07-20 11:30:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:30:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:30:33 [INFO] Database connection closed.
+2026-07-20 11:30:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:30:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:31:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:31:33 [INFO] Database connection opened.
+2026-07-20 11:31:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:31:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:31:33 [INFO] Database connection closed.
+2026-07-20 11:31:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:31:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:32:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:32:33 [INFO] Database connection opened.
+2026-07-20 11:32:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:32:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:32:33 [INFO] Database connection closed.
+2026-07-20 11:32:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:32:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:33:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:33:33 [INFO] Database connection opened.
+2026-07-20 11:33:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:33:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:33:33 [INFO] Database connection closed.
+2026-07-20 11:33:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:33:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:34:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:34:33 [INFO] Database connection opened.
+2026-07-20 11:34:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:34:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:34:33 [INFO] Database connection closed.
+2026-07-20 11:34:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:34:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:35:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:35:33 [INFO] Database connection opened.
+2026-07-20 11:35:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:35:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:35:33 [INFO] Database connection closed.
+2026-07-20 11:35:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:35:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:36:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:36:33 [INFO] Database connection opened.
+2026-07-20 11:36:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:36:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:36:33 [INFO] Database connection closed.
+2026-07-20 11:36:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:36:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:37:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:37:33 [INFO] Database connection opened.
+2026-07-20 11:37:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:37:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:37:33 [INFO] Database connection closed.
+2026-07-20 11:37:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:37:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:38:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:38:33 [INFO] Database connection opened.
+2026-07-20 11:38:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:38:33 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:38:33 [INFO] Database connection closed.
+2026-07-20 11:38:33 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:38:33 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:39:33 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:39:33 [INFO] Database connection opened.
+2026-07-20 11:39:33 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:39:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:39:34 [INFO] Database connection closed.
+2026-07-20 11:39:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:39:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:40:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:40:34 [INFO] Database connection opened.
+2026-07-20 11:40:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:40:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:40:34 [INFO] Database connection closed.
+2026-07-20 11:40:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:40:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:41:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:41:34 [INFO] Database connection opened.
+2026-07-20 11:41:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:41:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:41:34 [INFO] Database connection closed.
+2026-07-20 11:41:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:41:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:42:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:42:34 [INFO] Database connection opened.
+2026-07-20 11:42:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:42:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:42:34 [INFO] Database connection closed.
+2026-07-20 11:42:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:42:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:43:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:43:34 [INFO] Database connection opened.
+2026-07-20 11:43:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:43:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:43:34 [INFO] Database connection closed.
+2026-07-20 11:43:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:43:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:44:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:44:34 [INFO] Database connection opened.
+2026-07-20 11:44:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:44:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:44:34 [INFO] Database connection closed.
+2026-07-20 11:44:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:44:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:45:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:45:34 [INFO] Database connection opened.
+2026-07-20 11:45:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:45:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:45:34 [INFO] Database connection closed.
+2026-07-20 11:45:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:45:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:46:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:46:34 [INFO] Database connection opened.
+2026-07-20 11:46:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:46:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:46:34 [INFO] Database connection closed.
+2026-07-20 11:46:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:46:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:47:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:47:34 [INFO] Database connection opened.
+2026-07-20 11:47:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:47:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:47:34 [INFO] Database connection closed.
+2026-07-20 11:47:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:47:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:48:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:48:34 [INFO] Database connection opened.
+2026-07-20 11:48:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:48:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:48:34 [INFO] Database connection closed.
+2026-07-20 11:48:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:48:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:49:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:49:34 [INFO] Database connection opened.
+2026-07-20 11:49:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:49:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:49:34 [INFO] Database connection closed.
+2026-07-20 11:49:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:49:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:50:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:50:34 [INFO] Database connection opened.
+2026-07-20 11:50:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:50:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:50:34 [INFO] Database connection closed.
+2026-07-20 11:50:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:50:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:51:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:51:34 [INFO] Database connection opened.
+2026-07-20 11:51:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:51:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:51:34 [INFO] Database connection closed.
+2026-07-20 11:51:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:51:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:52:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:52:34 [INFO] Database connection opened.
+2026-07-20 11:52:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:52:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:52:34 [INFO] Database connection closed.
+2026-07-20 11:52:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:52:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:53:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:53:34 [INFO] Database connection opened.
+2026-07-20 11:53:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:53:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:53:34 [INFO] Database connection closed.
+2026-07-20 11:53:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:53:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:54:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:54:34 [INFO] Database connection opened.
+2026-07-20 11:54:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:54:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:54:34 [INFO] Database connection closed.
+2026-07-20 11:54:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:54:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:55:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:55:34 [INFO] Database connection opened.
+2026-07-20 11:55:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:55:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:55:34 [INFO] Database connection closed.
+2026-07-20 11:55:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:55:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:56:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:56:34 [INFO] Database connection opened.
+2026-07-20 11:56:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:56:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:56:34 [INFO] Database connection closed.
+2026-07-20 11:56:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:56:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:57:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:57:34 [INFO] Database connection opened.
+2026-07-20 11:57:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:57:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:57:34 [INFO] Database connection closed.
+2026-07-20 11:57:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:57:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:58:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:58:34 [INFO] Database connection opened.
+2026-07-20 11:58:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:58:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:58:34 [INFO] Database connection closed.
+2026-07-20 11:58:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:58:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 11:59:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 11:59:34 [INFO] Database connection opened.
+2026-07-20 11:59:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 11:59:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 11:59:34 [INFO] Database connection closed.
+2026-07-20 11:59:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 11:59:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:00:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:00:34 [INFO] Database connection opened.
+2026-07-20 12:00:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:00:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:00:34 [INFO] Database connection closed.
+2026-07-20 12:00:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:00:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:01:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:01:34 [INFO] Database connection opened.
+2026-07-20 12:01:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:01:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:01:34 [INFO] Database connection closed.
+2026-07-20 12:01:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:01:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:02:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:02:34 [INFO] Database connection opened.
+2026-07-20 12:02:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:02:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:02:34 [INFO] Database connection closed.
+2026-07-20 12:02:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:02:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:03:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:03:34 [INFO] Database connection opened.
+2026-07-20 12:03:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:03:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:03:34 [INFO] Database connection closed.
+2026-07-20 12:03:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:03:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:04:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:04:34 [INFO] Database connection opened.
+2026-07-20 12:04:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:04:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:04:34 [INFO] Database connection closed.
+2026-07-20 12:04:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:04:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:05:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:05:34 [INFO] Database connection opened.
+2026-07-20 12:05:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:05:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:05:34 [INFO] Database connection closed.
+2026-07-20 12:05:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:05:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:06:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:06:34 [INFO] Database connection opened.
+2026-07-20 12:06:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:06:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:06:34 [INFO] Database connection closed.
+2026-07-20 12:06:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:06:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:07:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:07:34 [INFO] Database connection opened.
+2026-07-20 12:07:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:07:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:07:34 [INFO] Database connection closed.
+2026-07-20 12:07:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:07:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:08:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:08:34 [INFO] Database connection opened.
+2026-07-20 12:08:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:08:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:08:34 [INFO] Database connection closed.
+2026-07-20 12:08:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:08:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:09:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:09:34 [INFO] Database connection opened.
+2026-07-20 12:09:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:09:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:09:34 [INFO] Database connection closed.
+2026-07-20 12:09:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:09:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:10:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:10:34 [INFO] Database connection opened.
+2026-07-20 12:10:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:10:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:10:34 [INFO] Database connection closed.
+2026-07-20 12:10:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:10:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:11:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:11:34 [INFO] Database connection opened.
+2026-07-20 12:11:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:11:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:11:34 [INFO] Database connection closed.
+2026-07-20 12:11:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:11:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:12:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:12:34 [INFO] Database connection opened.
+2026-07-20 12:12:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:12:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:12:34 [INFO] Database connection closed.
+2026-07-20 12:12:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:12:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:13:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:13:34 [INFO] Database connection opened.
+2026-07-20 12:13:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:13:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:13:34 [INFO] Database connection closed.
+2026-07-20 12:13:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:13:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:14:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:14:34 [INFO] Database connection opened.
+2026-07-20 12:14:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:14:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:14:34 [INFO] Database connection closed.
+2026-07-20 12:14:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:14:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:15:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:15:34 [INFO] Database connection opened.
+2026-07-20 12:15:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:15:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:15:34 [INFO] Database connection closed.
+2026-07-20 12:15:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:15:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:16:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:16:34 [INFO] Database connection opened.
+2026-07-20 12:16:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:16:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:16:34 [INFO] Database connection closed.
+2026-07-20 12:16:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:16:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:17:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:17:34 [INFO] Database connection opened.
+2026-07-20 12:17:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:17:34 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:17:34 [INFO] Database connection closed.
+2026-07-20 12:17:34 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:17:34 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:18:34 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:18:34 [INFO] Database connection opened.
+2026-07-20 12:18:34 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:18:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:18:35 [INFO] Database connection closed.
+2026-07-20 12:18:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:18:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:19:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:19:35 [INFO] Database connection opened.
+2026-07-20 12:19:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:19:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:19:35 [INFO] Database connection closed.
+2026-07-20 12:19:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:19:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:20:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:20:35 [INFO] Database connection opened.
+2026-07-20 12:20:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:20:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:20:35 [INFO] Database connection closed.
+2026-07-20 12:20:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:20:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:21:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:21:35 [INFO] Database connection opened.
+2026-07-20 12:21:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:21:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:21:35 [INFO] Database connection closed.
+2026-07-20 12:21:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:21:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:22:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:22:35 [INFO] Database connection opened.
+2026-07-20 12:22:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:22:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:22:35 [INFO] Database connection closed.
+2026-07-20 12:22:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:22:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:23:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:23:35 [INFO] Database connection opened.
+2026-07-20 12:23:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:23:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:23:35 [INFO] Database connection closed.
+2026-07-20 12:23:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:23:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:24:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:24:35 [INFO] Database connection opened.
+2026-07-20 12:24:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:24:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:24:35 [INFO] Database connection closed.
+2026-07-20 12:24:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:24:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:25:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:25:35 [INFO] Database connection opened.
+2026-07-20 12:25:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:25:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:25:35 [INFO] Database connection closed.
+2026-07-20 12:25:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:25:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:26:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:26:35 [INFO] Database connection opened.
+2026-07-20 12:26:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:26:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:26:35 [INFO] Database connection closed.
+2026-07-20 12:26:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:26:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:27:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:27:35 [INFO] Database connection opened.
+2026-07-20 12:27:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:27:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:27:35 [INFO] Database connection closed.
+2026-07-20 12:27:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:27:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:28:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:28:35 [INFO] Database connection opened.
+2026-07-20 12:28:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:28:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:28:35 [INFO] Database connection closed.
+2026-07-20 12:28:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:28:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:29:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:29:35 [INFO] Database connection opened.
+2026-07-20 12:29:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:29:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:29:35 [INFO] Database connection closed.
+2026-07-20 12:29:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:29:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:30:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:30:35 [INFO] Database connection opened.
+2026-07-20 12:30:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:30:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:30:35 [INFO] Database connection closed.
+2026-07-20 12:30:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:30:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:31:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:31:35 [INFO] Database connection opened.
+2026-07-20 12:31:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:31:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:31:35 [INFO] Database connection closed.
+2026-07-20 12:31:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:31:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:32:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:32:35 [INFO] Database connection opened.
+2026-07-20 12:32:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:32:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:32:35 [INFO] Database connection closed.
+2026-07-20 12:32:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:32:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:33:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:33:35 [INFO] Database connection opened.
+2026-07-20 12:33:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:33:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:33:35 [INFO] Database connection closed.
+2026-07-20 12:33:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:33:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:34:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:34:35 [INFO] Database connection opened.
+2026-07-20 12:34:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:34:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:34:35 [INFO] Database connection closed.
+2026-07-20 12:34:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:34:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:35:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:35:35 [INFO] Database connection opened.
+2026-07-20 12:35:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:35:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:35:35 [INFO] Database connection closed.
+2026-07-20 12:35:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:35:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:36:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:36:35 [INFO] Database connection opened.
+2026-07-20 12:36:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:36:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:36:35 [INFO] Database connection closed.
+2026-07-20 12:36:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:36:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:37:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:37:35 [INFO] Database connection opened.
+2026-07-20 12:37:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:37:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:37:35 [INFO] Database connection closed.
+2026-07-20 12:37:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:37:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:38:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:38:35 [INFO] Database connection opened.
+2026-07-20 12:38:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:38:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:38:35 [INFO] Database connection closed.
+2026-07-20 12:38:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:38:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:39:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:39:35 [INFO] Database connection opened.
+2026-07-20 12:39:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:39:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:39:35 [INFO] Database connection closed.
+2026-07-20 12:39:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:39:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:40:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:40:35 [INFO] Database connection opened.
+2026-07-20 12:40:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:40:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:40:35 [INFO] Database connection closed.
+2026-07-20 12:40:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:40:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:41:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:41:35 [INFO] Database connection opened.
+2026-07-20 12:41:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:41:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:41:35 [INFO] Database connection closed.
+2026-07-20 12:41:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:41:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:42:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:42:35 [INFO] Database connection opened.
+2026-07-20 12:42:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:42:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:42:35 [INFO] Database connection closed.
+2026-07-20 12:42:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:42:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:43:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:43:35 [INFO] Database connection opened.
+2026-07-20 12:43:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:43:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:43:35 [INFO] Database connection closed.
+2026-07-20 12:43:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:43:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:44:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:44:35 [INFO] Database connection opened.
+2026-07-20 12:44:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:44:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:44:35 [INFO] Database connection closed.
+2026-07-20 12:44:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:44:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:45:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:45:35 [INFO] Database connection opened.
+2026-07-20 12:45:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:45:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:45:35 [INFO] Database connection closed.
+2026-07-20 12:45:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:45:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:46:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:46:35 [INFO] Database connection opened.
+2026-07-20 12:46:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:46:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:46:35 [INFO] Database connection closed.
+2026-07-20 12:46:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:46:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:47:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:47:35 [INFO] Database connection opened.
+2026-07-20 12:47:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:47:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:47:35 [INFO] Database connection closed.
+2026-07-20 12:47:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:47:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:48:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:48:35 [INFO] Database connection opened.
+2026-07-20 12:48:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:48:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:48:35 [INFO] Database connection closed.
+2026-07-20 12:48:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:48:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:49:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:49:35 [INFO] Database connection opened.
+2026-07-20 12:49:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:49:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:49:35 [INFO] Database connection closed.
+2026-07-20 12:49:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:49:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:50:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:50:35 [INFO] Database connection opened.
+2026-07-20 12:50:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:50:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:50:35 [INFO] Database connection closed.
+2026-07-20 12:50:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:50:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:51:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:51:35 [INFO] Database connection opened.
+2026-07-20 12:51:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:51:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:51:35 [INFO] Database connection closed.
+2026-07-20 12:51:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:51:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:52:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:52:35 [INFO] Database connection opened.
+2026-07-20 12:52:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:52:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:52:35 [INFO] Database connection closed.
+2026-07-20 12:52:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:52:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:53:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:53:35 [INFO] Database connection opened.
+2026-07-20 12:53:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:53:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:53:35 [INFO] Database connection closed.
+2026-07-20 12:53:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:53:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:54:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:54:35 [INFO] Database connection opened.
+2026-07-20 12:54:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:54:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:54:35 [INFO] Database connection closed.
+2026-07-20 12:54:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:54:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:55:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:55:35 [INFO] Database connection opened.
+2026-07-20 12:55:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:55:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:55:35 [INFO] Database connection closed.
+2026-07-20 12:55:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:55:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:56:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:56:35 [INFO] Database connection opened.
+2026-07-20 12:56:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:56:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:56:35 [INFO] Database connection closed.
+2026-07-20 12:56:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:56:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:57:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:57:35 [INFO] Database connection opened.
+2026-07-20 12:57:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:57:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:57:35 [INFO] Database connection closed.
+2026-07-20 12:57:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:57:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:58:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:58:35 [INFO] Database connection opened.
+2026-07-20 12:58:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:58:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:58:35 [INFO] Database connection closed.
+2026-07-20 12:58:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:58:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 12:59:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 12:59:35 [INFO] Database connection opened.
+2026-07-20 12:59:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 12:59:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 12:59:35 [INFO] Database connection closed.
+2026-07-20 12:59:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 12:59:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:00:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:00:35 [INFO] Database connection opened.
+2026-07-20 13:00:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:00:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:00:35 [INFO] Database connection closed.
+2026-07-20 13:00:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:00:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:01:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:01:35 [INFO] Database connection opened.
+2026-07-20 13:01:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:01:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:01:35 [INFO] Database connection closed.
+2026-07-20 13:01:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:01:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:02:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:02:35 [INFO] Database connection opened.
+2026-07-20 13:02:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:02:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:02:35 [INFO] Database connection closed.
+2026-07-20 13:02:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:02:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:03:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:03:35 [INFO] Database connection opened.
+2026-07-20 13:03:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:03:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:03:35 [INFO] Database connection closed.
+2026-07-20 13:03:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:03:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:04:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:04:35 [INFO] Database connection opened.
+2026-07-20 13:04:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:04:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:04:35 [INFO] Database connection closed.
+2026-07-20 13:04:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:04:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:05:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:05:35 [INFO] Database connection opened.
+2026-07-20 13:05:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:05:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:05:35 [INFO] Database connection closed.
+2026-07-20 13:05:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:05:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:06:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:06:35 [INFO] Database connection opened.
+2026-07-20 13:06:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:06:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:06:35 [INFO] Database connection closed.
+2026-07-20 13:06:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:06:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:07:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:07:35 [INFO] Database connection opened.
+2026-07-20 13:07:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:07:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:07:35 [INFO] Database connection closed.
+2026-07-20 13:07:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:07:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:08:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:08:35 [INFO] Database connection opened.
+2026-07-20 13:08:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:08:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:08:35 [INFO] Database connection closed.
+2026-07-20 13:08:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:08:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:09:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:09:35 [INFO] Database connection opened.
+2026-07-20 13:09:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:09:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:09:35 [INFO] Database connection closed.
+2026-07-20 13:09:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:09:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:10:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:10:35 [INFO] Database connection opened.
+2026-07-20 13:10:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:10:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:10:35 [INFO] Database connection closed.
+2026-07-20 13:10:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:10:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:11:35 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:11:35 [INFO] Database connection opened.
+2026-07-20 13:11:35 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:11:35 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:11:35 [INFO] Database connection closed.
+2026-07-20 13:11:35 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:11:35 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:12:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:12:36 [INFO] Database connection opened.
+2026-07-20 13:12:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:12:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:12:36 [INFO] Database connection closed.
+2026-07-20 13:12:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:12:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:13:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:13:36 [INFO] Database connection opened.
+2026-07-20 13:13:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:13:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:13:36 [INFO] Database connection closed.
+2026-07-20 13:13:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:13:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:14:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:14:36 [INFO] Database connection opened.
+2026-07-20 13:14:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:14:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:14:36 [INFO] Database connection closed.
+2026-07-20 13:14:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:14:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:15:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:15:36 [INFO] Database connection opened.
+2026-07-20 13:15:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:15:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:15:36 [INFO] Database connection closed.
+2026-07-20 13:15:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:15:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:16:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:16:36 [INFO] Database connection opened.
+2026-07-20 13:16:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:16:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:16:36 [INFO] Database connection closed.
+2026-07-20 13:16:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:16:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:17:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:17:36 [INFO] Database connection opened.
+2026-07-20 13:17:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:17:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:17:36 [INFO] Database connection closed.
+2026-07-20 13:17:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:17:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:18:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:18:36 [INFO] Database connection opened.
+2026-07-20 13:18:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:18:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:18:36 [INFO] Database connection closed.
+2026-07-20 13:18:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:18:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:19:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:19:36 [INFO] Database connection opened.
+2026-07-20 13:19:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:19:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:19:36 [INFO] Database connection closed.
+2026-07-20 13:19:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:19:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:20:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:20:36 [INFO] Database connection opened.
+2026-07-20 13:20:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:20:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:20:36 [INFO] Database connection closed.
+2026-07-20 13:20:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:20:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:21:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:21:36 [INFO] Database connection opened.
+2026-07-20 13:21:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:21:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:21:36 [INFO] Database connection closed.
+2026-07-20 13:21:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:21:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:22:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:22:36 [INFO] Database connection opened.
+2026-07-20 13:22:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:22:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:22:36 [INFO] Database connection closed.
+2026-07-20 13:22:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:22:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:23:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:23:36 [INFO] Database connection opened.
+2026-07-20 13:23:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:23:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:23:36 [INFO] Database connection closed.
+2026-07-20 13:23:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:23:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:24:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:24:36 [INFO] Database connection opened.
+2026-07-20 13:24:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:24:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:24:36 [INFO] Database connection closed.
+2026-07-20 13:24:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:24:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:25:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:25:36 [INFO] Database connection opened.
+2026-07-20 13:25:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:25:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:25:36 [INFO] Database connection closed.
+2026-07-20 13:25:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:25:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:26:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:26:36 [INFO] Database connection opened.
+2026-07-20 13:26:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:26:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:26:36 [INFO] Database connection closed.
+2026-07-20 13:26:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:26:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:27:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:27:36 [INFO] Database connection opened.
+2026-07-20 13:27:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:27:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:27:36 [INFO] Database connection closed.
+2026-07-20 13:27:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:27:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:28:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:28:36 [INFO] Database connection opened.
+2026-07-20 13:28:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:28:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:28:36 [INFO] Database connection closed.
+2026-07-20 13:28:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:28:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:29:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:29:36 [INFO] Database connection opened.
+2026-07-20 13:29:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:29:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:29:36 [INFO] Database connection closed.
+2026-07-20 13:29:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:29:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:30:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:30:36 [INFO] Database connection opened.
+2026-07-20 13:30:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:30:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:30:36 [INFO] Database connection closed.
+2026-07-20 13:30:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:30:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:31:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:31:36 [INFO] Database connection opened.
+2026-07-20 13:31:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:31:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:31:36 [INFO] Database connection closed.
+2026-07-20 13:31:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:31:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:32:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:32:36 [INFO] Database connection opened.
+2026-07-20 13:32:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:32:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:32:36 [INFO] Database connection closed.
+2026-07-20 13:32:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:32:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:33:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:33:36 [INFO] Database connection opened.
+2026-07-20 13:33:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:33:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:33:36 [INFO] Database connection closed.
+2026-07-20 13:33:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:33:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:34:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:34:36 [INFO] Database connection opened.
+2026-07-20 13:34:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:34:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:34:36 [INFO] Database connection closed.
+2026-07-20 13:34:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:34:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:35:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:35:36 [INFO] Database connection opened.
+2026-07-20 13:35:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:35:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:35:36 [INFO] Database connection closed.
+2026-07-20 13:35:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:35:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:36:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:36:36 [INFO] Database connection opened.
+2026-07-20 13:36:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:36:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:36:36 [INFO] Database connection closed.
+2026-07-20 13:36:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:36:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:37:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:37:36 [INFO] Database connection opened.
+2026-07-20 13:37:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:37:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:37:36 [INFO] Database connection closed.
+2026-07-20 13:37:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:37:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:38:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:38:36 [INFO] Database connection opened.
+2026-07-20 13:38:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:38:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:38:36 [INFO] Database connection closed.
+2026-07-20 13:38:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:38:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:39:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:39:36 [INFO] Database connection opened.
+2026-07-20 13:39:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:39:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:39:36 [INFO] Database connection closed.
+2026-07-20 13:39:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:39:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:40:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:40:36 [INFO] Database connection opened.
+2026-07-20 13:40:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:40:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:40:36 [INFO] Database connection closed.
+2026-07-20 13:40:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:40:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:41:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:41:36 [INFO] Database connection opened.
+2026-07-20 13:41:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:41:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:41:36 [INFO] Database connection closed.
+2026-07-20 13:41:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:41:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:42:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:42:36 [INFO] Database connection opened.
+2026-07-20 13:42:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:42:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:42:36 [INFO] Database connection closed.
+2026-07-20 13:42:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:42:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:43:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:43:36 [INFO] Database connection opened.
+2026-07-20 13:43:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:43:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:43:36 [INFO] Database connection closed.
+2026-07-20 13:43:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:43:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:44:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:44:36 [INFO] Database connection opened.
+2026-07-20 13:44:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:44:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:44:36 [INFO] Database connection closed.
+2026-07-20 13:44:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:44:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:45:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:45:36 [INFO] Database connection opened.
+2026-07-20 13:45:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:45:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:45:36 [INFO] Database connection closed.
+2026-07-20 13:45:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:45:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:46:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:46:36 [INFO] Database connection opened.
+2026-07-20 13:46:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:46:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:46:36 [INFO] Database connection closed.
+2026-07-20 13:46:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:46:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:47:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:47:36 [INFO] Database connection opened.
+2026-07-20 13:47:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:47:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:47:36 [INFO] Database connection closed.
+2026-07-20 13:47:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:47:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:48:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:48:36 [INFO] Database connection opened.
+2026-07-20 13:48:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:48:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:48:36 [INFO] Database connection closed.
+2026-07-20 13:48:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:48:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:49:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:49:36 [INFO] Database connection opened.
+2026-07-20 13:49:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:49:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:49:36 [INFO] Database connection closed.
+2026-07-20 13:49:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:49:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:50:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:50:36 [INFO] Database connection opened.
+2026-07-20 13:50:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:50:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:50:36 [INFO] Database connection closed.
+2026-07-20 13:50:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:50:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:51:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:51:36 [INFO] Database connection opened.
+2026-07-20 13:51:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:51:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:51:36 [INFO] Database connection closed.
+2026-07-20 13:51:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:51:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:52:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:52:36 [INFO] Database connection opened.
+2026-07-20 13:52:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:52:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:52:36 [INFO] Database connection closed.
+2026-07-20 13:52:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:52:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:53:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:53:36 [INFO] Database connection opened.
+2026-07-20 13:53:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:53:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:53:36 [INFO] Database connection closed.
+2026-07-20 13:53:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:53:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:54:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:54:36 [INFO] Database connection opened.
+2026-07-20 13:54:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:54:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:54:36 [INFO] Database connection closed.
+2026-07-20 13:54:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:54:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:55:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:55:36 [INFO] Database connection opened.
+2026-07-20 13:55:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:55:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:55:36 [INFO] Database connection closed.
+2026-07-20 13:55:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:55:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:56:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:56:36 [INFO] Database connection opened.
+2026-07-20 13:56:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:56:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:56:36 [INFO] Database connection closed.
+2026-07-20 13:56:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:56:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:57:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:57:36 [INFO] Database connection opened.
+2026-07-20 13:57:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:57:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:57:36 [INFO] Database connection closed.
+2026-07-20 13:57:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:57:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:58:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:58:36 [INFO] Database connection opened.
+2026-07-20 13:58:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:58:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:58:36 [INFO] Database connection closed.
+2026-07-20 13:58:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:58:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 13:59:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 13:59:36 [INFO] Database connection opened.
+2026-07-20 13:59:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 13:59:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 13:59:36 [INFO] Database connection closed.
+2026-07-20 13:59:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 13:59:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:00:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:00:36 [INFO] Database connection opened.
+2026-07-20 14:00:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:00:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:00:36 [INFO] Database connection closed.
+2026-07-20 14:00:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:00:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:01:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:01:36 [INFO] Database connection opened.
+2026-07-20 14:01:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:01:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:01:36 [INFO] Database connection closed.
+2026-07-20 14:01:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:01:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:02:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:02:36 [INFO] Database connection opened.
+2026-07-20 14:02:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:02:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:02:36 [INFO] Database connection closed.
+2026-07-20 14:02:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:02:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:03:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:03:36 [INFO] Database connection opened.
+2026-07-20 14:03:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:03:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:03:36 [INFO] Database connection closed.
+2026-07-20 14:03:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:03:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:04:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:04:36 [INFO] Database connection opened.
+2026-07-20 14:04:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:04:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:04:36 [INFO] Database connection closed.
+2026-07-20 14:04:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:04:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:05:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:05:36 [INFO] Database connection opened.
+2026-07-20 14:05:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:05:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:05:36 [INFO] Database connection closed.
+2026-07-20 14:05:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:05:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:06:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:06:36 [INFO] Database connection opened.
+2026-07-20 14:06:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:06:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:06:36 [INFO] Database connection closed.
+2026-07-20 14:06:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:06:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:07:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:07:36 [INFO] Database connection opened.
+2026-07-20 14:07:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:07:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:07:36 [INFO] Database connection closed.
+2026-07-20 14:07:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:07:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:08:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:08:36 [INFO] Database connection opened.
+2026-07-20 14:08:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:08:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:08:36 [INFO] Database connection closed.
+2026-07-20 14:08:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:08:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:09:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:09:36 [INFO] Database connection opened.
+2026-07-20 14:09:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:09:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:09:36 [INFO] Database connection closed.
+2026-07-20 14:09:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:09:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:10:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:10:36 [INFO] Database connection opened.
+2026-07-20 14:10:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:10:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:10:36 [INFO] Database connection closed.
+2026-07-20 14:10:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:10:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:11:36 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:11:36 [INFO] Database connection opened.
+2026-07-20 14:11:36 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:11:36 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:11:36 [INFO] Database connection closed.
+2026-07-20 14:11:36 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:11:36 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:23:53 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:23:53 [INFO] Database connection opened.
+2026-07-20 14:23:53 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:23:53 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:23:53 [INFO] Database connection closed.
+2026-07-20 14:23:53 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:23:53 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:24:53 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:24:53 [INFO] Database connection opened.
+2026-07-20 14:24:53 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:24:53 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:24:53 [INFO] Database connection closed.
+2026-07-20 14:24:53 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:24:53 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 14:29:02 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-07-20 14:29:02 [INFO] Database connection opened.
+2026-07-20 14:29:02 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-07-20 14:29:02 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-07-20 14:29:02 [INFO] Database connection closed.
+2026-07-20 14:29:02 [INFO] Json file created successfully. File Name : TestServiceMode.json
+2026-07-20 14:29:02 [INFO] F_UploadFtp_Ts1 Finished.
+2026-07-20 15:35:23 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:11:59 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:12:59 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:13:59 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:15:00 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:16:00 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
+2026-07-20 16:17:01 [ERROR] System.Exception: Test SMS
+   at DataSenderPlusProject.MainWindow.F_UploadFtp(Int32 configId) in E:\DataSenderPlus\DataSenderPlusProject\MainWindow.xaml.cs:line 272
