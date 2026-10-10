@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -30,16 +30,17 @@ namespace DataSenderPlusProject.Helpers
                 // JSON
                 case 1:
 
-                    string json =
-                        JsonConvert.SerializeObject(
-                            table,
-                            Newtonsoft.Json.Formatting.Indented);
-
-                    File.WriteAllText(
-                        Path.Combine(
-                            exportFolder,
-                            fileName + ".json"),
-                        json);
+                    // Stream JSON to disk instead of allocating the entire document as a string.
+                    using (var stream = new StreamWriter(
+                        Path.Combine(exportFolder, fileName + ".json"),
+                        false,
+                        new UTF8Encoding(false)))
+                    using (var writer = new JsonTextWriter(stream))
+                    {
+                        var serializer = JsonSerializer.CreateDefault();
+                        serializer.Formatting = Newtonsoft.Json.Formatting.Indented;
+                        serializer.Serialize(writer, table);
+                    }
 
                     break;
                 case 2:
@@ -185,5 +186,4 @@ namespace DataSenderPlusProject.Helpers
            
        }
      }
-    }   
-    
+    }

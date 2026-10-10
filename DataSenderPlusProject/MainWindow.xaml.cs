@@ -353,34 +353,6 @@ namespace DataSenderPlusProject
                     basePath);              // مسیر ذخیره
 
                 Logger.Info("Export File Created Successfully.");
-                /*
-                // تبدیل به Json
-                string JsonOutput = J.F_CreateJasonFile(dtable).ToString();
-
-                cn.Close();
-
-                Logger.Info("Database connection closed.");
-
-                // تعیین مسیر فایل
-                string basePath;
-
-                if (string.IsNullOrWhiteSpace(config.FolderPath))
-                {
-                    basePath = System.IO.Path.GetDirectoryName(
-                        Assembly.GetExecutingAssembly().Location);
-                }
-                else
-                {
-                    basePath = config.FolderPath;
-                }
-
-                // ذخیره فایل Json
-                File.WriteAllText(
-                   System.IO.Path.Combine(basePath, "ExportFile", config.FileName + ".json"),
-                    JsonOutput);
-
-                Logger.Info($"Json file created successfully. File Name : {config.FileName}.json");
-                */
 
                 // ارسال به FTP
                 if (config.SendFlag == 1)

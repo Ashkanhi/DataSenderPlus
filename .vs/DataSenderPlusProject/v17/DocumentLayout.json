@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|e:\\datasenderplus\\datasenderplusproject\\helpers\\exporthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|E:\\DataSenderPlus\\datasenderplusproject\\helpers\\exporthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90A11400-B5F1-4DC4-A223-5565553A42BA}|DataSenderPlusProject\\DataSenderPlusProject.csproj|solutionrelative:datasenderplusproject\\helpers\\exporthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -68,10 +68,9 @@
               "RelativeDocumentMoniker": "DataSenderPlusProject\\Helpers\\ExportHelper.cs",
               "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\Helpers\\ExportHelper.cs",
               "RelativeToolTip": "DataSenderPlusProject\\Helpers\\ExportHelper.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAiwEkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T05:23:11.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-21T05:23:11.788Z"
             },
             {
               "$type": "Document",
@@ -81,7 +80,7 @@
               "RelativeDocumentMoniker": "DataSenderPlusProject\\MainWindow.xaml.cs",
               "ToolTip": "E:\\DataSenderPlus\\DataSenderPlusProject\\MainWindow.xaml.cs",
               "RelativeToolTip": "DataSenderPlusProject\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYCAAAAAAAAAAA4wA8CAACSAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T06:26:01.859Z"
             },

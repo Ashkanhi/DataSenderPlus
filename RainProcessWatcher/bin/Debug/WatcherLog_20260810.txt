@@ -1,0 +1,1088 @@
+2026-08-10 08:21:46    --------------------------------------
+2026-08-10 08:21:46    Checking Process...
+2026-08-10 08:21:46    Running Process Count : 1
+2026-08-10 08:21:46    Process Already Running
+2026-08-10 08:23:46    --------------------------------------
+2026-08-10 08:23:46    Checking Process...
+2026-08-10 08:23:46    Running Process Count : 1
+2026-08-10 08:23:46    Process Already Running
+2026-08-10 08:25:46    --------------------------------------
+2026-08-10 08:25:46    Checking Process...
+2026-08-10 08:25:46    Running Process Count : 1
+2026-08-10 08:25:46    Process Already Running
+2026-08-10 08:27:46    --------------------------------------
+2026-08-10 08:27:46    Checking Process...
+2026-08-10 08:27:46    Running Process Count : 1
+2026-08-10 08:27:46    Process Already Running
+2026-08-10 08:29:46    --------------------------------------
+2026-08-10 08:29:46    Checking Process...
+2026-08-10 08:29:46    Running Process Count : 1
+2026-08-10 08:29:46    Process Already Running
+2026-08-10 08:31:46    --------------------------------------
+2026-08-10 08:31:46    Checking Process...
+2026-08-10 08:31:46    Running Process Count : 1
+2026-08-10 08:31:46    Process Already Running
+2026-08-10 08:33:46    --------------------------------------
+2026-08-10 08:33:46    Checking Process...
+2026-08-10 08:33:46    Running Process Count : 1
+2026-08-10 08:33:46    Process Already Running
+2026-08-10 08:35:46    --------------------------------------
+2026-08-10 08:35:46    Checking Process...
+2026-08-10 08:35:46    Running Process Count : 1
+2026-08-10 08:35:46    Process Already Running
+2026-08-10 08:37:46    --------------------------------------
+2026-08-10 08:37:46    Checking Process...
+2026-08-10 08:37:46    Running Process Count : 1
+2026-08-10 08:37:46    Process Already Running
+2026-08-10 08:39:46    --------------------------------------
+2026-08-10 08:39:46    Checking Process...
+2026-08-10 08:39:46    Running Process Count : 1
+2026-08-10 08:39:46    Process Already Running
+2026-08-10 08:41:46    --------------------------------------
+2026-08-10 08:41:46    Checking Process...
+2026-08-10 08:41:46    Running Process Count : 1
+2026-08-10 08:41:46    Process Already Running
+2026-08-10 08:43:46    --------------------------------------
+2026-08-10 08:43:46    Checking Process...
+2026-08-10 08:43:46    Running Process Count : 1
+2026-08-10 08:43:46    Process Already Running
+2026-08-10 08:45:46    --------------------------------------
+2026-08-10 08:45:46    Checking Process...
+2026-08-10 08:45:46    Running Process Count : 1
+2026-08-10 08:45:46    Process Already Running
+2026-08-10 08:47:46    --------------------------------------
+2026-08-10 08:47:46    Checking Process...
+2026-08-10 08:47:46    Running Process Count : 1
+2026-08-10 08:47:46    Process Already Running
+2026-08-10 08:49:46    --------------------------------------
+2026-08-10 08:49:46    Checking Process...
+2026-08-10 08:49:46    Running Process Count : 1
+2026-08-10 08:49:46    Process Already Running
+2026-08-10 08:51:46    --------------------------------------
+2026-08-10 08:51:46    Checking Process...
+2026-08-10 08:51:46    Running Process Count : 1
+2026-08-10 08:51:46    Process Already Running
+2026-08-10 08:53:46    --------------------------------------
+2026-08-10 08:53:46    Checking Process...
+2026-08-10 08:53:46    Running Process Count : 1
+2026-08-10 08:53:46    Process Already Running
+2026-08-10 08:55:46    --------------------------------------
+2026-08-10 08:55:46    Checking Process...
+2026-08-10 08:55:46    Running Process Count : 1
+2026-08-10 08:55:46    Process Already Running
+2026-08-10 08:57:46    --------------------------------------
+2026-08-10 08:57:46    Checking Process...
+2026-08-10 08:57:46    Running Process Count : 1
+2026-08-10 08:57:46    Process Already Running
+2026-08-10 08:59:46    --------------------------------------
+2026-08-10 08:59:46    Checking Process...
+2026-08-10 08:59:46    Running Process Count : 1
+2026-08-10 08:59:46    Process Already Running
+2026-08-10 09:01:46    --------------------------------------
+2026-08-10 09:01:46    Checking Process...
+2026-08-10 09:01:46    Running Process Count : 1
+2026-08-10 09:01:46    Process Already Running
+2026-08-10 09:03:46    --------------------------------------
+2026-08-10 09:03:46    Checking Process...
+2026-08-10 09:03:46    Running Process Count : 1
+2026-08-10 09:03:46    Process Already Running
+2026-08-10 09:05:46    --------------------------------------
+2026-08-10 09:05:46    Checking Process...
+2026-08-10 09:05:46    Running Process Count : 1
+2026-08-10 09:05:46    Process Already Running
+2026-08-10 09:07:46    --------------------------------------
+2026-08-10 09:07:46    Checking Process...
+2026-08-10 09:07:46    Running Process Count : 1
+2026-08-10 09:07:46    Process Already Running
+2026-08-10 09:09:46    --------------------------------------
+2026-08-10 09:09:46    Checking Process...
+2026-08-10 09:09:46    Running Process Count : 1
+2026-08-10 09:09:46    Process Already Running
+2026-08-10 09:11:46    --------------------------------------
+2026-08-10 09:11:46    Checking Process...
+2026-08-10 09:11:46    Running Process Count : 1
+2026-08-10 09:11:46    Process Already Running
+2026-08-10 09:13:46    --------------------------------------
+2026-08-10 09:13:46    Checking Process...
+2026-08-10 09:13:46    Running Process Count : 1
+2026-08-10 09:13:46    Process Already Running
+2026-08-10 09:15:47    --------------------------------------
+2026-08-10 09:15:47    Checking Process...
+2026-08-10 09:15:47    Running Process Count : 1
+2026-08-10 09:15:47    Process Already Running
+2026-08-10 09:17:47    --------------------------------------
+2026-08-10 09:17:47    Checking Process...
+2026-08-10 09:17:47    Running Process Count : 1
+2026-08-10 09:17:47    Process Already Running
+2026-08-10 09:19:47    --------------------------------------
+2026-08-10 09:19:47    Checking Process...
+2026-08-10 09:19:47    Running Process Count : 1
+2026-08-10 09:19:47    Process Already Running
+2026-08-10 09:21:47    --------------------------------------
+2026-08-10 09:21:47    Checking Process...
+2026-08-10 09:21:47    Running Process Count : 1
+2026-08-10 09:21:47    Process Already Running
+2026-08-10 09:23:47    --------------------------------------
+2026-08-10 09:23:47    Checking Process...
+2026-08-10 09:23:47    Running Process Count : 1
+2026-08-10 09:23:47    Process Already Running
+2026-08-10 09:25:47    --------------------------------------
+2026-08-10 09:25:47    Checking Process...
+2026-08-10 09:25:47    Running Process Count : 1
+2026-08-10 09:25:47    Process Already Running
+2026-08-10 09:27:47    --------------------------------------
+2026-08-10 09:27:47    Checking Process...
+2026-08-10 09:27:47    Running Process Count : 1
+2026-08-10 09:27:47    Process Already Running
+2026-08-10 09:29:47    --------------------------------------
+2026-08-10 09:29:47    Checking Process...
+2026-08-10 09:29:47    Running Process Count : 1
+2026-08-10 09:29:47    Process Already Running
+2026-08-10 09:31:47    --------------------------------------
+2026-08-10 09:31:47    Checking Process...
+2026-08-10 09:31:47    Running Process Count : 1
+2026-08-10 09:31:47    Process Already Running
+2026-08-10 09:33:47    --------------------------------------
+2026-08-10 09:33:47    Checking Process...
+2026-08-10 09:33:47    Running Process Count : 1
+2026-08-10 09:33:47    Process Already Running
+2026-08-10 09:35:47    --------------------------------------
+2026-08-10 09:35:47    Checking Process...
+2026-08-10 09:35:47    Running Process Count : 1
+2026-08-10 09:35:47    Process Already Running
+2026-08-10 09:37:47    --------------------------------------
+2026-08-10 09:37:47    Checking Process...
+2026-08-10 09:37:47    Running Process Count : 1
+2026-08-10 09:37:47    Process Already Running
+2026-08-10 09:39:47    --------------------------------------
+2026-08-10 09:39:47    Checking Process...
+2026-08-10 09:39:47    Running Process Count : 1
+2026-08-10 09:39:47    Process Already Running
+2026-08-10 09:41:47    --------------------------------------
+2026-08-10 09:41:47    Checking Process...
+2026-08-10 09:41:47    Running Process Count : 1
+2026-08-10 09:41:47    Process Already Running
+2026-08-10 09:43:47    --------------------------------------
+2026-08-10 09:43:47    Checking Process...
+2026-08-10 09:43:47    Running Process Count : 1
+2026-08-10 09:43:47    Process Already Running
+2026-08-10 09:45:47    --------------------------------------
+2026-08-10 09:45:47    Checking Process...
+2026-08-10 09:45:47    Running Process Count : 1
+2026-08-10 09:45:47    Process Already Running
+2026-08-10 09:47:47    --------------------------------------
+2026-08-10 09:47:47    Checking Process...
+2026-08-10 09:47:47    Running Process Count : 1
+2026-08-10 09:47:47    Process Already Running
+2026-08-10 09:49:47    --------------------------------------
+2026-08-10 09:49:47    Checking Process...
+2026-08-10 09:49:47    Running Process Count : 1
+2026-08-10 09:49:47    Process Already Running
+2026-08-10 09:51:47    --------------------------------------
+2026-08-10 09:51:47    Checking Process...
+2026-08-10 09:51:47    Running Process Count : 1
+2026-08-10 09:51:47    Process Already Running
+2026-08-10 09:53:47    --------------------------------------
+2026-08-10 09:53:47    Checking Process...
+2026-08-10 09:53:47    Running Process Count : 1
+2026-08-10 09:53:47    Process Already Running
+2026-08-10 09:55:47    --------------------------------------
+2026-08-10 09:55:47    Checking Process...
+2026-08-10 09:55:47    Running Process Count : 1
+2026-08-10 09:55:47    Process Already Running
+2026-08-10 09:57:47    --------------------------------------
+2026-08-10 09:57:47    Checking Process...
+2026-08-10 09:57:47    Running Process Count : 1
+2026-08-10 09:57:47    Process Already Running
+2026-08-10 09:59:47    --------------------------------------
+2026-08-10 09:59:47    Checking Process...
+2026-08-10 09:59:47    Running Process Count : 1
+2026-08-10 09:59:47    Process Already Running
+2026-08-10 10:01:47    --------------------------------------
+2026-08-10 10:01:47    Checking Process...
+2026-08-10 10:01:47    Running Process Count : 1
+2026-08-10 10:01:47    Process Already Running
+2026-08-10 10:03:47    --------------------------------------
+2026-08-10 10:03:47    Checking Process...
+2026-08-10 10:03:47    Running Process Count : 1
+2026-08-10 10:03:47    Process Already Running
+2026-08-10 10:05:47    --------------------------------------
+2026-08-10 10:05:47    Checking Process...
+2026-08-10 10:05:47    Running Process Count : 1
+2026-08-10 10:05:47    Process Already Running
+2026-08-10 10:07:47    --------------------------------------
+2026-08-10 10:07:47    Checking Process...
+2026-08-10 10:07:47    Running Process Count : 1
+2026-08-10 10:07:47    Process Already Running
+2026-08-10 10:09:47    --------------------------------------
+2026-08-10 10:09:47    Checking Process...
+2026-08-10 10:09:47    Running Process Count : 1
+2026-08-10 10:09:47    Process Already Running
+2026-08-10 10:11:47    --------------------------------------
+2026-08-10 10:11:47    Checking Process...
+2026-08-10 10:11:47    Running Process Count : 1
+2026-08-10 10:11:47    Process Already Running
+2026-08-10 10:13:47    --------------------------------------
+2026-08-10 10:13:47    Checking Process...
+2026-08-10 10:13:47    Running Process Count : 1
+2026-08-10 10:13:47    Process Already Running
+2026-08-10 10:15:47    --------------------------------------
+2026-08-10 10:15:47    Checking Process...
+2026-08-10 10:15:47    Running Process Count : 1
+2026-08-10 10:15:47    Process Already Running
+2026-08-10 10:17:47    --------------------------------------
+2026-08-10 10:17:47    Checking Process...
+2026-08-10 10:17:47    Running Process Count : 1
+2026-08-10 10:17:47    Process Already Running
+2026-08-10 10:19:47    --------------------------------------
+2026-08-10 10:19:47    Checking Process...
+2026-08-10 10:19:47    Running Process Count : 1
+2026-08-10 10:19:47    Process Already Running
+2026-08-10 10:21:47    --------------------------------------
+2026-08-10 10:21:47    Checking Process...
+2026-08-10 10:21:47    Running Process Count : 1
+2026-08-10 10:21:47    Process Already Running
+2026-08-10 10:23:47    --------------------------------------
+2026-08-10 10:23:47    Checking Process...
+2026-08-10 10:23:47    Running Process Count : 1
+2026-08-10 10:23:47    Process Already Running
+2026-08-10 10:25:47    --------------------------------------
+2026-08-10 10:25:47    Checking Process...
+2026-08-10 10:25:47    Running Process Count : 1
+2026-08-10 10:25:47    Process Already Running
+2026-08-10 10:27:47    --------------------------------------
+2026-08-10 10:27:47    Checking Process...
+2026-08-10 10:27:47    Running Process Count : 1
+2026-08-10 10:27:47    Process Already Running
+2026-08-10 10:29:47    --------------------------------------
+2026-08-10 10:29:47    Checking Process...
+2026-08-10 10:29:47    Running Process Count : 1
+2026-08-10 10:29:47    Process Already Running
+2026-08-10 10:31:47    --------------------------------------
+2026-08-10 10:31:47    Checking Process...
+2026-08-10 10:31:47    Running Process Count : 1
+2026-08-10 10:31:47    Process Already Running
+2026-08-10 10:33:47    --------------------------------------
+2026-08-10 10:33:47    Checking Process...
+2026-08-10 10:33:47    Running Process Count : 1
+2026-08-10 10:33:47    Process Already Running
+2026-08-10 10:35:47    --------------------------------------
+2026-08-10 10:35:47    Checking Process...
+2026-08-10 10:35:47    Running Process Count : 1
+2026-08-10 10:35:47    Process Already Running
+2026-08-10 10:37:47    --------------------------------------
+2026-08-10 10:37:47    Checking Process...
+2026-08-10 10:37:47    Running Process Count : 1
+2026-08-10 10:37:47    Process Already Running
+2026-08-10 10:39:47    --------------------------------------
+2026-08-10 10:39:47    Checking Process...
+2026-08-10 10:39:47    Running Process Count : 1
+2026-08-10 10:39:47    Process Already Running
+2026-08-10 10:41:47    --------------------------------------
+2026-08-10 10:41:47    Checking Process...
+2026-08-10 10:41:47    Running Process Count : 1
+2026-08-10 10:41:47    Process Already Running
+2026-08-10 10:43:47    --------------------------------------
+2026-08-10 10:43:47    Checking Process...
+2026-08-10 10:43:47    Running Process Count : 1
+2026-08-10 10:43:47    Process Already Running
+2026-08-10 10:45:47    --------------------------------------
+2026-08-10 10:45:47    Checking Process...
+2026-08-10 10:45:47    Running Process Count : 1
+2026-08-10 10:45:47    Process Already Running
+2026-08-10 10:47:47    --------------------------------------
+2026-08-10 10:47:47    Checking Process...
+2026-08-10 10:47:47    Running Process Count : 1
+2026-08-10 10:47:47    Process Already Running
+2026-08-10 10:49:47    --------------------------------------
+2026-08-10 10:49:47    Checking Process...
+2026-08-10 10:49:47    Running Process Count : 1
+2026-08-10 10:49:47    Process Already Running
+2026-08-10 10:51:47    --------------------------------------
+2026-08-10 10:51:47    Checking Process...
+2026-08-10 10:51:47    Running Process Count : 1
+2026-08-10 10:51:47    Process Already Running
+2026-08-10 10:53:47    --------------------------------------
+2026-08-10 10:53:47    Checking Process...
+2026-08-10 10:53:47    Running Process Count : 1
+2026-08-10 10:53:47    Process Already Running
+2026-08-10 10:55:47    --------------------------------------
+2026-08-10 10:55:47    Checking Process...
+2026-08-10 10:55:47    Running Process Count : 1
+2026-08-10 10:55:47    Process Already Running
+2026-08-10 10:57:47    --------------------------------------
+2026-08-10 10:57:47    Checking Process...
+2026-08-10 10:57:47    Running Process Count : 1
+2026-08-10 10:57:47    Process Already Running
+2026-08-10 10:59:47    --------------------------------------
+2026-08-10 10:59:47    Checking Process...
+2026-08-10 10:59:47    Running Process Count : 1
+2026-08-10 10:59:47    Process Already Running
+2026-08-10 11:01:47    --------------------------------------
+2026-08-10 11:01:47    Checking Process...
+2026-08-10 11:01:47    Running Process Count : 1
+2026-08-10 11:01:47    Process Already Running
+2026-08-10 11:03:47    --------------------------------------
+2026-08-10 11:03:47    Checking Process...
+2026-08-10 11:03:47    Running Process Count : 1
+2026-08-10 11:03:47    Process Already Running
+2026-08-10 11:05:47    --------------------------------------
+2026-08-10 11:05:47    Checking Process...
+2026-08-10 11:05:47    Running Process Count : 1
+2026-08-10 11:05:47    Process Already Running
+2026-08-10 11:07:47    --------------------------------------
+2026-08-10 11:07:47    Checking Process...
+2026-08-10 11:07:47    Running Process Count : 1
+2026-08-10 11:07:47    Process Already Running
+2026-08-10 11:09:47    --------------------------------------
+2026-08-10 11:09:47    Checking Process...
+2026-08-10 11:09:47    Running Process Count : 1
+2026-08-10 11:09:47    Process Already Running
+2026-08-10 11:11:47    --------------------------------------
+2026-08-10 11:11:47    Checking Process...
+2026-08-10 11:11:47    Running Process Count : 1
+2026-08-10 11:11:47    Process Already Running
+2026-08-10 11:13:47    --------------------------------------
+2026-08-10 11:13:47    Checking Process...
+2026-08-10 11:13:47    Running Process Count : 1
+2026-08-10 11:13:47    Process Already Running
+2026-08-10 11:15:47    --------------------------------------
+2026-08-10 11:15:47    Checking Process...
+2026-08-10 11:15:47    Running Process Count : 1
+2026-08-10 11:15:47    Process Already Running
+2026-08-10 11:17:47    --------------------------------------
+2026-08-10 11:17:47    Checking Process...
+2026-08-10 11:17:47    Running Process Count : 1
+2026-08-10 11:17:47    Process Already Running
+2026-08-10 11:19:47    --------------------------------------
+2026-08-10 11:19:47    Checking Process...
+2026-08-10 11:19:47    Running Process Count : 1
+2026-08-10 11:19:47    Process Already Running
+2026-08-10 11:21:47    --------------------------------------
+2026-08-10 11:21:47    Checking Process...
+2026-08-10 11:21:47    Running Process Count : 1
+2026-08-10 11:21:47    Process Already Running
+2026-08-10 11:23:47    --------------------------------------
+2026-08-10 11:23:47    Checking Process...
+2026-08-10 11:23:47    Running Process Count : 1
+2026-08-10 11:23:47    Process Already Running
+2026-08-10 11:25:47    --------------------------------------
+2026-08-10 11:25:47    Checking Process...
+2026-08-10 11:25:47    Running Process Count : 1
+2026-08-10 11:25:47    Process Already Running
+2026-08-10 11:27:47    --------------------------------------
+2026-08-10 11:27:47    Checking Process...
+2026-08-10 11:27:47    Running Process Count : 1
+2026-08-10 11:27:47    Process Already Running
+2026-08-10 11:29:47    --------------------------------------
+2026-08-10 11:29:47    Checking Process...
+2026-08-10 11:29:47    Running Process Count : 1
+2026-08-10 11:29:47    Process Already Running
+2026-08-10 11:31:47    --------------------------------------
+2026-08-10 11:31:47    Checking Process...
+2026-08-10 11:31:47    Running Process Count : 1
+2026-08-10 11:31:47    Process Already Running
+2026-08-10 11:33:47    --------------------------------------
+2026-08-10 11:33:47    Checking Process...
+2026-08-10 11:33:47    Running Process Count : 1
+2026-08-10 11:33:47    Process Already Running
+2026-08-10 11:35:47    --------------------------------------
+2026-08-10 11:35:47    Checking Process...
+2026-08-10 11:35:47    Running Process Count : 1
+2026-08-10 11:35:47    Process Already Running
+2026-08-10 11:37:47    --------------------------------------
+2026-08-10 11:37:47    Checking Process...
+2026-08-10 11:37:47    Running Process Count : 1
+2026-08-10 11:37:47    Process Already Running
+2026-08-10 11:39:47    --------------------------------------
+2026-08-10 11:39:47    Checking Process...
+2026-08-10 11:39:47    Running Process Count : 1
+2026-08-10 11:39:47    Process Already Running
+2026-08-10 11:41:47    --------------------------------------
+2026-08-10 11:41:47    Checking Process...
+2026-08-10 11:41:47    Running Process Count : 1
+2026-08-10 11:41:47    Process Already Running
+2026-08-10 11:43:47    --------------------------------------
+2026-08-10 11:43:47    Checking Process...
+2026-08-10 11:43:47    Running Process Count : 1
+2026-08-10 11:43:47    Process Already Running
+2026-08-10 11:45:47    --------------------------------------
+2026-08-10 11:45:47    Checking Process...
+2026-08-10 11:45:47    Running Process Count : 1
+2026-08-10 11:45:47    Process Already Running
+2026-08-10 11:47:47    --------------------------------------
+2026-08-10 11:47:47    Checking Process...
+2026-08-10 11:47:47    Running Process Count : 1
+2026-08-10 11:47:47    Process Already Running
+2026-08-10 11:49:47    --------------------------------------
+2026-08-10 11:49:47    Checking Process...
+2026-08-10 11:49:47    Running Process Count : 1
+2026-08-10 11:49:47    Process Already Running
+2026-08-10 11:51:47    --------------------------------------
+2026-08-10 11:51:47    Checking Process...
+2026-08-10 11:51:47    Running Process Count : 1
+2026-08-10 11:51:47    Process Already Running
+2026-08-10 11:53:47    --------------------------------------
+2026-08-10 11:53:47    Checking Process...
+2026-08-10 11:53:47    Running Process Count : 1
+2026-08-10 11:53:47    Process Already Running
+2026-08-10 11:55:47    --------------------------------------
+2026-08-10 11:55:47    Checking Process...
+2026-08-10 11:55:47    Running Process Count : 1
+2026-08-10 11:55:47    Process Already Running
+2026-08-10 11:57:47    --------------------------------------
+2026-08-10 11:57:47    Checking Process...
+2026-08-10 11:57:47    Running Process Count : 1
+2026-08-10 11:57:47    Process Already Running
+2026-08-10 11:59:47    --------------------------------------
+2026-08-10 11:59:47    Checking Process...
+2026-08-10 11:59:47    Running Process Count : 1
+2026-08-10 11:59:47    Process Already Running
+2026-08-10 12:01:47    --------------------------------------
+2026-08-10 12:01:47    Checking Process...
+2026-08-10 12:01:47    Running Process Count : 1
+2026-08-10 12:01:47    Process Already Running
+2026-08-10 12:03:47    --------------------------------------
+2026-08-10 12:03:47    Checking Process...
+2026-08-10 12:03:47    Running Process Count : 1
+2026-08-10 12:03:47    Process Already Running
+2026-08-10 12:05:47    --------------------------------------
+2026-08-10 12:05:47    Checking Process...
+2026-08-10 12:05:47    Running Process Count : 1
+2026-08-10 12:05:47    Process Already Running
+2026-08-10 12:07:47    --------------------------------------
+2026-08-10 12:07:47    Checking Process...
+2026-08-10 12:07:47    Running Process Count : 1
+2026-08-10 12:07:47    Process Already Running
+2026-08-10 12:09:47    --------------------------------------
+2026-08-10 12:09:47    Checking Process...
+2026-08-10 12:09:47    Running Process Count : 1
+2026-08-10 12:09:47    Process Already Running
+2026-08-10 12:11:48    --------------------------------------
+2026-08-10 12:11:48    Checking Process...
+2026-08-10 12:11:48    Running Process Count : 1
+2026-08-10 12:11:48    Process Already Running
+2026-08-10 12:13:48    --------------------------------------
+2026-08-10 12:13:48    Checking Process...
+2026-08-10 12:13:48    Running Process Count : 1
+2026-08-10 12:13:48    Process Already Running
+2026-08-10 12:15:48    --------------------------------------
+2026-08-10 12:15:48    Checking Process...
+2026-08-10 12:15:48    Running Process Count : 1
+2026-08-10 12:15:48    Process Already Running
+2026-08-10 12:17:48    --------------------------------------
+2026-08-10 12:17:48    Checking Process...
+2026-08-10 12:17:48    Running Process Count : 1
+2026-08-10 12:17:48    Process Already Running
+2026-08-10 12:19:48    --------------------------------------
+2026-08-10 12:19:48    Checking Process...
+2026-08-10 12:19:48    Running Process Count : 1
+2026-08-10 12:19:48    Process Already Running
+2026-08-10 12:21:48    --------------------------------------
+2026-08-10 12:21:48    Checking Process...
+2026-08-10 12:21:48    Running Process Count : 1
+2026-08-10 12:21:48    Process Already Running
+2026-08-10 12:23:48    --------------------------------------
+2026-08-10 12:23:48    Checking Process...
+2026-08-10 12:23:48    Running Process Count : 1
+2026-08-10 12:23:48    Process Already Running
+2026-08-10 12:25:48    --------------------------------------
+2026-08-10 12:25:48    Checking Process...
+2026-08-10 12:25:48    Running Process Count : 1
+2026-08-10 12:25:48    Process Already Running
+2026-08-10 12:27:48    --------------------------------------
+2026-08-10 12:27:48    Checking Process...
+2026-08-10 12:27:48    Running Process Count : 1
+2026-08-10 12:27:48    Process Already Running
+2026-08-10 12:29:48    --------------------------------------
+2026-08-10 12:29:48    Checking Process...
+2026-08-10 12:29:48    Running Process Count : 1
+2026-08-10 12:29:48    Process Already Running
+2026-08-10 12:31:48    --------------------------------------
+2026-08-10 12:31:48    Checking Process...
+2026-08-10 12:31:48    Running Process Count : 1
+2026-08-10 12:31:48    Process Already Running
+2026-08-10 12:33:48    --------------------------------------
+2026-08-10 12:33:48    Checking Process...
+2026-08-10 12:33:48    Running Process Count : 1
+2026-08-10 12:33:48    Process Already Running
+2026-08-10 12:35:48    --------------------------------------
+2026-08-10 12:35:48    Checking Process...
+2026-08-10 12:35:48    Running Process Count : 1
+2026-08-10 12:35:48    Process Already Running
+2026-08-10 12:37:48    --------------------------------------
+2026-08-10 12:37:48    Checking Process...
+2026-08-10 12:37:48    Running Process Count : 1
+2026-08-10 12:37:48    Process Already Running
+2026-08-10 12:39:48    --------------------------------------
+2026-08-10 12:39:48    Checking Process...
+2026-08-10 12:39:48    Running Process Count : 1
+2026-08-10 12:39:48    Process Already Running
+2026-08-10 12:41:48    --------------------------------------
+2026-08-10 12:41:48    Checking Process...
+2026-08-10 12:41:48    Running Process Count : 1
+2026-08-10 12:41:48    Process Already Running
+2026-08-10 12:43:48    --------------------------------------
+2026-08-10 12:43:48    Checking Process...
+2026-08-10 12:43:48    Running Process Count : 1
+2026-08-10 12:43:48    Process Already Running
+2026-08-10 12:45:48    --------------------------------------
+2026-08-10 12:45:48    Checking Process...
+2026-08-10 12:45:48    Running Process Count : 1
+2026-08-10 12:45:48    Process Already Running
+2026-08-10 12:47:48    --------------------------------------
+2026-08-10 12:47:48    Checking Process...
+2026-08-10 12:47:48    Running Process Count : 1
+2026-08-10 12:47:48    Process Already Running
+2026-08-10 12:49:48    --------------------------------------
+2026-08-10 12:49:48    Checking Process...
+2026-08-10 12:49:48    Running Process Count : 1
+2026-08-10 12:49:48    Process Already Running
+2026-08-10 12:51:48    --------------------------------------
+2026-08-10 12:51:48    Checking Process...
+2026-08-10 12:51:48    Running Process Count : 1
+2026-08-10 12:51:48    Process Already Running
+2026-08-10 12:53:48    --------------------------------------
+2026-08-10 12:53:48    Checking Process...
+2026-08-10 12:53:48    Running Process Count : 1
+2026-08-10 12:53:48    Process Already Running
+2026-08-10 12:55:48    --------------------------------------
+2026-08-10 12:55:48    Checking Process...
+2026-08-10 12:55:48    Running Process Count : 1
+2026-08-10 12:55:48    Process Already Running
+2026-08-10 12:57:48    --------------------------------------
+2026-08-10 12:57:48    Checking Process...
+2026-08-10 12:57:48    Running Process Count : 1
+2026-08-10 12:57:48    Process Already Running
+2026-08-10 12:59:48    --------------------------------------
+2026-08-10 12:59:48    Checking Process...
+2026-08-10 12:59:48    Running Process Count : 1
+2026-08-10 12:59:48    Process Already Running
+2026-08-10 13:01:48    --------------------------------------
+2026-08-10 13:01:48    Checking Process...
+2026-08-10 13:01:48    Running Process Count : 1
+2026-08-10 13:01:48    Process Already Running
+2026-08-10 13:03:48    --------------------------------------
+2026-08-10 13:03:48    Checking Process...
+2026-08-10 13:03:48    Running Process Count : 1
+2026-08-10 13:03:48    Process Already Running
+2026-08-10 13:05:48    --------------------------------------
+2026-08-10 13:05:48    Checking Process...
+2026-08-10 13:05:48    Running Process Count : 1
+2026-08-10 13:05:48    Process Already Running
+2026-08-10 13:07:48    --------------------------------------
+2026-08-10 13:07:48    Checking Process...
+2026-08-10 13:07:48    Running Process Count : 1
+2026-08-10 13:07:48    Process Already Running
+2026-08-10 13:09:48    --------------------------------------
+2026-08-10 13:09:48    Checking Process...
+2026-08-10 13:09:48    Running Process Count : 1
+2026-08-10 13:09:48    Process Already Running
+2026-08-10 13:11:48    --------------------------------------
+2026-08-10 13:11:48    Checking Process...
+2026-08-10 13:11:48    Running Process Count : 1
+2026-08-10 13:11:48    Process Already Running
+2026-08-10 13:13:48    --------------------------------------
+2026-08-10 13:13:48    Checking Process...
+2026-08-10 13:13:48    Running Process Count : 1
+2026-08-10 13:13:48    Process Already Running
+2026-08-10 13:15:48    --------------------------------------
+2026-08-10 13:15:48    Checking Process...
+2026-08-10 13:15:48    Running Process Count : 1
+2026-08-10 13:15:48    Process Already Running
+2026-08-10 13:17:48    --------------------------------------
+2026-08-10 13:17:48    Checking Process...
+2026-08-10 13:17:48    Running Process Count : 1
+2026-08-10 13:17:48    Process Already Running
+2026-08-10 13:19:48    --------------------------------------
+2026-08-10 13:19:48    Checking Process...
+2026-08-10 13:19:48    Running Process Count : 1
+2026-08-10 13:19:48    Process Already Running
+2026-08-10 13:21:48    --------------------------------------
+2026-08-10 13:21:48    Checking Process...
+2026-08-10 13:21:48    Running Process Count : 1
+2026-08-10 13:21:48    Process Already Running
+2026-08-10 13:23:48    --------------------------------------
+2026-08-10 13:23:48    Checking Process...
+2026-08-10 13:23:48    Running Process Count : 1
+2026-08-10 13:23:48    Process Already Running
+2026-08-10 13:25:48    --------------------------------------
+2026-08-10 13:25:48    Checking Process...
+2026-08-10 13:25:48    Running Process Count : 1
+2026-08-10 13:25:48    Process Already Running
+2026-08-10 13:27:48    --------------------------------------
+2026-08-10 13:27:48    Checking Process...
+2026-08-10 13:27:48    Running Process Count : 1
+2026-08-10 13:27:48    Process Already Running
+2026-08-10 13:29:48    --------------------------------------
+2026-08-10 13:29:48    Checking Process...
+2026-08-10 13:29:48    Running Process Count : 1
+2026-08-10 13:29:48    Process Already Running
+2026-08-10 13:31:48    --------------------------------------
+2026-08-10 13:31:48    Checking Process...
+2026-08-10 13:31:48    Running Process Count : 1
+2026-08-10 13:31:48    Process Already Running
+2026-08-10 13:33:48    --------------------------------------
+2026-08-10 13:33:48    Checking Process...
+2026-08-10 13:33:48    Running Process Count : 1
+2026-08-10 13:33:48    Process Already Running
+2026-08-10 13:35:48    --------------------------------------
+2026-08-10 13:35:48    Checking Process...
+2026-08-10 13:35:48    Running Process Count : 1
+2026-08-10 13:35:48    Process Already Running
+2026-08-10 13:37:48    --------------------------------------
+2026-08-10 13:37:48    Checking Process...
+2026-08-10 13:37:48    Running Process Count : 1
+2026-08-10 13:37:48    Process Already Running
+2026-08-10 13:39:48    --------------------------------------
+2026-08-10 13:39:48    Checking Process...
+2026-08-10 13:39:48    Running Process Count : 1
+2026-08-10 13:39:48    Process Already Running
+2026-08-10 13:41:48    --------------------------------------
+2026-08-10 13:41:48    Checking Process...
+2026-08-10 13:41:48    Running Process Count : 1
+2026-08-10 13:41:48    Process Already Running
+2026-08-10 13:43:48    --------------------------------------
+2026-08-10 13:43:48    Checking Process...
+2026-08-10 13:43:48    Running Process Count : 1
+2026-08-10 13:43:48    Process Already Running
+2026-08-10 13:45:48    --------------------------------------
+2026-08-10 13:45:48    Checking Process...
+2026-08-10 13:45:48    Running Process Count : 1
+2026-08-10 13:45:48    Process Already Running
+2026-08-10 13:47:48    --------------------------------------
+2026-08-10 13:47:48    Checking Process...
+2026-08-10 13:47:48    Running Process Count : 1
+2026-08-10 13:47:48    Process Already Running
+2026-08-10 13:49:48    --------------------------------------
+2026-08-10 13:49:48    Checking Process...
+2026-08-10 13:49:48    Running Process Count : 1
+2026-08-10 13:49:48    Process Already Running
+2026-08-10 13:51:48    --------------------------------------
+2026-08-10 13:51:48    Checking Process...
+2026-08-10 13:51:48    Running Process Count : 1
+2026-08-10 13:51:48    Process Already Running
+2026-08-10 13:53:48    --------------------------------------
+2026-08-10 13:53:48    Checking Process...
+2026-08-10 13:53:48    Running Process Count : 1
+2026-08-10 13:53:48    Process Already Running
+2026-08-10 13:55:48    --------------------------------------
+2026-08-10 13:55:48    Checking Process...
+2026-08-10 13:55:48    Running Process Count : 1
+2026-08-10 13:55:48    Process Already Running
+2026-08-10 13:57:48    --------------------------------------
+2026-08-10 13:57:48    Checking Process...
+2026-08-10 13:57:48    Running Process Count : 1
+2026-08-10 13:57:48    Process Already Running
+2026-08-10 13:59:48    --------------------------------------
+2026-08-10 13:59:48    Checking Process...
+2026-08-10 13:59:48    Running Process Count : 1
+2026-08-10 13:59:48    Process Already Running
+2026-08-10 14:01:48    --------------------------------------
+2026-08-10 14:01:48    Checking Process...
+2026-08-10 14:01:48    Running Process Count : 1
+2026-08-10 14:01:48    Process Already Running
+2026-08-10 14:03:48    --------------------------------------
+2026-08-10 14:03:48    Checking Process...
+2026-08-10 14:03:48    Running Process Count : 1
+2026-08-10 14:03:48    Process Already Running
+2026-08-10 14:05:48    --------------------------------------
+2026-08-10 14:05:48    Checking Process...
+2026-08-10 14:05:48    Running Process Count : 1
+2026-08-10 14:05:48    Process Already Running
+2026-08-10 14:07:48    --------------------------------------
+2026-08-10 14:07:48    Checking Process...
+2026-08-10 14:07:48    Running Process Count : 1
+2026-08-10 14:07:48    Process Already Running
+2026-08-10 14:09:48    --------------------------------------
+2026-08-10 14:09:48    Checking Process...
+2026-08-10 14:09:48    Running Process Count : 1
+2026-08-10 14:09:48    Process Already Running
+2026-08-10 14:11:48    --------------------------------------
+2026-08-10 14:11:48    Checking Process...
+2026-08-10 14:11:48    Running Process Count : 1
+2026-08-10 14:11:48    Process Already Running
+2026-08-10 14:13:48    --------------------------------------
+2026-08-10 14:13:48    Checking Process...
+2026-08-10 14:13:48    Running Process Count : 1
+2026-08-10 14:13:48    Process Already Running
+2026-08-10 14:15:48    --------------------------------------
+2026-08-10 14:15:48    Checking Process...
+2026-08-10 14:15:48    Running Process Count : 1
+2026-08-10 14:15:48    Process Already Running
+2026-08-10 14:17:48    --------------------------------------
+2026-08-10 14:17:48    Checking Process...
+2026-08-10 14:17:48    Running Process Count : 1
+2026-08-10 14:17:48    Process Already Running
+2026-08-10 14:19:48    --------------------------------------
+2026-08-10 14:19:48    Checking Process...
+2026-08-10 14:19:48    Running Process Count : 1
+2026-08-10 14:19:48    Process Already Running
+2026-08-10 14:21:48    --------------------------------------
+2026-08-10 14:21:48    Checking Process...
+2026-08-10 14:21:48    Running Process Count : 1
+2026-08-10 14:21:48    Process Already Running
+2026-08-10 14:23:49    --------------------------------------
+2026-08-10 14:23:49    Checking Process...
+2026-08-10 14:23:49    Running Process Count : 1
+2026-08-10 14:23:49    Process Already Running
+2026-08-10 14:25:49    --------------------------------------
+2026-08-10 14:25:49    Checking Process...
+2026-08-10 14:25:49    Running Process Count : 1
+2026-08-10 14:25:49    Process Already Running
+2026-08-10 14:27:49    --------------------------------------
+2026-08-10 14:27:49    Checking Process...
+2026-08-10 14:27:49    Running Process Count : 1
+2026-08-10 14:27:49    Process Already Running
+2026-08-10 14:29:49    --------------------------------------
+2026-08-10 14:29:49    Checking Process...
+2026-08-10 14:29:49    Running Process Count : 1
+2026-08-10 14:29:49    Process Already Running
+2026-08-10 14:31:49    --------------------------------------
+2026-08-10 14:31:49    Checking Process...
+2026-08-10 14:31:49    Running Process Count : 1
+2026-08-10 14:31:49    Process Already Running
+2026-08-10 14:33:49    --------------------------------------
+2026-08-10 14:33:49    Checking Process...
+2026-08-10 14:33:49    Running Process Count : 1
+2026-08-10 14:33:49    Process Already Running
+2026-08-10 14:35:49    --------------------------------------
+2026-08-10 14:35:49    Checking Process...
+2026-08-10 14:35:49    Running Process Count : 1
+2026-08-10 14:35:49    Process Already Running
+2026-08-10 14:37:49    --------------------------------------
+2026-08-10 14:37:49    Checking Process...
+2026-08-10 14:37:49    Running Process Count : 1
+2026-08-10 14:37:49    Process Already Running
+2026-08-10 14:39:49    --------------------------------------
+2026-08-10 14:39:49    Checking Process...
+2026-08-10 14:39:49    Running Process Count : 1
+2026-08-10 14:39:49    Process Already Running
+2026-08-10 14:41:49    --------------------------------------
+2026-08-10 14:41:49    Checking Process...
+2026-08-10 14:41:49    Running Process Count : 1
+2026-08-10 14:41:49    Process Already Running
+2026-08-10 14:43:49    --------------------------------------
+2026-08-10 14:43:49    Checking Process...
+2026-08-10 14:43:49    Running Process Count : 1
+2026-08-10 14:43:49    Process Already Running
+2026-08-10 14:45:49    --------------------------------------
+2026-08-10 14:45:49    Checking Process...
+2026-08-10 14:45:49    Running Process Count : 1
+2026-08-10 14:45:49    Process Already Running
+2026-08-10 14:47:49    --------------------------------------
+2026-08-10 14:47:49    Checking Process...
+2026-08-10 14:47:49    Running Process Count : 1
+2026-08-10 14:47:49    Process Already Running
+2026-08-10 14:49:49    --------------------------------------
+2026-08-10 14:49:49    Checking Process...
+2026-08-10 14:49:49    Running Process Count : 1
+2026-08-10 14:49:49    Process Already Running
+2026-08-10 14:51:49    --------------------------------------
+2026-08-10 14:51:49    Checking Process...
+2026-08-10 14:51:49    Running Process Count : 1
+2026-08-10 14:51:49    Process Already Running
+2026-08-10 14:53:49    --------------------------------------
+2026-08-10 14:53:49    Checking Process...
+2026-08-10 14:53:49    Running Process Count : 1
+2026-08-10 14:53:49    Process Already Running
+2026-08-10 14:55:49    --------------------------------------
+2026-08-10 14:55:49    Checking Process...
+2026-08-10 14:55:49    Running Process Count : 1
+2026-08-10 14:55:49    Process Already Running
+2026-08-10 14:57:49    --------------------------------------
+2026-08-10 14:57:49    Checking Process...
+2026-08-10 14:57:49    Running Process Count : 1
+2026-08-10 14:57:49    Process Already Running
+2026-08-10 15:00:03    ========== Service Started ==========
+2026-08-10 15:00:03    Loading Config...
+2026-08-10 15:00:03    ProcessName : DataSenderPlusProject
+2026-08-10 15:00:03    ExePath : E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-08-10 15:00:03    CheckInterval : 120
+2026-08-10 15:00:03    Timer Started
+2026-08-10 15:00:03    --------------------------------------
+2026-08-10 15:00:03    Checking Process...
+2026-08-10 15:00:03    Running Process Count : 0
+2026-08-10 15:00:03    Process Not Running
+2026-08-10 15:00:03    Starting Process...
+2026-08-10 15:00:05    Process Started Successfully
+2026-08-10 15:02:03    --------------------------------------
+2026-08-10 15:02:03    Checking Process...
+2026-08-10 15:02:03    Running Process Count : 1
+2026-08-10 15:02:03    Process Already Running
+2026-08-10 15:04:03    --------------------------------------
+2026-08-10 15:04:03    Checking Process...
+2026-08-10 15:04:03    Running Process Count : 1
+2026-08-10 15:04:03    Process Already Running
+2026-08-10 15:06:03    --------------------------------------
+2026-08-10 15:06:03    Checking Process...
+2026-08-10 15:06:03    Running Process Count : 1
+2026-08-10 15:06:03    Process Already Running
+2026-08-10 15:08:04    --------------------------------------
+2026-08-10 15:08:04    Checking Process...
+2026-08-10 15:08:04    Running Process Count : 1
+2026-08-10 15:08:04    Process Already Running
+2026-08-10 15:10:04    --------------------------------------
+2026-08-10 15:10:04    Checking Process...
+2026-08-10 15:10:04    Running Process Count : 1
+2026-08-10 15:10:04    Process Already Running
+2026-08-10 15:12:04    --------------------------------------
+2026-08-10 15:12:04    Checking Process...
+2026-08-10 15:12:04    Running Process Count : 1
+2026-08-10 15:12:04    Process Already Running
+2026-08-10 15:14:04    --------------------------------------
+2026-08-10 15:14:04    Checking Process...
+2026-08-10 15:14:04    Running Process Count : 1
+2026-08-10 15:14:04    Process Already Running
+2026-08-10 15:16:04    --------------------------------------
+2026-08-10 15:16:04    Checking Process...
+2026-08-10 15:16:04    Running Process Count : 1
+2026-08-10 15:16:04    Process Already Running
+2026-08-10 15:18:04    --------------------------------------
+2026-08-10 15:18:04    Checking Process...
+2026-08-10 15:18:04    Running Process Count : 1
+2026-08-10 15:18:04    Process Already Running
+2026-08-10 15:20:04    --------------------------------------
+2026-08-10 15:20:04    Checking Process...
+2026-08-10 15:20:04    Running Process Count : 1
+2026-08-10 15:20:04    Process Already Running
+2026-08-10 15:22:04    --------------------------------------
+2026-08-10 15:22:04    Checking Process...
+2026-08-10 15:22:04    Running Process Count : 1
+2026-08-10 15:22:04    Process Already Running
+2026-08-10 15:24:04    --------------------------------------
+2026-08-10 15:24:04    Checking Process...
+2026-08-10 15:24:04    Running Process Count : 1
+2026-08-10 15:24:04    Process Already Running
+2026-08-10 15:26:04    --------------------------------------
+2026-08-10 15:26:04    Checking Process...
+2026-08-10 15:26:04    Running Process Count : 1
+2026-08-10 15:26:04    Process Already Running
+2026-08-10 15:28:04    --------------------------------------
+2026-08-10 15:28:04    Checking Process...
+2026-08-10 15:28:04    Running Process Count : 1
+2026-08-10 15:28:04    Process Already Running
+2026-08-10 15:30:04    --------------------------------------
+2026-08-10 15:30:04    Checking Process...
+2026-08-10 15:30:04    Running Process Count : 1
+2026-08-10 15:30:04    Process Already Running
+2026-08-10 15:32:04    --------------------------------------
+2026-08-10 15:32:04    Checking Process...
+2026-08-10 15:32:04    Running Process Count : 1
+2026-08-10 15:32:04    Process Already Running
+2026-08-10 15:34:04    --------------------------------------
+2026-08-10 15:34:04    Checking Process...
+2026-08-10 15:34:04    Running Process Count : 1
+2026-08-10 15:34:04    Process Already Running
+2026-08-10 15:36:04    --------------------------------------
+2026-08-10 15:36:04    Checking Process...
+2026-08-10 15:36:04    Running Process Count : 1
+2026-08-10 15:36:04    Process Already Running
+2026-08-10 15:38:04    --------------------------------------
+2026-08-10 15:38:04    Checking Process...
+2026-08-10 15:38:04    Running Process Count : 1
+2026-08-10 15:38:04    Process Already Running
+2026-08-10 15:40:04    --------------------------------------
+2026-08-10 15:40:04    Checking Process...
+2026-08-10 15:40:04    Running Process Count : 1
+2026-08-10 15:40:04    Process Already Running
+2026-08-10 15:42:04    --------------------------------------
+2026-08-10 15:42:04    Checking Process...
+2026-08-10 15:42:04    Running Process Count : 1
+2026-08-10 15:42:04    Process Already Running
+2026-08-10 15:44:04    --------------------------------------
+2026-08-10 15:44:04    Checking Process...
+2026-08-10 15:44:04    Running Process Count : 1
+2026-08-10 15:44:04    Process Already Running
+2026-08-10 15:46:04    --------------------------------------
+2026-08-10 15:46:04    Checking Process...
+2026-08-10 15:46:04    Running Process Count : 1
+2026-08-10 15:46:04    Process Already Running
+2026-08-10 15:48:04    --------------------------------------
+2026-08-10 15:48:04    Checking Process...
+2026-08-10 15:48:04    Running Process Count : 1
+2026-08-10 15:48:04    Process Already Running
+2026-08-10 15:50:04    --------------------------------------
+2026-08-10 15:50:04    Checking Process...
+2026-08-10 15:50:04    Running Process Count : 1
+2026-08-10 15:50:04    Process Already Running
+2026-08-10 15:52:04    --------------------------------------
+2026-08-10 15:52:04    Checking Process...
+2026-08-10 15:52:04    Running Process Count : 1
+2026-08-10 15:52:04    Process Already Running
+2026-08-10 15:54:04    --------------------------------------
+2026-08-10 15:54:04    Checking Process...
+2026-08-10 15:54:04    Running Process Count : 1
+2026-08-10 15:54:04    Process Already Running
+2026-08-10 15:56:04    --------------------------------------
+2026-08-10 15:56:04    Checking Process...
+2026-08-10 15:56:04    Running Process Count : 1
+2026-08-10 15:56:04    Process Already Running
+2026-08-10 15:58:04    --------------------------------------
+2026-08-10 15:58:04    Checking Process...
+2026-08-10 15:58:04    Running Process Count : 1
+2026-08-10 15:58:04    Process Already Running
+2026-08-10 16:00:04    --------------------------------------
+2026-08-10 16:00:04    Checking Process...
+2026-08-10 16:00:04    Running Process Count : 1
+2026-08-10 16:00:04    Process Already Running
+2026-08-10 16:02:04    --------------------------------------
+2026-08-10 16:02:04    Checking Process...
+2026-08-10 16:02:04    Running Process Count : 1
+2026-08-10 16:02:04    Process Already Running
+2026-08-10 16:04:04    --------------------------------------
+2026-08-10 16:04:04    Checking Process...
+2026-08-10 16:04:04    Running Process Count : 1
+2026-08-10 16:04:04    Process Already Running
+2026-08-10 16:06:04    --------------------------------------
+2026-08-10 16:06:04    Checking Process...
+2026-08-10 16:06:04    Running Process Count : 1
+2026-08-10 16:06:04    Process Already Running
+2026-08-10 16:08:04    --------------------------------------
+2026-08-10 16:08:04    Checking Process...
+2026-08-10 16:08:04    Running Process Count : 1
+2026-08-10 16:08:04    Process Already Running
+2026-08-10 16:10:04    --------------------------------------
+2026-08-10 16:10:04    Checking Process...
+2026-08-10 16:10:04    Running Process Count : 1
+2026-08-10 16:10:04    Process Already Running
+2026-08-10 16:12:04    --------------------------------------
+2026-08-10 16:12:04    Checking Process...
+2026-08-10 16:12:04    Running Process Count : 1
+2026-08-10 16:12:04    Process Already Running
+2026-08-10 16:14:04    --------------------------------------
+2026-08-10 16:14:04    Checking Process...
+2026-08-10 16:14:04    Running Process Count : 1
+2026-08-10 16:14:04    Process Already Running
+2026-08-10 16:16:04    --------------------------------------
+2026-08-10 16:16:04    Checking Process...
+2026-08-10 16:16:04    Running Process Count : 1
+2026-08-10 16:16:04    Process Already Running
+2026-08-10 16:18:04    --------------------------------------
+2026-08-10 16:18:04    Checking Process...
+2026-08-10 16:18:04    Running Process Count : 1
+2026-08-10 16:18:04    Process Already Running
+2026-08-10 16:20:04    --------------------------------------
+2026-08-10 16:20:04    Checking Process...
+2026-08-10 16:20:04    Running Process Count : 1
+2026-08-10 16:20:04    Process Already Running
+2026-08-10 16:22:04    --------------------------------------
+2026-08-10 16:22:04    Checking Process...
+2026-08-10 16:22:04    Running Process Count : 1
+2026-08-10 16:22:04    Process Already Running
+2026-08-10 16:24:04    --------------------------------------
+2026-08-10 16:24:04    Checking Process...
+2026-08-10 16:24:04    Running Process Count : 1
+2026-08-10 16:24:04    Process Already Running
+2026-08-10 16:26:04    --------------------------------------
+2026-08-10 16:26:04    Checking Process...
+2026-08-10 16:26:04    Running Process Count : 1
+2026-08-10 16:26:04    Process Already Running
+2026-08-10 16:28:04    --------------------------------------
+2026-08-10 16:28:04    Checking Process...
+2026-08-10 16:28:04    Running Process Count : 1
+2026-08-10 16:28:04    Process Already Running
+2026-08-10 16:30:04    --------------------------------------
+2026-08-10 16:30:04    Checking Process...
+2026-08-10 16:30:04    Running Process Count : 1
+2026-08-10 16:30:04    Process Already Running
+2026-08-10 16:32:04    --------------------------------------
+2026-08-10 16:32:04    Checking Process...
+2026-08-10 16:32:04    Running Process Count : 1
+2026-08-10 16:32:04    Process Already Running
+2026-08-10 16:34:04    --------------------------------------
+2026-08-10 16:34:04    Checking Process...
+2026-08-10 16:34:04    Running Process Count : 1
+2026-08-10 16:34:04    Process Already Running
+2026-08-10 16:36:04    --------------------------------------
+2026-08-10 16:36:04    Checking Process...
+2026-08-10 16:36:04    Running Process Count : 1
+2026-08-10 16:36:04    Process Already Running
+2026-08-10 16:38:37    ========== Service Started ==========
+2026-08-10 16:38:37    Loading Config...
+2026-08-10 16:38:37    ProcessName : DataSenderPlusProject
+2026-08-10 16:38:37    ExePath : E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-08-10 16:38:37    CheckInterval : 120
+2026-08-10 16:38:37    Timer Started
+2026-08-10 16:38:37    --------------------------------------
+2026-08-10 16:38:37    Checking Process...
+2026-08-10 16:38:37    Running Process Count : 0
+2026-08-10 16:38:37    Process Not Running
+2026-08-10 16:38:37    Starting Process...
+2026-08-10 16:38:38    Process Started Successfully
+2026-08-10 16:40:37    --------------------------------------
+2026-08-10 16:40:37    Checking Process...
+2026-08-10 16:40:37    Running Process Count : 1
+2026-08-10 16:40:37    Process Already Running
+2026-08-10 16:42:37    --------------------------------------
+2026-08-10 16:42:37    Checking Process...
+2026-08-10 16:42:37    Running Process Count : 1
+2026-08-10 16:42:37    Process Already Running
+2026-08-10 16:44:38    --------------------------------------
+2026-08-10 16:44:38    Checking Process...
+2026-08-10 16:44:38    Running Process Count : 1
+2026-08-10 16:44:38    Process Already Running
+2026-08-10 16:46:38    --------------------------------------
+2026-08-10 16:46:38    Checking Process...
+2026-08-10 16:46:38    Running Process Count : 1
+2026-08-10 16:46:38    Process Already Running
+2026-08-10 16:48:38    --------------------------------------
+2026-08-10 16:48:38    Checking Process...
+2026-08-10 16:48:38    Running Process Count : 1
+2026-08-10 16:48:38    Process Already Running
+2026-08-10 16:50:38    --------------------------------------
+2026-08-10 16:50:38    Checking Process...
+2026-08-10 16:50:38    Running Process Count : 1
+2026-08-10 16:50:38    Process Already Running
+2026-08-10 16:52:38    --------------------------------------
+2026-08-10 16:52:38    Checking Process...
+2026-08-10 16:52:38    Running Process Count : 1
+2026-08-10 16:52:38    Process Already Running
+2026-08-10 16:54:38    --------------------------------------
+2026-08-10 16:54:38    Checking Process...
+2026-08-10 16:54:38    Running Process Count : 1
+2026-08-10 16:54:38    Process Already Running
+2026-08-10 16:56:38    --------------------------------------
+2026-08-10 16:56:38    Checking Process...
+2026-08-10 16:56:38    Running Process Count : 1
+2026-08-10 16:56:38    Process Already Running
+2026-08-10 16:58:38    --------------------------------------
+2026-08-10 16:58:38    Checking Process...
+2026-08-10 16:58:38    Running Process Count : 1
+2026-08-10 16:58:38    Process Already Running
+2026-08-10 17:00:38    --------------------------------------
+2026-08-10 17:00:38    Checking Process...
+2026-08-10 17:00:38    Running Process Count : 1
+2026-08-10 17:00:38    Process Already Running
+2026-08-10 17:02:38    --------------------------------------
+2026-08-10 17:02:38    Checking Process...
+2026-08-10 17:02:38    Running Process Count : 1
+2026-08-10 17:02:38    Process Already Running
+2026-08-10 17:04:38    --------------------------------------
+2026-08-10 17:04:38    Checking Process...
+2026-08-10 17:04:38    Running Process Count : 1
+2026-08-10 17:04:38    Process Already Running
+2026-08-10 17:06:38    --------------------------------------
+2026-08-10 17:06:38    Checking Process...
+2026-08-10 17:06:38    Running Process Count : 1
+2026-08-10 17:06:38    Process Already Running
+2026-08-10 17:08:38    --------------------------------------
+2026-08-10 17:08:38    Checking Process...
+2026-08-10 17:08:38    Running Process Count : 1
+2026-08-10 17:08:38    Process Already Running
+2026-08-10 17:10:38    --------------------------------------
+2026-08-10 17:10:38    Checking Process...
+2026-08-10 17:10:38    Running Process Count : 1
+2026-08-10 17:10:38    Process Already Running
+2026-08-10 17:12:38    --------------------------------------
+2026-08-10 17:12:38    Checking Process...
+2026-08-10 17:12:38    Running Process Count : 1
+2026-08-10 17:12:38    Process Already Running
+2026-08-10 17:14:38    --------------------------------------
+2026-08-10 17:14:38    Checking Process...
+2026-08-10 17:14:38    Running Process Count : 1
+2026-08-10 17:14:38    Process Already Running
+2026-08-10 17:16:38    --------------------------------------
+2026-08-10 17:16:38    Checking Process...
+2026-08-10 17:16:38    Running Process Count : 1
+2026-08-10 17:16:38    Process Already Running

@@ -7,7 +7,6 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
 namespace DataSenderPlusProject
 {
@@ -49,16 +48,6 @@ namespace DataSenderPlusProject
 
 
 
-        public string F_CreateJasonFile(DataTable GetProcedureData)
-        {
-
-            string JasonExport = string.Empty;
-
-            JasonExport = JsonConvert.SerializeObject(GetProcedureData);
-
-            return JasonExport;
-
-        }
 
 
         public void F_SendFile2Ftp(string GetFtpUrl, string GetUserName, string GetPassword, string GetFileName)
