@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataSenderPlusProject.exe" size="863744">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataSenderPlusProject.exe" size="893952">
       <assemblyIdentity name="DataSenderPlusProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2ry4InhkN5c3lcj3cdPVoNYDK+RzeAII4XMYSf6Y5A8=</dsig:DigestValue>
+        <dsig:DigestValue>mPbR8J3Z4VTb/5Jwlg02yh1SUyhfEi8PMXWiF7K3GsQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -222,13 +222,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="DataSenderPlusProject.exe.config" size="1528">
+  <file name="DataSenderPlusProject.exe.config" size="1980">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ubnMa4ujRmFaCHdd76yGtkC6tgu7QMTnyT1GnDKBnEw=</dsig:DigestValue>
+      <dsig:DigestValue>0BzwWGVpW7DiwLxrbjvsjFOMQS306PhlqiXiE3WvoZ4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Upload-PNG-HD-Image.ico" size="114904">

@@ -70,3 +70,8 @@ E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\System.Buffers.xml
 E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\System.Memory.xml
 E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\System.Numerics.Vectors.xml
 E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\LogViewerWindow.baml
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\LogViewerWindow.g.cs
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\SettingsWindow.baml
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\SettingsWindow.g.cs
+E:\DataSenderPlus\DataSenderPlusProject\obj\Debug\App.baml

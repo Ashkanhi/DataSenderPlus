@@ -1,0 +1,11 @@
+2026-10-12 17:01:31 [ERROR] Synthetic FTP failure. ConfigID=4
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'E:\DataSenderPlus\artifacts\logging-fix-tests\10b0284d-a698-4747-bfc3-255cda332292.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at DataSenderPlusProject.C_JasonFile.F_SendFile2Ftp(String ftpUrl, String userName, String password, String localFilePath)

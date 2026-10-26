@@ -1,0 +1,90 @@
+2026-10-26 13:24:47    ========== Service Started ==========
+2026-10-26 13:24:47    Loading Config...
+2026-10-26 13:24:47    ProcessName : DataSenderPlusProject
+2026-10-26 13:24:47    ExePath : E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-10-26 13:24:47    CheckInterval : 120
+2026-10-26 13:24:47    Timer Started
+2026-10-26 13:24:47    --------------------------------------
+2026-10-26 13:24:47    Checking Process...
+2026-10-26 13:24:47    Running Process Count : 0
+2026-10-26 13:24:47    Process Not Running
+2026-10-26 13:24:47    Starting Process...
+2026-10-26 13:24:49    Process Started Successfully
+2026-10-26 13:26:47    --------------------------------------
+2026-10-26 13:26:47    Checking Process...
+2026-10-26 13:26:47    Running Process Count : 1
+2026-10-26 13:26:47    Process Already Running
+2026-10-26 13:28:47    --------------------------------------
+2026-10-26 13:28:47    Checking Process...
+2026-10-26 13:28:47    Running Process Count : 1
+2026-10-26 13:28:47    Process Already Running
+2026-10-26 13:30:47    --------------------------------------
+2026-10-26 13:30:47    Checking Process...
+2026-10-26 13:30:47    Running Process Count : 1
+2026-10-26 13:30:47    Process Already Running
+2026-10-26 13:32:47    --------------------------------------
+2026-10-26 13:32:47    Checking Process...
+2026-10-26 13:32:47    Running Process Count : 1
+2026-10-26 13:32:47    Process Already Running
+2026-10-26 13:34:47    --------------------------------------
+2026-10-26 13:34:47    Checking Process...
+2026-10-26 13:34:47    Running Process Count : 1
+2026-10-26 13:34:47    Process Already Running
+2026-10-26 13:36:47    --------------------------------------
+2026-10-26 13:36:47    Checking Process...
+2026-10-26 13:36:47    Running Process Count : 1
+2026-10-26 13:36:47    Process Already Running
+2026-10-26 13:38:47    --------------------------------------
+2026-10-26 13:38:47    Checking Process...
+2026-10-26 13:38:47    Running Process Count : 1
+2026-10-26 13:38:47    Process Already Running
+2026-10-26 13:40:47    --------------------------------------
+2026-10-26 13:40:47    Checking Process...
+2026-10-26 13:40:47    Running Process Count : 1
+2026-10-26 13:40:47    Process Already Running
+2026-10-26 13:42:47    --------------------------------------
+2026-10-26 13:42:47    Checking Process...
+2026-10-26 13:42:47    Running Process Count : 1
+2026-10-26 13:42:47    Process Already Running
+2026-10-26 13:44:47    --------------------------------------
+2026-10-26 13:44:47    Checking Process...
+2026-10-26 13:44:47    Running Process Count : 1
+2026-10-26 13:44:47    Process Already Running
+2026-10-26 13:46:47    --------------------------------------
+2026-10-26 13:46:47    Checking Process...
+2026-10-26 13:46:47    Running Process Count : 1
+2026-10-26 13:46:47    Process Already Running
+2026-10-26 13:48:47    --------------------------------------
+2026-10-26 13:48:47    Checking Process...
+2026-10-26 13:48:47    Running Process Count : 1
+2026-10-26 13:48:47    Process Already Running
+2026-10-26 13:50:47    --------------------------------------
+2026-10-26 13:50:47    Checking Process...
+2026-10-26 13:50:47    Running Process Count : 1
+2026-10-26 13:50:47    Process Already Running
+2026-10-26 13:52:47    --------------------------------------
+2026-10-26 13:52:47    Checking Process...
+2026-10-26 13:52:47    Running Process Count : 1
+2026-10-26 13:52:47    Process Already Running
+2026-10-26 13:54:47    --------------------------------------
+2026-10-26 13:54:47    Checking Process...
+2026-10-26 13:54:47    Running Process Count : 1
+2026-10-26 13:54:47    Process Already Running
+2026-10-26 13:56:47    --------------------------------------
+2026-10-26 13:56:47    Checking Process...
+2026-10-26 13:56:47    Running Process Count : 1
+2026-10-26 13:56:47    Process Already Running
+2026-10-26 13:58:47    --------------------------------------
+2026-10-26 13:58:47    Checking Process...
+2026-10-26 13:58:47    Running Process Count : 1
+2026-10-26 13:58:47    Process Already Running
+2026-10-26 14:00:47    --------------------------------------
+2026-10-26 14:00:47    Checking Process...
+2026-10-26 14:00:47    Running Process Count : 0
+2026-10-26 14:00:47    Process Not Running
+2026-10-26 14:00:47    Starting Process...
+2026-10-26 14:00:54    Process Started Successfully
+2026-10-26 14:02:47    --------------------------------------
+2026-10-26 14:02:47    Checking Process...
+2026-10-26 14:02:47    Running Process Count : 1
+2026-10-26 14:02:47    Process Already Running

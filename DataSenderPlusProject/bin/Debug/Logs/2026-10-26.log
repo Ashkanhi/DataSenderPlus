@@ -1,0 +1,9 @@
+2026-10-26 13:24:50 [INFO] Application started. PID=8016; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-10-26 14:00:54 [INFO] Application started. PID=10824; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-10-26 14:01:55 [INFO] F_UploadFtp Started.  ConfigID=1
+2026-10-26 14:01:55 [INFO] Database connection opened.
+2026-10-26 14:01:55 [INFO] FTP Configuration Loaded. File : TestServiceMode
+2026-10-26 14:01:55 [INFO] Stored Procedure executed successfully. Rows Count : 8
+2026-10-26 14:01:55 [INFO] Database connection closed.
+2026-10-26 14:01:58 [INFO] Export File Created Successfully.
+2026-10-26 14:01:58 [INFO] F_UploadFtp_Ts1 Finished.

@@ -1,4 +1,0 @@
-.\RWP_2014
-RWP_DataSender_DB
-sa
-RWP@1393

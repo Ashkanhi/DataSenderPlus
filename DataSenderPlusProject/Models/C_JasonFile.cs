@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
@@ -13,7 +13,6 @@ namespace DataSenderPlusProject
     internal class C_JasonFile
     {
         public string ServerPath, UserName, Password;
-        public string ErrorMessage;
 
         public void F_ReadConfig()
         {
@@ -27,63 +26,17 @@ namespace DataSenderPlusProject
 
         public string GetConnectionString()
         {
-
-            StreamReader Sr = new StreamReader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\Config.txt");
-
-            string Server = Sr.ReadLine();
-            string DataBaseName = Sr.ReadLine();
-            string UserName = Sr.ReadLine();
-            string Password = Sr.ReadLine();
-
-            Sr.Close();
-
-            string cs = "Data Source=" + Server + "; Initial Catalog=" + DataBaseName + "; User Id = "
-             + UserName + "; Password = " + Password + "; timeout=15;";
-
-            return cs;
-
+            return DataSenderPlusProject.Helpers.DatabaseSettings.Load().BuildConnectionString();
         }
 
-
-
-
-
-
-
-        public void F_SendFile2Ftp(string GetFtpUrl, string GetUserName, string GetPassword, string GetFileName)
+        public void F_SendFile2Ftp(string ftpUrl, string userName, string password, string localFilePath)
         {
-            try
+            // Let the caller record the same failure in the file log and database.
+            using (var client = new WebClient())
             {
-                WebClient ConnectFtp = new WebClient();
-                ConnectFtp.Credentials = new NetworkCredential(GetUserName, GetPassword);
-                ConnectFtp.UploadFile(GetFtpUrl + GetFileName + ".json", @System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\" + GetFileName + ".json");
-            }
-            catch (Exception Error)
-            {
-
-
-                string cs = GetConnectionString();
-
-                DataSenderPlus dp = new DataSenderPlus();
-                SqlConnection cn = new SqlConnection(cs);
-                MainWindow mw = new MainWindow();
-
-                cn.Open();
-                string CorrectError = Error.ToString().Replace("'", "''");
-
-                string Q_LogRecord = " 	 INSERT INTO [dbo].[LogRegisteration]( ConfigID , LogDate ,StatusID ,Comment ) " +
-                                         " VALUES(@ConfigID, GetDate() , 1, " + "N' " + CorrectError.ToString() + "' ) ";
-
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 1);
-
-                LogRecord_cmd.ExecuteNonQuery();
-
-                cn.Close();
-
-                ErrorMessage = "Err" + " _ " + dp.PersianDate() + " _ " + DateTime.Now.ToShortTimeString();
-
+                client.Credentials = new NetworkCredential(userName, password);
+                string destination = ftpUrl.TrimEnd('/') + "/" + Uri.EscapeDataString(Path.GetFileName(localFilePath));
+                client.UploadFile(destination, localFilePath);
             }
         }
     }

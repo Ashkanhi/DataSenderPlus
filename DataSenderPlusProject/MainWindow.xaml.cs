@@ -1,4 +1,4 @@
-﻿using DataSenderPlusProject.Helpers;
+using DataSenderPlusProject.Helpers;
 using DataSenderPlusProject.Models;
 using DataSenderPlusProject.Security;
 using System;
@@ -10,7 +10,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading; // اضافه شده برای مدیریت Mutex
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,8 +26,6 @@ namespace DataSenderPlusProject
 {
     public partial class MainWindow : Window
     {
-        // تعریف Mutex برای جلوگیری از اجرای چندباره برنامه
-        private static Mutex _mutex = null;
 
         DispatcherTimer Show_timer;
         TimeSpan TimeForShow;
@@ -52,6 +49,41 @@ namespace DataSenderPlusProject
 
         DataSenderPlus dp = new DataSenderPlus();
         C_JasonFile J = new C_JasonFile();
+        private LogViewerWindow logViewer;
+
+        private void ShowSettings_Click(object sender, RoutedEventArgs e)
+        {
+            if (new SettingsWindow { Owner = this }.ShowDialog() == true) StartConfiguredService();
+        }
+
+        private void RefreshAccess_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                RefreshSenderAccess();
+            }
+            catch (Exception error)
+            {
+                Logger.Error($"Reading SenderType.AccessFlag failed.{Environment.NewLine}{error}");
+                MessageBox.Show(this, "خواندن دسترسی سربرگ‌ها ناموفق بود. اتصال دیتابیس و ستون AccessFlag جدول SenderType را بررسی کنید.",
+                    "دسترسی سربرگ‌ها", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void ShowLogs_Click(object sender, RoutedEventArgs e)
+        {
+            if (logViewer == null)
+            {
+                logViewer = new LogViewerWindow { Owner = this };
+                logViewer.Closed += (s, args) => logViewer = null;
+                logViewer.Show();
+            }
+            else
+            {
+                logViewer.WindowState = WindowState.Normal;
+                logViewer.Activate();
+            }
+        }
 
         public MainWindow()
         {
@@ -142,17 +174,6 @@ namespace DataSenderPlusProject
 
             //    this.Closing += MainWindow_Closing;
 
-            // کنترل اجرای تنها یک نسخه از برنامه
-            bool createdNew;
-            _mutex = new Mutex(true, "DataSenderPlus_Unique_App_ID_123456", out createdNew);
-
-            if (!createdNew)
-            {
-                MessageBox.Show("برنامه در حال حاضر در حال اجرا است.", "هشدار", MessageBoxButton.OK, MessageBoxImage.Warning);
-                Application.Current.Shutdown();
-                return;
-            }
-
             InitializeComponent();
             DispatcherTimer timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
@@ -161,19 +182,85 @@ namespace DataSenderPlusProject
 
             PersianDate_Lbl.Content = dp.PersianDate();
 
-            if (IsServiceMode())
-            {
-                SendData_Btn_Click(null, null);
-
-                // اگر خواستی بعداً فعال شوند
-                //T2_SendData_Btn_Click(null, null);
-                //T3_SendData_Btn_Click(null, null);
-                //T4_SendData_Btn_Click(null, null);
-                //T5_SendData_Btn_Click(null, null);
-            }
-
+            Application.Current.MainWindow = this;
+            Loaded += InitializeDatabaseSettings;
         }
 
+        private void InitializeDatabaseSettings(object sender, RoutedEventArgs e)
+        {
+            Loaded -= InitializeDatabaseSettings;
+            bool needsSettings = false;
+            try
+            {
+                string warning = DatabaseSettings.MigrateLegacyConfig();
+                if (warning != null)
+                {
+                    Logger.Warning(warning);
+                    MessageBox.Show(this, warning, "تنظیمات", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+                var settings = DatabaseSettings.Load();
+                needsSettings = string.IsNullOrWhiteSpace(settings.Server)
+                    || string.IsNullOrWhiteSpace(settings.Database) || string.IsNullOrWhiteSpace(settings.UserName);
+            }
+            catch (Exception error)
+            {
+                ReportSettingsError(error);
+                needsSettings = true;
+            }
+
+            // Cancelling settings leaves the main window open and automatic sending stopped.
+            if (needsSettings && new SettingsWindow { Owner = this }.ShowDialog() != true) return;
+            StartConfiguredService();
+        }
+
+        private void ReportSettingsError(Exception error)
+        {
+            // Avoid logging exception text that could contain configuration values.
+            Logger.Error($"Database settings initialization failed. Type={error.GetType().FullName}; HResult={error.HResult}");
+            MessageBox.Show(this, DatabaseSettings.DescribeError(error) +
+                "\nبرنامه باز می‌ماند؛ از فرم تنظیمات مشخصات اتصال را اصلاح کنید.",
+                "تنظیمات", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
+
+        private void StartConfiguredService()
+        {
+            try
+            {
+                RefreshSenderAccess();
+                if (((TabItem)SenderTabs.Items[0]).IsEnabled && !DataSender_Type_1.IsEnabled && IsServiceMode())
+                    SendData_Btn_Click(null, null);
+            }
+            catch (Exception error)
+            {
+                Logger.Error($"Automatic sender startup failed. Type={error.GetType().FullName}; HResult={error.HResult}");
+                MessageBox.Show(this, "خواندن دسترسی سربرگ‌ها یا راه‌اندازی ارسال خودکار ناموفق بود. اتصال دیتابیس، AccessFlag و تنظیمات زمان‌بندی را بررسی کنید. برنامه باز می‌ماند.",
+                    "خطای راه‌اندازی", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void RefreshSenderAccess()
+        {
+            // Disable until the complete access list has been read successfully.
+            SenderAccess.Apply(SenderTabs, new bool[5]);
+            using (SqlConnection connection = GetConnection())
+            using (var command = new SqlCommand(
+                "SELECT TypeID, AccessFlag FROM SenderType WHERE TypeID BETWEEN 1 AND 5", connection))
+            {
+                command.CommandTimeout = 15;
+                using (var reader = command.ExecuteReader())
+                    SenderAccess.Apply(SenderTabs, SenderAccess.ReadFlags(reader));
+            }
+            var sendTimers = new[] { DataSender_Type_1, DataSender_Type_2, DataSender_Type_3, DataSender_Type_4, DataSender_Type_5 };
+            var displayTimers = new[] { Show_timer, Show_timer_Type_2, Show_timer_Type_3, Show_timer_Type_4, Show_timer_Type_5 };
+            for (int index = 0; index < 5; index++)
+            {
+                if (!((TabItem)SenderTabs.Items[index]).IsEnabled)
+                {
+                    sendTimers[index].Stop();
+                    displayTimers[index]?.Stop();
+                }
+            }
+        }
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             e.Cancel = true;
@@ -291,7 +378,7 @@ namespace DataSenderPlusProject
 
                 // دریافت نام Stored Procedure
                 string Q_ProcedureName =
-                    "SELECT ProcedureName FROM SenderType WHERE TypeID = @TypeID ";
+                    "SELECT ProcedureName FROM SenderType WHERE TypeID = @TypeID AND AccessFlag = 1";
 
                 SqlCommand GetProcedureName_cmd = new SqlCommand(Q_ProcedureName, cn);
 
@@ -301,19 +388,11 @@ namespace DataSenderPlusProject
 
                 if (vProcedureName == null)
                 {
-                    throw new Exception("Procedure Name not found.");
+                    cn.Close();
+                    Logger.Warning($"Export skipped: SenderType is missing or AccessFlag is disabled. TypeID={configId}");
+                    RefreshSenderAccess();
+                    return;
                 }
-
-                // ثبت لاگ در دیتابیس
-                string Q_LogRecord =
-                    @"INSERT INTO LogRegisteration
-              (ConfigID, UploadTime, StatusID, Comment)
-              VALUES (@ConfigID, GETDATE(), 1,
-              'The Update Was Completed Successfully.')";
-
-                SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-                LogRecord_cmd.Parameters.AddWithValue("@ConfigID", configId);
-                LogRecord_cmd.ExecuteNonQuery();
 
                 // اجرای Stored Procedure
                 DataTable dtable = new DataTable();
@@ -322,6 +401,7 @@ namespace DataSenderPlusProject
                 cmd.Connection = cn;
                 cmd.CommandText = vProcedureName.ToString();
                 cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandTimeout = DatabaseSettings.GetCommandTimeoutSeconds();
 
                 SqlDataAdapter adp = new SqlDataAdapter(cmd);
                 adp.Fill(dtable);
@@ -360,29 +440,21 @@ namespace DataSenderPlusProject
                     Logger.Info("FTP upload started.");
 
                     string extension = ExportHelper.GetFileExtension(config.OutputTypeID);
-                    J.F_SendFile2Ftp(
-                        config.ServerAddress,
-                        config.UserName,
-                        config.Password,
-                        config.FileName + extension);
-
-                    if (J.ErrorMessage == null)
-                    {
-                        Logger.Info("FTP upload completed successfully.");
-
-                        Log_Type_1_lbl.Content =
-                            "Ok" + " _ " +
-                            dp.PersianDate() + " _ " +
-                            DateTime.Now.ToShortTimeString();
-                    }
-                    else
-                    {
-                        Logger.Warning($"FTP upload failed. {J.ErrorMessage}");
-
-                        Log_Type_1_lbl.Content = J.ErrorMessage;
-                    }
+                    string localFilePath = System.IO.Path.Combine(basePath, "ExportFile", config.FileName + extension);
+                    J.F_SendFile2Ftp(config.ServerAddress, config.UserName, config.Password, localFilePath);
+                    Logger.Info($"FTP upload completed successfully. ConfigID={configId}");
                 }
 
+                // Record success only after export and any requested upload have finished.
+                using (SqlConnection logConnection = GetConnection())
+                using (SqlCommand logCommand = new SqlCommand(
+                    @"INSERT INTO LogRegisteration (ConfigID, UploadTime, StatusID, Comment)
+                      VALUES (@ConfigID, GETDATE(), 1, @Comment)", logConnection))
+                {
+                    logCommand.Parameters.AddWithValue("@ConfigID", configId);
+                    logCommand.Parameters.AddWithValue("@Comment", "The Update Was Completed Successfully.");
+                    logCommand.ExecuteNonQuery();
+                }
                 Logger.Info("F_UploadFtp_Ts1 Finished.");
 
                 Log_Type_1_lbl.Content =
@@ -392,7 +464,7 @@ namespace DataSenderPlusProject
             }
             catch (Exception Error)
             {
-                Logger.Error(Error.ToString());
+                Logger.Error($"F_UploadFtp failed. ConfigID={configId}{Environment.NewLine}{Error}");
                 SmsHelper.SendError(Error.Message);
 
                 Log_Type_1_lbl.Content =
@@ -402,27 +474,19 @@ namespace DataSenderPlusProject
 
                 try
                 {
-                    SqlConnection cn = GetConnection();
-
-                    string CorrectError = Error.ToString().Replace("'", "''");
-
-                    string Q_LogRecord =
-                        @"INSERT INTO LogRegisteration
-                  (ConfigID, LogDate, StatusID, Comment)
-                  VALUES (@ConfigID, GETDATE(), 1, N'" + CorrectError + "')";
-
-                    SqlCommand LogRecord_cmd = new SqlCommand(Q_LogRecord, cn);
-
-                    LogRecord_cmd.Parameters.AddWithValue("@ConfigID", 1);
-
-                    LogRecord_cmd.ExecuteNonQuery();
-
-                    cn.Close();
+                    using (SqlConnection logConnection = GetConnection())
+                    using (SqlCommand logCommand = new SqlCommand(
+                        @"INSERT INTO LogRegisteration (ConfigID, LogDate, StatusID, Comment)
+                          VALUES (@ConfigID, GETDATE(), 1, @Comment)", logConnection))
+                    {
+                        logCommand.Parameters.AddWithValue("@ConfigID", configId);
+                        logCommand.Parameters.AddWithValue("@Comment", Error.ToString());
+                        logCommand.ExecuteNonQuery();
+                    }
                 }
-                catch
+                catch (Exception logError)
                 {
-                    // اگر دیتابیس در دسترس نبود،
-                    // حداقل لاگ فایل ثبت شده است.
+                    Logger.Error($"Failed to write LogRegisteration. ConfigID={configId}{Environment.NewLine}{logError}");
                 }
             }
         }

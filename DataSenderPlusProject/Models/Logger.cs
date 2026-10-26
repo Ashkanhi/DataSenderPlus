@@ -20,6 +20,11 @@ namespace DataSenderPlusProject.Models
             return Path.Combine(appPath, "Logs");
         }
 
+        public static IReadOnlyList<LogEntry> ReadRecent(int count = 10, bool errorsOnly = false)
+        {
+            return LogReader.ReadRecent(GetLogFolder(), count, errorsOnly);
+        }
+
         private static void WriteLog(string level, string message)
         {
             try

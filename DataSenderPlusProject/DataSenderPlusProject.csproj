@@ -97,6 +97,8 @@
       <HintPath>..\packages\SixLabors.Fonts.1.0.0\lib\netstandard2.0\SixLabors.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -134,6 +136,9 @@
       <DependentUpon>ActivationWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ExportHelper.cs" />
+    <Compile Include="Helpers\DatabaseSettings.cs" />
+    <Compile Include="Helpers\SingleInstanceGuard.cs" />
+    <Compile Include="Helpers\SenderAccess.cs" />
     <Compile Include="Helpers\SmsHelper.cs" />
     <Compile Include="Security\CryptoHelper.cs" />
     <Compile Include="Security\HardwareInfo.cs" />
@@ -162,6 +167,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Logger.cs" />
+    <Compile Include="SettingsWindow.xaml.cs">
+      <DependentUpon>SettingsWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="SettingsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Models\LogReader.cs" />
+    <Compile Include="LogViewerWindow.xaml.cs">
+      <DependentUpon>LogViewerWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="LogViewerWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

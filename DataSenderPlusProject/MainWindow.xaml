@@ -7,9 +7,9 @@
         xmlns:local="clr-namespace:DataSenderPlusProject"
         mc:Ignorable="d"
         Title="SmartDataSync"
-        Height="320"
+        Height="365"
         Width="430"
-        MinHeight="320"
+        MinHeight="365"
         MinWidth="430"
         WindowStartupLocation="CenterScreen"
         FlowDirection="RightToLeft"
@@ -27,6 +27,15 @@
 
     </Window.Resources>
 
+    <DockPanel>
+        <UniformGrid DockPanel.Dock="Bottom" Columns="3" Margin="10,0,10,8">
+            <Button Content="تنظیمات" Height="32" Margin="0,0,4,0" Click="ShowSettings_Click"
+                    Background="White" Foreground="#1976D2" BorderBrush="#D0D7DE"/>
+            <Button Content="نمایش ۱۰ لاگ آخر" Height="32" Margin="4,0,0,0" Click="ShowLogs_Click"
+                    Background="White" Foreground="#1976D2" BorderBrush="#D0D7DE"/>
+            <Button Content="بازخوانی دسترسی" Height="32" Margin="4,0,0,0" Click="RefreshAccess_Click"
+                    Background="White" Foreground="#1976D2" BorderBrush="#D0D7DE"/>
+        </UniformGrid>
     <Grid x:Name="Main_Pnl">
 
 
@@ -61,7 +70,7 @@
         </Grid.RowDefinitions>
 
 
-        <TabControl Grid.Column="1"
+        <TabControl x:Name="SenderTabs" Grid.Column="1"
             Grid.Row="0"
             Grid.ColumnSpan="12"
             Grid.RowSpan="8"
@@ -732,7 +741,7 @@
                    FontSize="11"
                    Margin="0,0,4,0"/>
 
-                <TextBlock Text="نسخه 9.4.1.0"
+                <TextBlock Text="نسخه 9.7.3.0"
                    FontFamily="B Nazanin"
                    FontSize="11"
                    FontWeight="Bold"
@@ -775,4 +784,5 @@
         </Border>
 
     </Grid>
+    </DockPanel>
 </Window>
