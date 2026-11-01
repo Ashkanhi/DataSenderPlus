@@ -30,6 +30,10 @@ internal static class DatabaseSettingsTests
         Check(File.ReadAllText(configPath).Contains("dpapi-user-v1:"), "Password is protected");
         Check(ConfigurationManager.AppSettings["Unrelated"] == "preserved", "Preserve unrelated settings");
         var loaded = DatabaseSettings.Load();
+        DatabaseConnectionSettings recovered;
+        string recoveryError;
+        Check(DatabaseSettings.TryLoad(out recovered, out recoveryError) && recovered.Password == settings.Password
+            && recoveryError == null, "Non-throwing load of valid credentials");
         Check(loaded.Password == settings.Password && loaded.Server == settings.Server && loaded.Database == settings.Database
             && loaded.UserName == settings.UserName && loaded.CommandTimeoutSeconds == 600, "Round trip");
         var connection = new SqlConnectionStringBuilder(loaded.BuildConnectionString());
@@ -47,6 +51,12 @@ internal static class DatabaseSettingsTests
         Check(loaded.Server == "legacy-server" && loaded.Database == "legacy-db" && loaded.UserName == "legacy-user"
             && loaded.Password == "legacy-password", "Migration preserves all four values");
         Check(!File.ReadAllText(configPath).Contains("legacy-password"), "Migrated secret protected");
+        var corrupted = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+        corrupted.AppSettings.Settings["DatabasePasswordEncrypted"].Value = "dpapi-user-v1:invalid";
+        corrupted.Save(ConfigurationSaveMode.Modified);
+        Check(!DatabaseSettings.TryLoad(out recovered, out recoveryError) && recoveryError != null
+            && recovered.Server == "legacy-server" && recovered.Database == "legacy-db"
+            && recovered.UserName == "legacy-user", "Unrecoverable password preserves metadata without throwing");
         Console.WriteLine("PASS: password gate, DPAPI round trip, safe connection string, settings preservation, live timeout, and legacy migration.");
     }
 }

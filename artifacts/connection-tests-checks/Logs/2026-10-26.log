@@ -1,0 +1,2 @@
+2026-10-26 17:57:57 [WARNING] Sender settings require database credential recovery; no database request was started.
+2026-10-26 17:57:57 [INFO] Database settings saved successfully; changes apply to the next connection.

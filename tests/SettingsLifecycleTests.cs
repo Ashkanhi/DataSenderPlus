@@ -38,6 +38,13 @@ internal static class SettingsLifecycleTests
                 Check(((TextBox)dialog.FindName("DatabaseInput")).Text == "synthetic-db", "Database retained");
                 Check(((TextBox)dialog.FindName("UserInput")).Text == "synthetic-user", "User retained");
                 Check(((TextBlock)dialog.FindName("StatusText")).Text.Length > 0, "Decryption failure explained");
+                var tabs = (TabControl)dialog.FindName("SettingsTabs");
+                tabs.SelectedIndex = 1;
+                Check(tabs.SelectedIndex == 0, "Sender tab redirects invalid credentials to database settings");
+                Check(dialog.IsVisible && main.IsVisible && !exited, "Invalid credentials do not close either window");
+                Check(((Button)dialog.FindName("SaveButton")).IsEnabled, "Credential recovery remains editable");
+                Check(((TextBlock)dialog.FindName("StatusText")).Text.Contains("رمز"), "Show actionable password recovery message");
+                Check(((TextBox)dialog.FindName("ServerInput")).Text == "synthetic-server", "Keep server after sender-tab failure");
                 ((PasswordBox)dialog.FindName("DatabasePassword")).Password = "synthetic-new-password";
                 ((Button)dialog.FindName("SaveButton")).RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
                 Check(dialog.DialogResult == true, "Save succeeded");
@@ -49,7 +56,7 @@ internal static class SettingsLifecycleTests
             cancelled.Loaded += (s, e) => cancelled.Dispatcher.BeginInvoke(new Action(() => cancelled.Close()));
             cancelled.ShowDialog();
             Check(!exited && main.IsVisible, "Main window remains open after cancel");
-            Console.WriteLine("PASS: invalid-password recovery, real settings save, protected persistence, and main window survives save/cancel.");
+            Console.WriteLine("PASS: invalid-password sender-tab recovery, real settings save, protected persistence, and main window survives save/cancel.");
             main.Close();
         }));
         app.Run(main);

@@ -8,6 +8,8 @@ namespace DataSenderPlusProject.Models
 {
     public class FtpConfigurationModel
     {
+        public int ConfigID { get; set; }
+        public string DisplayName { get { return "فایل ارسالی " + ConfigID; } }
         public string ServerAddress { get; set; }
 
         public string UserName { get; set; }

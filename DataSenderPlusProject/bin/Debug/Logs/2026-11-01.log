@@ -1,0 +1,6 @@
+2026-11-01 09:57:35 [INFO] Application started. PID=7440; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-11-01 09:57:36 [ERROR] Database settings initialization failed. Type=System.InvalidOperationException; HResult=-2146233079
+2026-11-01 13:02:04 [INFO] Application started. PID=5360; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-11-01 13:02:23 [INFO] Database connection test succeeded.
+2026-11-01 13:02:26 [INFO] Database connection test succeeded.
+2026-11-01 13:02:26 [INFO] Database connection test succeeded.

@@ -42,6 +42,32 @@ namespace DataSenderPlusProject.Helpers
 
         public static DatabaseConnectionSettings Load(bool decryptPassword = true)
         {
+            string passwordError;
+            var settings = ReadSettings(decryptPassword, out passwordError);
+            if (passwordError != null) throw new InvalidOperationException(passwordError);
+            return settings;
+        }
+
+        // Expected password-recovery failures must not fault the settings UI's background task.
+        public static bool TryLoad(out DatabaseConnectionSettings settings, out string errorMessage)
+        {
+            try
+            {
+                settings = ReadSettings(true, out errorMessage);
+                return errorMessage == null;
+            }
+            catch (Exception error) when (error is ConfigurationErrorsException || error is IOException
+                || error is UnauthorizedAccessException)
+            {
+                settings = null;
+                errorMessage = DescribeError(error);
+                return false;
+            }
+        }
+
+        private static DatabaseConnectionSettings ReadSettings(bool decryptPassword, out string passwordError)
+        {
+            passwordError = null;
             ConfigurationManager.RefreshSection("appSettings");
             var values = ConfigurationManager.AppSettings;
             string encrypted = values["DatabasePasswordEncrypted"];
@@ -58,7 +84,7 @@ namespace DataSenderPlusProject.Helpers
                 }
                 catch (Exception error) when (error is CryptographicException || error is FormatException)
                 {
-                    throw new InvalidOperationException("رمز ذخیره‌شده قابل بازیابی نیست؛ رمز دیتابیس را در تنظیمات دوباره وارد کنید.");
+                    passwordError = "رمز ذخیره‌شده قابل بازیابی نیست؛ رمز دیتابیس را در تنظیمات دوباره وارد و ذخیره کنید.";
                 }
             }
             return new DatabaseConnectionSettings

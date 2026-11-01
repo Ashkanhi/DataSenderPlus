@@ -53,7 +53,28 @@ namespace DataSenderPlusProject
 
         private void ShowSettings_Click(object sender, RoutedEventArgs e)
         {
-            if (new SettingsWindow { Owner = this }.ShowDialog() == true) StartConfiguredService();
+            var settings = new SettingsWindow { Owner = this };
+            bool databaseSaved = settings.ShowDialog() == true;
+            foreach (var changed in settings.SavedSenderIntervals)
+                UpdateRunningInterval(changed.Key, changed.Value);
+            if (databaseSaved || settings.SavedSenderIntervals.Count > 0) StartConfiguredService();
+        }
+
+        private void UpdateRunningInterval(int configId, int minutes)
+        {
+            var timers = new[] { DataSender_Type_1, DataSender_Type_2, DataSender_Type_3, DataSender_Type_4, DataSender_Type_5 };
+            if (configId < 1 || configId > timers.Length || !timers[configId - 1].IsEnabled) return;
+            var interval = TimeSpan.FromMinutes(minutes);
+            timers[configId - 1].Stop();
+            timers[configId - 1].Interval = interval;
+            switch (configId)
+            {
+                case 1: TimeForShow = interval; Timer_Type_1_lbl.Content = interval.ToString("c"); break;
+                case 2: TimeForShow_Type_2 = interval; T2_Timer_Type_1_lbl.Content = interval.ToString("c"); break;
+                case 3: TimeForShow_Type_3 = interval; T3_Timer_Type_1_lbl.Content = interval.ToString("c"); break;
+                case 4: TimeForShow_Type_4 = interval; T4_Timer_Type_1_lbl.Content = interval.ToString("c"); break;
+            }
+            timers[configId - 1].Start();
         }
 
         private void RefreshAccess_Click(object sender, RoutedEventArgs e)
@@ -288,6 +309,7 @@ namespace DataSenderPlusProject
         {
             string query = @"
     SELECT
+        ConfigID,
         ServerAddress,
         UserName,
         Password,
@@ -308,16 +330,7 @@ namespace DataSenderPlusProject
 
             if (reader.Read())
             {
-                FtpConfigurationModel config = new FtpConfigurationModel();
-
-                config.ServerAddress = reader["ServerAddress"].ToString();
-                config.UserName = reader["UserName"].ToString();
-                config.Password = reader["Password"].ToString();
-                config.FileName = reader["FileName"].ToString();
-                config.IntervalValue = Convert.ToInt32(reader["IntervalValue"]);
-                config.SendFlag = Convert.ToInt32(reader["SendFlag"]);
-                config.FolderPath = reader["FolderPath"].ToString();
-                config.OutputTypeID = Convert.ToInt32(reader["OutputTypeID"]);
+                FtpConfigurationModel config = FtpConfigurationStore.ReadRow(reader);
 
                 reader.Close();
 
@@ -375,6 +388,8 @@ namespace DataSenderPlusProject
                 }
 
                 Logger.Info($"FTP Configuration Loaded. File : {config.FileName}");
+                if (config.SendFlag != 1 && config.SendFlag != 2)
+                    throw new InvalidOperationException("SendFlag باید ۱ (آپلود FTP) یا ۲ (فقط ذخیرهٔ لوکال) باشد؛ روش ارسال را در تنظیمات اصلاح کنید.");
 
                 // دریافت نام Stored Procedure
                 string Q_ProcedureName =
@@ -444,6 +459,10 @@ namespace DataSenderPlusProject
                     J.F_SendFile2Ftp(config.ServerAddress, config.UserName, config.Password, localFilePath);
                     Logger.Info($"FTP upload completed successfully. ConfigID={configId}");
                 }
+                else
+                {
+                    Logger.Info($"Local export completed; FTP skipped (SendFlag=2). ConfigID={configId}");
+                }
 
                 // Record success only after export and any requested upload have finished.
                 using (SqlConnection logConnection = GetConnection())
@@ -512,7 +531,7 @@ namespace DataSenderPlusProject
             {
                 Timer_Type_1_lbl.Content = TimeForShow.ToString("c");
                 if (TimeForShow == TimeSpan.Zero)
-                    TimeForShow = TimeForShow.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_1) * 60));
+                    TimeForShow = TimeForShow.Add(DataSender_Type_1.Interval);
                 else
                     TimeForShow = TimeForShow.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
@@ -540,7 +559,7 @@ namespace DataSenderPlusProject
             {
                 T2_Timer_Type_1_lbl.Content = TimeForShow_Type_2.ToString("c");
                 if (TimeForShow_Type_2 == TimeSpan.Zero)
-                    TimeForShow_Type_2 = TimeForShow_Type_2.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_2) * 60));
+                    TimeForShow_Type_2 = TimeForShow_Type_2.Add(DataSender_Type_2.Interval);
                 else
                     TimeForShow_Type_2 = TimeForShow_Type_2.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
@@ -579,7 +598,7 @@ namespace DataSenderPlusProject
             {
                 T3_Timer_Type_1_lbl.Content = TimeForShow_Type_3.ToString("c");
                 if (TimeForShow_Type_3 == TimeSpan.Zero)
-                    TimeForShow_Type_3 = TimeForShow_Type_3.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_3) * 60));
+                    TimeForShow_Type_3 = TimeForShow_Type_3.Add(DataSender_Type_3.Interval);
                 else
                     TimeForShow_Type_3 = TimeForShow_Type_3.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);
@@ -604,7 +623,7 @@ namespace DataSenderPlusProject
             {
                 T4_Timer_Type_1_lbl.Content = TimeForShow_Type_4.ToString("c");
                 if (TimeForShow_Type_4 == TimeSpan.Zero)
-                    TimeForShow_Type_4 = TimeForShow_Type_4.Add(TimeSpan.FromSeconds(Convert.ToDouble(vInterval_Type_4) * 60));
+                    TimeForShow_Type_4 = TimeForShow_Type_4.Add(DataSender_Type_4.Interval);
                 else
                     TimeForShow_Type_4 = TimeForShow_Type_4.Add(TimeSpan.FromSeconds(-1));
             }, Application.Current.Dispatcher);

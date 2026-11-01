@@ -1,0 +1,4 @@
+2026-10-28 08:49:20 [INFO] Application started. PID=8024; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-10-28 08:49:21 [ERROR] Database settings initialization failed. Type=System.InvalidOperationException; HResult=-2146233079
+2026-10-28 13:28:02 [INFO] Application started. PID=8240; Path=E:\DataSenderPlus\DataSenderPlusProject\bin\Debug\DataSenderPlusProject.exe
+2026-10-28 13:28:03 [ERROR] Database settings initialization failed. Type=System.InvalidOperationException; HResult=-2146233079
