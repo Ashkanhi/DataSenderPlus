@@ -142,7 +142,7 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="120"/>
                                 <ColumnDefinition Width="20"/>
-                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
@@ -162,11 +162,11 @@
 
                             <Button x:Name="Create_Btn"
                         Grid.Column="3"
-                        Width="95"
+                        Width="130"
                         Height="30"
-                        Content="تست ارتباط"
+                        Content="تست ارتباط با FTP"
                         FontFamily="B Nazanin"
-                        FontSize="14"
+                        FontSize="12"
                         FontWeight="Bold"
                         Background="White"
                         Foreground="#1976D2"
@@ -270,7 +270,7 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="120"/>
                                 <ColumnDefinition Width="20"/>
-                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
@@ -290,11 +290,11 @@
 
                             <Button x:Name="T2_Create_Btn"
                         Grid.Column="3"
-                        Width="95"
+                        Width="130"
                         Height="30"
-                        Content="تست ارتباط"
+                        Content="تست ارتباط با FTP"
                         FontFamily="B Nazanin"
-                        FontSize="14"
+                        FontSize="12"
                         FontWeight="Bold"
                         Background="White"
                         Foreground="#0097A7"
@@ -397,7 +397,7 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="120"/>
                                 <ColumnDefinition Width="20"/>
-                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
@@ -417,11 +417,11 @@
 
                             <Button x:Name="T3_Create_Btn"
                         Grid.Column="3"
-                        Width="95"
+                        Width="130"
                         Height="30"
-                        Content="تست ارتباط"
+                        Content="تست ارتباط با FTP"
                         FontFamily="B Nazanin"
-                        FontSize="14"
+                        FontSize="12"
                         FontWeight="Bold"
                         Background="White"
                         Foreground="#00838F"
@@ -525,7 +525,7 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="120"/>
                                 <ColumnDefinition Width="20"/>
-                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
@@ -545,11 +545,11 @@
 
                             <Button x:Name="T4_Create_Btn"
                         Grid.Column="3"
-                        Width="95"
+                        Width="130"
                         Height="30"
-                        Content="تست ارتباط"
+                        Content="تست ارتباط با FTP"
                         FontFamily="B Nazanin"
-                        FontSize="14"
+                        FontSize="12"
                         FontWeight="Bold"
                         Background="White"
                         Foreground="#F57C00"
@@ -652,7 +652,7 @@
                                 <ColumnDefinition/>
                                 <ColumnDefinition Width="120"/>
                                 <ColumnDefinition Width="20"/>
-                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="140"/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
 
@@ -671,11 +671,11 @@
 
                             <Button x:Name="T5_Create_Btn"
                         Grid.Column="3"
-                        Width="95"
+                        Width="130"
                         Height="30"
-                        Content="تست ارتباط"
+                        Content="تست ارتباط با FTP"
                         FontFamily="B Nazanin"
-                        FontSize="14"
+                        FontSize="12"
                         FontWeight="Bold"
                         Background="White"
                         Foreground="#8E24AA"
@@ -715,7 +715,7 @@
                    FontSize="11"
                    Margin="0,0,4,0"/>
 
-                <TextBlock Text="نسخه 9.7.5.0"
+                <TextBlock Text="نسخه 9.7.7.0"
                    FontFamily="B Nazanin"
                    FontSize="11"
                    FontWeight="Bold"

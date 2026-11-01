@@ -33,21 +33,28 @@ namespace DataSenderPlusProject.Helpers
             }
         }
 
-        internal static Uri CreateFtpTestUri(string folder)
+        internal static Uri CreateFtpTestUri(string folder, string protectedFileName = null)
         {
             Uri address;
             if (!Uri.TryCreate(folder, UriKind.Absolute, out address) || address.Scheme != Uri.UriSchemeFtp
                 || string.IsNullOrEmpty(address.Host) || !string.IsNullOrEmpty(address.UserInfo)
                 || !string.IsNullOrEmpty(address.Query) || !string.IsNullOrEmpty(address.Fragment))
                 throw new ArgumentException("آدرس FTP را مانند ftp://server/folder وارد کنید؛ کاربر و رمز را در کادرهای جدا بنویسید.");
-            string fileName = "SmartDataSync_Test_" + DateTime.UtcNow.ToString("yyyyMMdd_HHmmss")
-                + "_" + Guid.NewGuid().ToString("N") + ".txt";
+            string fileName;
+            string protectedName = System.IO.Path.GetFileName(protectedFileName ?? "");
+            do
+            {
+                fileName = "SmartDataSync_Test_" + DateTime.UtcNow.ToString("yyyyMMdd_HHmmss")
+                    + "_" + Guid.NewGuid().ToString("N") + ".txt";
+            }
+            while (string.Equals(fileName, protectedName, StringComparison.OrdinalIgnoreCase)
+                || string.Equals(System.IO.Path.GetFileNameWithoutExtension(fileName), protectedName, StringComparison.OrdinalIgnoreCase));
             return new Uri(address.AbsoluteUri.TrimEnd('/') + "/" + fileName);
         }
 
-        public static Task<string> UploadFtpTestAsync(string folder, string userName, string password)
+        public static Task<string> UploadFtpTestAsync(string folder, string userName, string password, string protectedFileName = null)
         {
-            Uri target = CreateFtpTestUri(folder);
+            Uri target = CreateFtpTestUri(folder, protectedFileName);
             return Task.Run(() =>
             {
                 byte[] content = new UTF8Encoding(false).GetBytes("تست");

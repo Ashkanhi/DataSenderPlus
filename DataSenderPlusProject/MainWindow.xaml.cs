@@ -21,6 +21,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Net;
 
 namespace DataSenderPlusProject
 {
@@ -50,6 +51,69 @@ namespace DataSenderPlusProject
         DataSenderPlus dp = new DataSenderPlus();
         C_JasonFile J = new C_JasonFile();
         private LogViewerWindow logViewer;
+        private readonly HashSet<int> runningFtpTests = new HashSet<int>();
+
+        private async Task TestFtpFromMainAsync(int configId, Button button)
+        {
+            if (!runningFtpTests.Add(configId)) return;
+            object originalContent = button.Content;
+            button.IsEnabled = false;
+            button.Content = "در حال تست…";
+            try
+            {
+                DatabaseConnectionSettings database;
+                string settingsError;
+                if (!DatabaseSettings.TryLoad(out database, out settingsError))
+                    throw new ArgumentException(settingsError);
+                if (string.IsNullOrWhiteSpace(database.Server) || string.IsNullOrWhiteSpace(database.Database)
+                    || string.IsNullOrWhiteSpace(database.UserName))
+                    throw new ArgumentException("ابتدا مشخصات اتصال دیتابیس را در تنظیمات کامل و ذخیره کنید.");
+                string connectionString = database.BuildConnectionString();
+                var config = await Task.Run(() => FtpConfigurationStore.LoadOne(configId, connectionString));
+                if (config == null) throw new ArgumentException("تنظیمات این فایل در FtpConfiguration موجود نیست.");
+                if (config.SendFlag == 2)
+                {
+                    MessageBox.Show(this, "روش ارسال این فایل فقط ذخیرهٔ لوکال است (SendFlag=2). برای تست FTP، روش ارسال ۱ را در تنظیمات انتخاب کنید.",
+                        "تست ارتباط با FTP", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+                if (config.SendFlag != 1) throw new ArgumentException("روش ارسال معتبر نیست؛ مقدار SendFlag را در تنظیمات اصلاح کنید.");
+                string fileName = await ConnectionTester.UploadFtpTestAsync(config.ServerAddress, config.UserName, config.Password, config.FileName);
+                Logger.Info($"Main-window FTP test succeeded. ConfigID={configId}; TestFile={fileName}");
+                ShowMainFtpTestResult(configId, "تست FTP موفق بود. فایل متنی «تست» با این نام روی سرور قرار گرفت:\n" + fileName, true);
+            }
+            catch (ArgumentException error) { ShowMainFtpTestResult(configId, error.Message, false); }
+            catch (WebException error)
+            {
+                Logger.Warning($"Main-window FTP test failed. ConfigID={configId}; Status={error.Status}");
+                ShowMainFtpTestResult(configId, ConnectionTester.DescribeFtpFailure(error), false);
+            }
+            catch (SqlException error)
+            {
+                Logger.Warning($"Reading FTP test configuration failed. ConfigID={configId}; SQL={error.Number}");
+                ShowMainFtpTestResult(configId, ConnectionTester.DescribeDatabaseFailure(error), false);
+            }
+            catch (Exception error)
+            {
+                Logger.Warning($"Main-window FTP test failed. ConfigID={configId}; Type={error.GetType().FullName}");
+                ShowMainFtpTestResult(configId, "تست FTP ناموفق بود؛ تنظیمات و دسترسی شبکه را بررسی کنید.", false);
+            }
+            finally
+            {
+                runningFtpTests.Remove(configId);
+                button.Content = originalContent;
+                button.IsEnabled = true;
+            }
+        }
+
+        private void ShowMainFtpTestResult(int configId, string message, bool success)
+        {
+            if (!IsLoaded) return;
+            var labels = new[] { Log_Type_1_lbl, T2_Log_Type_1_lbl, T3_Log_Type_1_lbl, T4_Log_Type_1_lbl, T5_Log_Type_1_lbl };
+            labels[configId - 1].Content = success ? "FTP Test: OK" : "FTP Test: Failed";
+            MessageBox.Show(this, message, "تست ارتباط با FTP", MessageBoxButton.OK,
+                success ? MessageBoxImage.Information : MessageBoxImage.Warning);
+        }
 
         private void ShowSettings_Click(object sender, RoutedEventArgs e)
         {
@@ -542,7 +606,7 @@ namespace DataSenderPlusProject
             DataSender_Type_1.Start();
         }
 
-        private void Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(1); }
+        private async void Create_Btn_Click(object sender, RoutedEventArgs e) { await TestFtpFromMainAsync(1, Create_Btn); }
 
         private void Panel_Type_Button_MouseRightButtonDown(object sender, MouseButtonEventArgs e) { }
 
@@ -571,7 +635,7 @@ namespace DataSenderPlusProject
 
         private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e) { }
 
-        private void T2_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(2); }
+        private async void T2_Create_Btn_Click(object sender, RoutedEventArgs e) { await TestFtpFromMainAsync(2, T2_Create_Btn); }
 
         private void Log_Type_1_lbl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
@@ -583,7 +647,7 @@ namespace DataSenderPlusProject
             Process.Start("explorer.exe", @System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location) + "\\ExportFile\\");
         }
 
-        private void T3_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(3); }
+        private async void T3_Create_Btn_Click(object sender, RoutedEventArgs e) { await TestFtpFromMainAsync(3, T3_Create_Btn); }
 
         private void T3_SendData_Btn_Click(object sender, RoutedEventArgs e)
         {
@@ -608,7 +672,7 @@ namespace DataSenderPlusProject
             DataSender_Type_3.Start();
         }
 
-        private void T4_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(4); }
+        private async void T4_Create_Btn_Click(object sender, RoutedEventArgs e) { await TestFtpFromMainAsync(4, T4_Create_Btn); }
 
         private void T4_SendData_Btn_Click(object sender, RoutedEventArgs e)
         {
@@ -633,7 +697,7 @@ namespace DataSenderPlusProject
             DataSender_Type_4.Start();
         }
 
-        private void T5_Create_Btn_Click(object sender, RoutedEventArgs e) { F_UploadFtp(5); }
+        private async void T5_Create_Btn_Click(object sender, RoutedEventArgs e) { await TestFtpFromMainAsync(5, T5_Create_Btn); }
 
         
 

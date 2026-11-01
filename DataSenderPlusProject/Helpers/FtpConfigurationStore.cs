@@ -9,6 +9,22 @@ namespace DataSenderPlusProject.Helpers
 {
     internal static class FtpConfigurationStore
     {
+        public static FtpConfigurationModel LoadOne(int configId, string connectionString)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            using (var command = new SqlCommand(
+                @"SELECT ConfigID, ServerAddress, UserName, Password, FileName,
+                         IntervalValue, SendFlag, FolderPath, OutputTypeID
+                  FROM FtpConfiguration WHERE ConfigID=@ConfigID", connection))
+            {
+                command.CommandTimeout = 15;
+                command.Parameters.Add("@ConfigID", SqlDbType.Int).Value = configId;
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                    return reader.Read() ? ReadRow(reader) : null;
+            }
+        }
+
         public static List<FtpConfigurationModel> Load(string connectionString)
         {
             using (var connection = new SqlConnection(connectionString))

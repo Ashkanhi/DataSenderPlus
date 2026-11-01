@@ -134,12 +134,13 @@ namespace DataSenderPlusProject
             }
             string address = FtpAddress.Text.Trim(), user = FtpUser.Text.Trim();
             string password = ShowFtpPassword.IsChecked == true ? FtpVisiblePassword.Text : FtpPassword.Password;
+            string protectedName = ExportFileName.Text.Trim();
             SetSenderBusy(true);
             TestFtpButton.Content = "در حال ارسال…";
             StatusText.Text = "در حال ارسال فایل متنی کوچک به FTP…";
             try
             {
-                string fileName = await ConnectionTester.UploadFtpTestAsync(address, user, password);
+                string fileName = await ConnectionTester.UploadFtpTestAsync(address, user, password, protectedName);
                 ShowTestResult("تست موفق بود؛ فایل با متن «تست» روی سرور قرار گرفت: " + fileName, true);
                 Logger.Info($"FTP upload test succeeded. File={fileName}");
             }

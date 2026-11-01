@@ -101,18 +101,19 @@ internal static class ConnectionTesterTests
         Check(builder.ConnectTimeout == 8 && !builder.Pooling, "Bounded SQL test uses a fresh connection");
         try { ConnectionTester.TestDatabaseAsync(new DatabaseConnectionSettings()).GetAwaiter().GetResult(); throw new Exception("Missing settings accepted"); }
         catch (ArgumentException) { }
-        var first = ConnectionTester.CreateFtpTestUri("ftp://example.test/incoming/");
+        var first = ConnectionTester.CreateFtpTestUri("ftp://example.test/incoming/", "SenderFile_1.txt");
         var second = ConnectionTester.CreateFtpTestUri("ftp://example.test/incoming");
         Check(first.AbsolutePath.StartsWith("/incoming/SmartDataSync_Test_") && first.AbsolutePath.EndsWith(".txt")
-            && first != second, "Unique file is added to the selected FTP folder");
+            && first != second && !first.AbsolutePath.EndsWith("/SenderFile_1.txt"), "Unique test file never uses the primary filename");
         try { ConnectionTester.CreateFtpTestUri("https://example.test/"); throw new Exception("Non-FTP accepted"); }
         catch (ArgumentException) { }
         using (var server = new TestFtpServer())
         {
-            string name = ConnectionTester.UploadFtpTestAsync(server.Address, "unsaved-ftp-user", "synthetic-password").GetAwaiter().GetResult();
+            string name = ConnectionTester.UploadFtpTestAsync(server.Address, "unsaved-ftp-user", "synthetic-password", "SenderFile_1.txt").GetAwaiter().GetResult();
             server.Complete();
             Check(server.UserName == "unsaved-ftp-user", "FTP uses current credentials");
             Check(server.FileName.EndsWith(name), "Returned filename matches uploaded file");
+            Check(name.StartsWith("SmartDataSync_Test_") && name != "SenderFile_1.txt", "Real upload uses a separate test filename");
             Check(Encoding.UTF8.GetString(server.Payload) == "تست" && server.Payload.Length < 32, "Actual transfer contains only tiny UTF-8 test text");
         }
         using (var server = new TestFtpServer(denyLogin: true))
